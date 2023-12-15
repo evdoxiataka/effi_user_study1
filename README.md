@@ -14,7 +14,7 @@ Let's see the breakdown of the contents in this repository:
 The folder "data" contains 4 folders:
 
 ### HomeCreditDataset
-The following files were downloaded from https://www.kaggle.com/competitions/home-credit-default-risk/data
+The following files were downloaded from https://www.kaggle.com/competitions/home-credit-default-risk/data (**Please note** that you need to download these files from this link and add them into this forlder before running any code. These files were exceeding the size limits of Github and could not be tracked.)
 - **application_train.csv**: training set that includes the TARGET variable
 - **application_test.csv**: test set that does not include the TARGET variable
 

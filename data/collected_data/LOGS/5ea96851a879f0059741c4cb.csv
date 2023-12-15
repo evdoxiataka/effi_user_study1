@@ -1,0 +1,132 @@
+serial number,timestamp,ID,App ID,Pattern,Function,Attribute,Value,Lower bound,Upper bound
+1,2022-12-20 14:36:53.712804,5ea96851a879f0059741c4cb,,,Login,,,,
+2,2022-12-20 14:38:48.850393,5ea96851a879f0059741c4cb,0,None,apply_refine_search,Accompanied while applying,,,
+3,2022-12-20 14:38:55.016418,5ea96851a879f0059741c4cb,0,None,apply_refine_search,Has Mobile,,,
+4,2022-12-20 14:38:59.661415,5ea96851a879f0059741c4cb,106647,None,select_applications,None,106647,None,None
+5,2022-12-20 14:39:03.197474,5ea96851a879f0059741c4cb,106647,None,select_applications,None,106647,None,None
+6,2022-12-20 14:39:03.198773,5ea96851a879f0059741c4cb,106647,None,select_reject_application,fair,[],0,0
+7,2022-12-20 14:39:09.509245,5ea96851a879f0059741c4cb,106647,None,select_applications,None,106647,None,None
+8,2022-12-20 14:39:49.113217,5ea96851a879f0059741c4cb,106401,None,select_applications,None,106401,None,None
+9,2022-12-20 14:40:02.012682,5ea96851a879f0059741c4cb,0,None,apply_refine_search,Has Work Phone,,,
+10,2022-12-20 14:40:17.144324,5ea96851a879f0059741c4cb,106401,None,select_applications,None,106401,None,None
+11,2022-12-20 14:40:19.467331,5ea96851a879f0059741c4cb,106401,None,select_applications,None,106401,None,None
+12,2022-12-20 14:40:19.472636,5ea96851a879f0059741c4cb,106401,None,select_applications,None,106401,None,None
+13,2022-12-20 14:40:19.788267,5ea96851a879f0059741c4cb,106401,None,select_reject_application,fair,[],0,0
+14,2022-12-20 14:40:23.903206,5ea96851a879f0059741c4cb,106401,None,select_applications,None,106401,None,None
+15,2022-12-20 14:40:29.947079,5ea96851a879f0059741c4cb,106401,None,select_applications,None,106401,None,None
+16,2022-12-20 14:41:09.859605,5ea96851a879f0059741c4cb,106488,None,select_applications,None,106488,None,None
+17,2022-12-20 14:41:15.437062,5ea96851a879f0059741c4cb,103971,None,select_applications,None,103971,None,None
+18,2022-12-20 14:41:23.327034,5ea96851a879f0059741c4cb,103971,None,select_applications,None,103971,None,None
+19,2022-12-20 14:41:33.880622,5ea96851a879f0059741c4cb,103971,None,select_applications,None,103971,None,None
+20,2022-12-20 14:41:33.884013,5ea96851a879f0059741c4cb,103971,None,select_reject_application,unfair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}]",0,0
+21,2022-12-20 14:41:35.757188,5ea96851a879f0059741c4cb,103971,None,select_applications,None,103971,None,None
+22,2022-12-20 14:41:48.287725,5ea96851a879f0059741c4cb,106488,None,select_applications,None,106488,None,None
+23,2022-12-20 14:41:50.582183,5ea96851a879f0059741c4cb,106488,None,select_applications,None,106488,None,None
+24,2022-12-20 14:42:03.466086,5ea96851a879f0059741c4cb,106488,None,select_applications,None,106488,None,None
+25,2022-12-20 14:42:03.469867,5ea96851a879f0059741c4cb,106488,None,select_applications,None,106488,None,None
+26,2022-12-20 14:42:03.531084,5ea96851a879f0059741c4cb,106488,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}]",0,0
+27,2022-12-20 14:42:06.355574,5ea96851a879f0059741c4cb,106488,None,select_applications,None,106488,None,None
+28,2022-12-20 14:42:38.706832,5ea96851a879f0059741c4cb,101365,None,select_applications,None,101365,None,None
+29,2022-12-20 14:42:42.882264,5ea96851a879f0059741c4cb,101365,None,select_applications,None,101365,None,None
+30,2022-12-20 14:42:59.401502,5ea96851a879f0059741c4cb,101365,None,select_applications,None,101365,None,None
+31,2022-12-20 14:42:59.408783,5ea96851a879f0059741c4cb,101365,None,select_reject_application,unfair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+32,2022-12-20 14:43:01.711879,5ea96851a879f0059741c4cb,101365,None,select_applications,None,101365,None,None
+33,2022-12-20 14:43:13.610227,5ea96851a879f0059741c4cb,0,None,apply_refine_search,Gender,,,
+34,2022-12-20 14:43:20.270338,5ea96851a879f0059741c4cb,100013,None,select_applications,None,100013,None,None
+35,2022-12-20 14:43:38.673798,5ea96851a879f0059741c4cb,100013,None,select_applications,None,100013,None,None
+36,2022-12-20 14:43:38.681303,5ea96851a879f0059741c4cb,100013,None,select_reject_application,unfair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+37,2022-12-20 14:43:48.138447,5ea96851a879f0059741c4cb,100013,None,select_applications,None,100013,None,None
+38,2022-12-20 14:43:48.142092,5ea96851a879f0059741c4cb,100013,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+39,2022-12-20 14:43:49.579950,5ea96851a879f0059741c4cb,100013,None,select_applications,None,100013,None,None
+40,2022-12-20 14:44:06.069877,5ea96851a879f0059741c4cb,100001,None,select_applications,None,100001,None,None
+41,2022-12-20 14:44:08.259000,5ea96851a879f0059741c4cb,100001,None,select_applications,None,100001,None,None
+42,2022-12-20 14:44:27.580619,5ea96851a879f0059741c4cb,100001,None,select_applications,None,100001,None,None
+43,2022-12-20 14:44:27.585246,5ea96851a879f0059741c4cb,100001,None,select_applications,None,100001,None,None
+44,2022-12-20 14:44:27.647185,5ea96851a879f0059741c4cb,100001,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+45,2022-12-20 14:44:30.325071,5ea96851a879f0059741c4cb,100001,None,select_applications,None,100001,None,None
+46,2022-12-20 14:44:39.469948,5ea96851a879f0059741c4cb,0,None,apply_refine_search,,,,
+47,2022-12-20 14:45:58.265168,5ea96851a879f0059741c4cb,100005,None,select_applications,None,100005,None,None
+48,2022-12-20 14:46:19.744560,5ea96851a879f0059741c4cb,100005,None,select_applications,None,100005,None,None
+49,2022-12-20 14:46:19.748603,5ea96851a879f0059741c4cb,100005,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+50,2022-12-20 14:46:24.360590,5ea96851a879f0059741c4cb,100005,None,select_applications,None,100005,None,None
+51,2022-12-20 14:46:24.362230,5ea96851a879f0059741c4cb,100005,None,select_reject_application,unfair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+52,2022-12-20 14:46:25.238249,5ea96851a879f0059741c4cb,100005,None,select_applications,None,100005,None,None
+53,2022-12-20 14:46:35.816504,5ea96851a879f0059741c4cb,100005,None,select_applications,None,100005,None,None
+54,2022-12-20 14:47:10.633627,5ea96851a879f0059741c4cb,100038,None,select_applications,None,100038,None,None
+55,2022-12-20 14:47:26.634748,5ea96851a879f0059741c4cb,100038,None,select_applications,None,100038,None,None
+56,2022-12-20 14:47:37.287288,5ea96851a879f0059741c4cb,100038,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+57,2022-12-20 14:47:37.292690,5ea96851a879f0059741c4cb,100038,None,select_applications,None,100038,None,None
+58,2022-12-20 14:47:39.813151,5ea96851a879f0059741c4cb,100038,None,select_applications,None,100038,None,None
+59,2022-12-20 14:47:55.714494,5ea96851a879f0059741c4cb,100042,None,select_applications,None,100042,None,None
+60,2022-12-20 14:47:57.926756,5ea96851a879f0059741c4cb,100042,None,select_applications,None,100042,None,None
+61,2022-12-20 14:48:27.320869,5ea96851a879f0059741c4cb,100042,None,select_applications,None,100042,None,None
+62,2022-12-20 14:48:27.324854,5ea96851a879f0059741c4cb,100042,None,select_applications,None,100042,None,None
+63,2022-12-20 14:48:27.385796,5ea96851a879f0059741c4cb,100042,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+64,2022-12-20 14:48:29.440619,5ea96851a879f0059741c4cb,100042,None,select_applications,None,100042,None,None
+65,2022-12-20 14:50:09.957473,5ea96851a879f0059741c4cb,100109,None,select_applications,None,100109,None,None
+66,2022-12-20 14:50:14.862053,5ea96851a879f0059741c4cb,100109,None,select_applications,None,100109,None,None
+67,2022-12-20 14:50:14.867938,5ea96851a879f0059741c4cb,100109,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+68,2022-12-20 14:50:16.950883,5ea96851a879f0059741c4cb,100109,None,select_applications,None,100109,None,None
+69,2022-12-20 14:50:26.680192,5ea96851a879f0059741c4cb,100128,None,select_applications,None,100128,None,None
+70,2022-12-20 14:50:29.407589,5ea96851a879f0059741c4cb,100128,None,select_applications,None,100128,None,None
+71,2022-12-20 14:50:29.418740,5ea96851a879f0059741c4cb,100128,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+72,2022-12-20 14:50:32.743300,5ea96851a879f0059741c4cb,100128,None,select_applications,None,100128,None,None
+73,2022-12-20 14:50:37.761283,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+74,2022-12-20 14:50:38.128394,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+75,2022-12-20 14:50:38.744970,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+76,2022-12-20 14:50:39.644166,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+77,2022-12-20 14:50:40.440575,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+78,2022-12-20 14:50:41.817694,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+79,2022-12-20 14:50:44.220548,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+80,2022-12-20 14:50:45.139064,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+81,2022-12-20 14:50:45.311449,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+82,2022-12-20 14:50:45.516047,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+83,2022-12-20 14:50:46.313076,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+84,2022-12-20 14:50:46.492847,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+85,2022-12-20 14:50:52.280751,5ea96851a879f0059741c4cb,100169,None,select_applications,None,100169,None,None
+86,2022-12-20 14:51:01.029797,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,ascend,,
+87,2022-12-20 14:51:03.882382,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,descend,,
+88,2022-12-20 14:51:19.460903,5ea96851a879f0059741c4cb,105067,None,select_applications,None,105067,None,None
+89,2022-12-20 14:51:22.878881,5ea96851a879f0059741c4cb,104458,None,select_applications,None,104458,None,None
+90,2022-12-20 14:51:25.012553,5ea96851a879f0059741c4cb,104458,None,select_applications,None,104458,None,None
+91,2022-12-20 14:51:25.017918,5ea96851a879f0059741c4cb,104458,None,select_applications,None,104458,None,None
+92,2022-12-20 14:51:25.084317,5ea96851a879f0059741c4cb,104458,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+93,2022-12-20 14:51:28.774249,5ea96851a879f0059741c4cb,104458,None,select_applications,None,104458,None,None
+94,2022-12-20 14:51:31.639651,5ea96851a879f0059741c4cb,100168,None,select_applications,None,100168,None,None
+95,2022-12-20 14:51:33.037869,5ea96851a879f0059741c4cb,100168,None,select_applications,None,100168,None,None
+96,2022-12-20 14:51:33.042855,5ea96851a879f0059741c4cb,100168,None,select_applications,None,100168,None,None
+97,2022-12-20 14:51:33.047268,5ea96851a879f0059741c4cb,100168,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+98,2022-12-20 14:51:35.263045,5ea96851a879f0059741c4cb,100168,None,select_applications,None,100168,None,None
+99,2022-12-20 14:51:40.342012,5ea96851a879f0059741c4cb,105239,None,select_applications,None,105239,None,None
+100,2022-12-20 14:51:46.173296,5ea96851a879f0059741c4cb,105239,None,select_applications,None,105239,None,None
+101,2022-12-20 14:51:47.598490,5ea96851a879f0059741c4cb,105239,None,select_applications,None,105239,None,None
+102,2022-12-20 14:51:47.603455,5ea96851a879f0059741c4cb,105239,None,select_reject_application,unfair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+103,2022-12-20 14:51:49.840467,5ea96851a879f0059741c4cb,105239,None,select_applications,None,105239,None,None
+104,2022-12-20 14:54:02.093175,5ea96851a879f0059741c4cb,102996,None,select_applications,None,102996,None,None
+105,2022-12-20 14:54:24.169221,5ea96851a879f0059741c4cb,102996,None,select_applications,None,102996,None,None
+106,2022-12-20 14:54:24.174108,5ea96851a879f0059741c4cb,102996,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+107,2022-12-20 14:54:24.178511,5ea96851a879f0059741c4cb,102996,None,select_applications,None,102996,None,None
+108,2022-12-20 14:54:25.423447,5ea96851a879f0059741c4cb,102996,None,select_applications,None,102996,None,None
+109,2022-12-20 14:54:31.720054,5ea96851a879f0059741c4cb,105239,None,select_applications,None,105239,None,None
+110,2022-12-20 14:54:39.841152,5ea96851a879f0059741c4cb,105370,None,select_applications,None,105370,None,None
+111,2022-12-20 14:55:04.925924,5ea96851a879f0059741c4cb,105370,None,select_applications,None,105370,None,None
+112,2022-12-20 14:55:04.928808,5ea96851a879f0059741c4cb,105370,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+113,2022-12-20 14:55:10.136346,5ea96851a879f0059741c4cb,105370,None,select_applications,None,105370,None,None
+114,2022-12-20 14:55:21.493358,5ea96851a879f0059741c4cb,0,None,Applications_Prediction_Confidence,None,descend,,
+115,2022-12-20 14:55:25.760302,5ea96851a879f0059741c4cb,101363,None,select_applications,None,101363,None,None
+116,2022-12-20 14:55:55.402985,5ea96851a879f0059741c4cb,101363,None,select_applications,None,101363,None,None
+117,2022-12-20 14:55:55.406729,5ea96851a879f0059741c4cb,101363,None,select_applications,None,101363,None,None
+118,2022-12-20 14:55:55.468417,5ea96851a879f0059741c4cb,101363,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+119,2022-12-20 14:55:57.276308,5ea96851a879f0059741c4cb,101363,None,select_applications,None,101363,None,None
+120,2022-12-20 14:56:14.942895,5ea96851a879f0059741c4cb,100172,None,select_applications,None,100172,None,None
+121,2022-12-20 14:56:21.151813,5ea96851a879f0059741c4cb,100172,None,select_applications,None,100172,None,None
+122,2022-12-20 14:56:21.293164,5ea96851a879f0059741c4cb,100172,None,select_applications,None,100172,None,None
+123,2022-12-20 14:56:27.246179,5ea96851a879f0059741c4cb,100172,None,select_applications,None,100172,None,None
+124,2022-12-20 14:56:27.439022,5ea96851a879f0059741c4cb,100172,None,select_applications,None,100172,None,None
+125,2022-12-20 14:56:38.817385,5ea96851a879f0059741c4cb,100172,None,select_applications,None,100172,None,None
+126,2022-12-20 14:56:38.823272,5ea96851a879f0059741c4cb,100172,None,select_reject_application,unfair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+127,2022-12-20 14:56:40.559879,5ea96851a879f0059741c4cb,100172,None,select_applications,None,100172,None,None
+128,2022-12-20 14:57:44.072759,5ea96851a879f0059741c4cb,100057,None,select_applications,None,100057,None,None
+129,2022-12-20 14:57:45.605091,5ea96851a879f0059741c4cb,100057,None,select_applications,None,100057,None,None
+130,2022-12-20 14:57:45.612305,5ea96851a879f0059741c4cb,100057,None,select_reject_application,fair,"[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]",0,0
+131,2022-12-20 14:57:47.596025,5ea96851a879f0059741c4cb,100057,None,select_applications,None,100057,None,None

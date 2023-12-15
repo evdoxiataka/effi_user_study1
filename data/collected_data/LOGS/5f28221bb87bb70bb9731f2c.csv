@@ -1,0 +1,263 @@
+serial number,timestamp,ID,App ID,Pattern,Function,Attribute,Value,Lower bound,Upper bound
+1,2022-12-20 14:52:30.221468,5f28221bb87bb70bb9731f2c,,,Login,,,,
+2,2022-12-20 14:56:12.251494,5f28221bb87bb70bb9731f2c,106647,None,select_applications,None,106647,None,None
+3,2022-12-20 14:56:29.351616,5f28221bb87bb70bb9731f2c,106647,None,select_applications,None,106647,None,None
+4,2022-12-20 14:56:32.135366,5f28221bb87bb70bb9731f2c,106647,None,select_applications,None,106647,None,None
+5,2022-12-20 14:56:36.929683,5f28221bb87bb70bb9731f2c,106647,None,select_applications,None,106647,None,None
+6,2022-12-20 14:56:36.934496,5f28221bb87bb70bb9731f2c,106647,None,select_applications,None,106647,None,None
+7,2022-12-20 14:56:36.995862,5f28221bb87bb70bb9731f2c,106647,None,select_reject_application,fair,[],0,0
+8,2022-12-20 14:56:41.323535,5f28221bb87bb70bb9731f2c,106647,None,select_applications,None,106647,None,None
+9,2022-12-20 14:56:43.711719,5f28221bb87bb70bb9731f2c,106647,None,select_applications,None,106647,None,None
+10,2022-12-20 14:56:48.171492,5f28221bb87bb70bb9731f2c,106647,None,select_applications,None,106647,None,None
+11,2022-12-20 14:57:10.581756,5f28221bb87bb70bb9731f2c,106647,None,select_applications,None,106647,None,None
+12,2022-12-20 14:57:45.960764,5f28221bb87bb70bb9731f2c,106647,None,select_applications,None,106647,None,None
+13,2022-12-20 14:58:10.393365,5f28221bb87bb70bb9731f2c,106401,None,select_applications,None,106401,None,None
+14,2022-12-20 14:58:14.761530,5f28221bb87bb70bb9731f2c,106401,None,select_applications,None,106401,None,None
+15,2022-12-20 14:58:15.028473,5f28221bb87bb70bb9731f2c,106401,None,select_applications,None,106401,None,None
+16,2022-12-20 14:58:16.071814,5f28221bb87bb70bb9731f2c,106401,None,select_applications,None,106401,None,None
+17,2022-12-20 14:58:16.506568,5f28221bb87bb70bb9731f2c,106401,None,select_applications,None,106401,None,None
+18,2022-12-20 14:58:17.351710,5f28221bb87bb70bb9731f2c,106401,None,select_applications,None,106401,None,None
+19,2022-12-20 14:58:39.475158,5f28221bb87bb70bb9731f2c,106401,None,select_applications,None,106401,None,None
+20,2022-12-20 14:58:41.668487,5f28221bb87bb70bb9731f2c,106401,None,select_applications,None,106401,None,None
+21,2022-12-20 14:58:41.679932,5f28221bb87bb70bb9731f2c,106401,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+22,2022-12-20 14:58:46.407392,5f28221bb87bb70bb9731f2c,106401,None,select_applications,None,106401,None,None
+23,2022-12-20 14:58:57.358377,5f28221bb87bb70bb9731f2c,106488,None,select_applications,None,106488,None,None
+24,2022-12-20 14:59:22.880469,5f28221bb87bb70bb9731f2c,106488,None,select_applications,None,106488,None,None
+25,2022-12-20 14:59:28.268905,5f28221bb87bb70bb9731f2c,106488,None,select_applications,None,106488,None,None
+26,2022-12-20 14:59:30.341128,5f28221bb87bb70bb9731f2c,106488,None,select_applications,None,106488,None,None
+27,2022-12-20 14:59:30.399639,5f28221bb87bb70bb9731f2c,106488,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+28,2022-12-20 14:59:31.243552,5f28221bb87bb70bb9731f2c,106488,None,select_applications,None,106488,None,None
+29,2022-12-20 14:59:41.038303,5f28221bb87bb70bb9731f2c,101367,None,select_applications,None,101367,None,None
+30,2022-12-20 14:59:44.286744,5f28221bb87bb70bb9731f2c,101367,None,select_applications,None,101367,None,None
+31,2022-12-20 14:59:46.424499,5f28221bb87bb70bb9731f2c,101367,None,select_applications,None,101367,None,None
+32,2022-12-20 14:59:46.483554,5f28221bb87bb70bb9731f2c,101367,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+33,2022-12-20 14:59:48.118241,5f28221bb87bb70bb9731f2c,101367,None,select_applications,None,101367,None,None
+34,2022-12-20 14:59:52.393348,5f28221bb87bb70bb9731f2c,100241,None,select_applications,None,100241,None,None
+35,2022-12-20 14:59:55.534311,5f28221bb87bb70bb9731f2c,100241,None,select_applications,None,100241,None,None
+36,2022-12-20 15:00:01.122502,5f28221bb87bb70bb9731f2c,100241,None,select_applications,None,100241,None,None
+37,2022-12-20 15:00:05.053164,5f28221bb87bb70bb9731f2c,100241,None,select_applications,None,100241,None,None
+38,2022-12-20 15:00:07.649960,5f28221bb87bb70bb9731f2c,100241,None,select_applications,None,100241,None,None
+39,2022-12-20 15:00:09.185504,5f28221bb87bb70bb9731f2c,100241,None,select_applications,None,100241,None,None
+40,2022-12-20 15:00:09.709785,5f28221bb87bb70bb9731f2c,100241,None,select_applications,None,100241,None,None
+41,2022-12-20 15:00:09.720539,5f28221bb87bb70bb9731f2c,100241,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+42,2022-12-20 15:00:10.558182,5f28221bb87bb70bb9731f2c,100241,None,select_applications,None,100241,None,None
+43,2022-12-20 15:00:13.319831,5f28221bb87bb70bb9731f2c,106802,None,select_applications,None,106802,None,None
+44,2022-12-20 15:00:33.345806,5f28221bb87bb70bb9731f2c,106802,None,select_applications,None,106802,None,None
+45,2022-12-20 15:00:34.483180,5f28221bb87bb70bb9731f2c,106802,None,select_applications,None,106802,None,None
+46,2022-12-20 15:00:35.889500,5f28221bb87bb70bb9731f2c,106802,None,select_applications,None,106802,None,None
+47,2022-12-20 15:00:35.951123,5f28221bb87bb70bb9731f2c,106802,None,select_reject_application,unfair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+48,2022-12-20 15:00:37.515066,5f28221bb87bb70bb9731f2c,106802,None,select_applications,None,106802,None,None
+49,2022-12-20 15:00:43.807631,5f28221bb87bb70bb9731f2c,105035,None,select_applications,None,105035,None,None
+50,2022-12-20 15:00:55.637256,5f28221bb87bb70bb9731f2c,105035,None,select_applications,None,105035,None,None
+51,2022-12-20 15:00:56.669892,5f28221bb87bb70bb9731f2c,105035,None,select_applications,None,105035,None,None
+52,2022-12-20 15:00:58.057533,5f28221bb87bb70bb9731f2c,105035,None,select_applications,None,105035,None,None
+53,2022-12-20 15:00:58.060240,5f28221bb87bb70bb9731f2c,105035,None,select_applications,None,105035,None,None
+54,2022-12-20 15:00:58.183211,5f28221bb87bb70bb9731f2c,105035,None,select_reject_application,unfair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+55,2022-12-20 15:00:59.152155,5f28221bb87bb70bb9731f2c,105035,None,select_applications,None,105035,None,None
+56,2022-12-20 15:01:01.971685,5f28221bb87bb70bb9731f2c,104860,None,select_applications,None,104860,None,None
+57,2022-12-20 15:01:16.826555,5f28221bb87bb70bb9731f2c,104860,None,select_applications,None,104860,None,None
+58,2022-12-20 15:01:17.955061,5f28221bb87bb70bb9731f2c,104860,None,select_applications,None,104860,None,None
+59,2022-12-20 15:01:19.573192,5f28221bb87bb70bb9731f2c,104860,None,select_applications,None,104860,None,None
+60,2022-12-20 15:01:19.578930,5f28221bb87bb70bb9731f2c,104860,None,select_applications,None,104860,None,None
+61,2022-12-20 15:01:19.703577,5f28221bb87bb70bb9731f2c,104860,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+62,2022-12-20 15:01:20.477659,5f28221bb87bb70bb9731f2c,104860,None,select_applications,None,104860,None,None
+63,2022-12-20 15:01:38.917988,5f28221bb87bb70bb9731f2c,0,None,apply_refine_search,Has Mobile,,,
+64,2022-12-20 15:01:42.605466,5f28221bb87bb70bb9731f2c,103570,None,select_applications,None,103570,None,None
+65,2022-12-20 15:01:49.349130,5f28221bb87bb70bb9731f2c,103570,None,select_applications,None,103570,None,None
+66,2022-12-20 15:01:50.471225,5f28221bb87bb70bb9731f2c,103570,None,select_applications,None,103570,None,None
+67,2022-12-20 15:01:52.119598,5f28221bb87bb70bb9731f2c,103570,None,select_applications,None,103570,None,None
+68,2022-12-20 15:01:52.173942,5f28221bb87bb70bb9731f2c,103570,None,select_reject_application,unfair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+69,2022-12-20 15:01:54.210124,5f28221bb87bb70bb9731f2c,103570,None,select_applications,None,103570,None,None
+70,2022-12-20 15:01:54.215014,5f28221bb87bb70bb9731f2c,103570,None,select_applications,None,103570,None,None
+71,2022-12-20 15:01:54.266911,5f28221bb87bb70bb9731f2c,103570,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+72,2022-12-20 15:01:55.321182,5f28221bb87bb70bb9731f2c,103570,None,select_applications,None,103570,None,None
+73,2022-12-20 15:02:13.946940,5f28221bb87bb70bb9731f2c,100445,None,select_applications,None,100445,None,None
+74,2022-12-20 15:02:18.129909,5f28221bb87bb70bb9731f2c,100445,None,select_applications,None,100445,None,None
+75,2022-12-20 15:02:18.188976,5f28221bb87bb70bb9731f2c,100445,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+76,2022-12-20 15:02:19.293291,5f28221bb87bb70bb9731f2c,100445,None,select_applications,None,100445,None,None
+77,2022-12-20 15:02:22.074878,5f28221bb87bb70bb9731f2c,100278,None,select_applications,None,100278,None,None
+78,2022-12-20 15:02:27.687189,5f28221bb87bb70bb9731f2c,100278,None,select_applications,None,100278,None,None
+79,2022-12-20 15:02:27.698171,5f28221bb87bb70bb9731f2c,100278,None,select_applications,None,100278,None,None
+80,2022-12-20 15:02:27.820207,5f28221bb87bb70bb9731f2c,100278,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+81,2022-12-20 15:02:28.912886,5f28221bb87bb70bb9731f2c,100278,None,select_applications,None,100278,None,None
+82,2022-12-20 15:02:32.442331,5f28221bb87bb70bb9731f2c,103102,None,select_applications,None,103102,None,None
+83,2022-12-20 15:02:35.703000,5f28221bb87bb70bb9731f2c,103102,None,select_applications,None,103102,None,None
+84,2022-12-20 15:02:36.002593,5f28221bb87bb70bb9731f2c,103102,None,select_applications,None,103102,None,None
+85,2022-12-20 15:02:37.375910,5f28221bb87bb70bb9731f2c,103102,None,select_applications,None,103102,None,None
+86,2022-12-20 15:02:39.445284,5f28221bb87bb70bb9731f2c,103102,None,select_applications,None,103102,None,None
+87,2022-12-20 15:02:41.078187,5f28221bb87bb70bb9731f2c,103102,None,select_applications,None,103102,None,None
+88,2022-12-20 15:02:41.139349,5f28221bb87bb70bb9731f2c,103102,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+89,2022-12-20 15:02:42.361644,5f28221bb87bb70bb9731f2c,103102,None,select_applications,None,103102,None,None
+90,2022-12-20 15:02:45.977351,5f28221bb87bb70bb9731f2c,105231,None,select_applications,None,105231,None,None
+91,2022-12-20 15:02:49.081377,5f28221bb87bb70bb9731f2c,105231,None,select_applications,None,105231,None,None
+92,2022-12-20 15:02:49.085284,5f28221bb87bb70bb9731f2c,105231,None,select_applications,None,105231,None,None
+93,2022-12-20 15:02:49.146113,5f28221bb87bb70bb9731f2c,105231,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+94,2022-12-20 15:02:51.001247,5f28221bb87bb70bb9731f2c,105231,None,select_applications,None,105231,None,None
+95,2022-12-20 15:02:54.333958,5f28221bb87bb70bb9731f2c,106585,None,select_applications,None,106585,None,None
+96,2022-12-20 15:02:56.717364,5f28221bb87bb70bb9731f2c,106585,None,select_applications,None,106585,None,None
+97,2022-12-20 15:02:56.725503,5f28221bb87bb70bb9731f2c,106585,None,select_applications,None,106585,None,None
+98,2022-12-20 15:02:56.775868,5f28221bb87bb70bb9731f2c,106585,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+99,2022-12-20 15:02:57.704778,5f28221bb87bb70bb9731f2c,106585,None,select_applications,None,106585,None,None
+100,2022-12-20 15:02:58.048287,5f28221bb87bb70bb9731f2c,106585,None,select_applications,None,106585,None,None
+101,2022-12-20 15:03:01.714427,5f28221bb87bb70bb9731f2c,104410,None,select_applications,None,104410,None,None
+102,2022-12-20 15:03:04.195017,5f28221bb87bb70bb9731f2c,104410,None,select_applications,None,104410,None,None
+103,2022-12-20 15:03:04.200397,5f28221bb87bb70bb9731f2c,104410,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+104,2022-12-20 15:03:05.382214,5f28221bb87bb70bb9731f2c,104410,None,select_applications,None,104410,None,None
+105,2022-12-20 15:03:13.255263,5f28221bb87bb70bb9731f2c,105067,None,select_applications,None,105067,None,None
+106,2022-12-20 15:03:40.575430,5f28221bb87bb70bb9731f2c,105067,None,select_applications,None,105067,None,None
+107,2022-12-20 15:03:40.578991,5f28221bb87bb70bb9731f2c,105067,None,select_applications,None,105067,None,None
+108,2022-12-20 15:03:40.701976,5f28221bb87bb70bb9731f2c,105067,None,select_reject_application,unfair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+109,2022-12-20 15:03:41.525504,5f28221bb87bb70bb9731f2c,105067,None,select_applications,None,105067,None,None
+110,2022-12-20 15:03:41.938065,5f28221bb87bb70bb9731f2c,105067,None,select_applications,None,105067,None,None
+111,2022-12-20 15:03:45.297619,5f28221bb87bb70bb9731f2c,105802,None,select_applications,None,105802,None,None
+112,2022-12-20 15:03:53.357944,5f28221bb87bb70bb9731f2c,105802,None,select_applications,None,105802,None,None
+113,2022-12-20 15:03:53.422680,5f28221bb87bb70bb9731f2c,105802,None,select_reject_application,unfair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+114,2022-12-20 15:03:53.852108,5f28221bb87bb70bb9731f2c,105802,None,select_applications,None,105802,None,None
+115,2022-12-20 15:03:53.854929,5f28221bb87bb70bb9731f2c,105802,None,select_applications,None,105802,None,None
+116,2022-12-20 15:03:53.913971,5f28221bb87bb70bb9731f2c,105802,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+117,2022-12-20 15:03:54.732336,5f28221bb87bb70bb9731f2c,105802,None,select_applications,None,105802,None,None
+118,2022-12-20 15:03:57.786017,5f28221bb87bb70bb9731f2c,104398,None,select_applications,None,104398,None,None
+119,2022-12-20 15:04:02.898091,5f28221bb87bb70bb9731f2c,104398,None,select_applications,None,104398,None,None
+120,2022-12-20 15:04:03.025021,5f28221bb87bb70bb9731f2c,104398,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+121,2022-12-20 15:04:04.268577,5f28221bb87bb70bb9731f2c,104398,None,select_applications,None,104398,None,None
+122,2022-12-20 15:04:07.306140,5f28221bb87bb70bb9731f2c,101715,None,select_applications,None,101715,None,None
+123,2022-12-20 15:04:14.489272,5f28221bb87bb70bb9731f2c,101715,None,select_applications,None,101715,None,None
+124,2022-12-20 15:04:14.548176,5f28221bb87bb70bb9731f2c,101715,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+125,2022-12-20 15:04:16.173871,5f28221bb87bb70bb9731f2c,101715,None,select_applications,None,101715,None,None
+126,2022-12-20 15:04:19.345704,5f28221bb87bb70bb9731f2c,102701,None,select_applications,None,102701,None,None
+127,2022-12-20 15:04:25.173847,5f28221bb87bb70bb9731f2c,102701,None,select_applications,None,102701,None,None
+128,2022-12-20 15:04:25.180373,5f28221bb87bb70bb9731f2c,102701,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+129,2022-12-20 15:04:26.542007,5f28221bb87bb70bb9731f2c,102701,None,select_applications,None,102701,None,None
+130,2022-12-20 15:04:30.360803,5f28221bb87bb70bb9731f2c,104921,None,select_applications,None,104921,None,None
+131,2022-12-20 15:04:32.791854,5f28221bb87bb70bb9731f2c,104921,None,select_applications,None,104921,None,None
+132,2022-12-20 15:04:33.339274,5f28221bb87bb70bb9731f2c,104921,None,select_applications,None,104921,None,None
+133,2022-12-20 15:04:33.343771,5f28221bb87bb70bb9731f2c,104921,None,select_applications,None,104921,None,None
+134,2022-12-20 15:04:33.395026,5f28221bb87bb70bb9731f2c,104921,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+135,2022-12-20 15:04:34.459667,5f28221bb87bb70bb9731f2c,104921,None,select_applications,None,104921,None,None
+136,2022-12-20 15:05:01.872590,5f28221bb87bb70bb9731f2c,106354,None,select_applications,None,106354,None,None
+137,2022-12-20 15:05:03.988723,5f28221bb87bb70bb9731f2c,106354,None,select_applications,None,106354,None,None
+138,2022-12-20 15:05:03.990718,5f28221bb87bb70bb9731f2c,106354,None,select_applications,None,106354,None,None
+139,2022-12-20 15:05:04.111831,5f28221bb87bb70bb9731f2c,106354,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+140,2022-12-20 15:05:10.361680,5f28221bb87bb70bb9731f2c,106354,None,select_applications,None,106354,None,None
+141,2022-12-20 15:05:13.631114,5f28221bb87bb70bb9731f2c,105672,None,select_applications,None,105672,None,None
+142,2022-12-20 15:05:16.004343,5f28221bb87bb70bb9731f2c,105672,None,select_applications,None,105672,None,None
+143,2022-12-20 15:05:16.007248,5f28221bb87bb70bb9731f2c,105672,None,select_reject_application,fair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+144,2022-12-20 15:05:17.033787,5f28221bb87bb70bb9731f2c,105672,None,select_applications,None,105672,None,None
+145,2022-12-20 15:05:24.184498,5f28221bb87bb70bb9731f2c,104320,None,select_applications,None,104320,None,None
+146,2022-12-20 15:05:35.825459,5f28221bb87bb70bb9731f2c,104320,None,select_applications,None,104320,None,None
+147,2022-12-20 15:05:35.829535,5f28221bb87bb70bb9731f2c,104320,None,select_applications,None,104320,None,None
+148,2022-12-20 15:05:35.889234,5f28221bb87bb70bb9731f2c,104320,None,select_reject_application,unfair,"[{'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+149,2022-12-20 15:05:37.288031,5f28221bb87bb70bb9731f2c,104320,None,select_applications,None,104320,None,None
+150,2022-12-20 15:05:40.222755,5f28221bb87bb70bb9731f2c,101225,None,select_applications,None,101225,None,None
+151,2022-12-20 15:06:02.400018,5f28221bb87bb70bb9731f2c,101225,None,select_applications,None,101225,None,None
+152,2022-12-20 15:06:04.071256,5f28221bb87bb70bb9731f2c,101225,None,select_applications,None,101225,None,None
+153,2022-12-20 15:06:15.762358,5f28221bb87bb70bb9731f2c,101225,None,select_applications,None,101225,None,None
+154,2022-12-20 15:06:15.822305,5f28221bb87bb70bb9731f2c,101225,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+155,2022-12-20 15:06:35.321071,5f28221bb87bb70bb9731f2c,101225,None,select_applications,None,101225,None,None
+156,2022-12-20 15:06:35.381014,5f28221bb87bb70bb9731f2c,101225,None,select_reject_application,unfair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+157,2022-12-20 15:06:36.216104,5f28221bb87bb70bb9731f2c,101225,None,select_applications,None,101225,None,None
+158,2022-12-20 15:06:39.680722,5f28221bb87bb70bb9731f2c,103420,None,select_applications,None,103420,None,None
+159,2022-12-20 15:07:02.916250,5f28221bb87bb70bb9731f2c,103420,None,select_applications,None,103420,None,None
+160,2022-12-20 15:07:02.920056,5f28221bb87bb70bb9731f2c,103420,None,select_applications,None,103420,None,None
+161,2022-12-20 15:07:03.053401,5f28221bb87bb70bb9731f2c,103420,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+162,2022-12-20 15:07:03.890930,5f28221bb87bb70bb9731f2c,103420,None,select_applications,None,103420,None,None
+163,2022-12-20 15:07:07.212794,5f28221bb87bb70bb9731f2c,102450,None,select_applications,None,102450,None,None
+164,2022-12-20 15:07:13.085395,5f28221bb87bb70bb9731f2c,102450,None,select_applications,None,102450,None,None
+165,2022-12-20 15:07:13.155898,5f28221bb87bb70bb9731f2c,102450,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+166,2022-12-20 15:07:13.983795,5f28221bb87bb70bb9731f2c,102450,None,select_applications,None,102450,None,None
+167,2022-12-20 15:07:33.824591,5f28221bb87bb70bb9731f2c,0,None,Clicked-on-Causal-Graph-Node,Node Value,Contact address located in Registration region,None,None
+168,2022-12-20 15:07:43.367027,5f28221bb87bb70bb9731f2c,0,None,Clicked-on-Causal-Graph-Node,Node Value,Has Employee Phone,None,None
+169,2022-12-20 15:07:43.369370,5f28221bb87bb70bb9731f2c,0,None,Clicked-on-Causal-Graph-Node,Node Value,Has Employee Phone,None,None
+168,2022-12-20 15:07:43.364505,5f28221bb87bb70bb9731f2c,0,None,Clicked-on-Causal-Graph-Node,Node Value,Has Employee Phone,None,None
+169,2022-12-20 15:08:38.141410,5f28221bb87bb70bb9731f2c,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '142', 'risk_rate': '48'}",None,None
+170,2022-12-20 15:08:54.507863,5f28221bb87bb70bb9731f2c,105528,None,select_applications,None,105528,None,None
+171,2022-12-20 15:09:05.194503,5f28221bb87bb70bb9731f2c,105528,None,select_applications,None,105528,None,None
+172,2022-12-20 15:09:05.199886,5f28221bb87bb70bb9731f2c,105528,None,select_applications,None,105528,None,None
+173,2022-12-20 15:09:05.249683,5f28221bb87bb70bb9731f2c,105528,None,select_reject_application,unfair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+174,2022-12-20 15:09:05.948640,5f28221bb87bb70bb9731f2c,105528,None,select_applications,None,105528,None,None
+175,2022-12-20 15:09:05.957500,5f28221bb87bb70bb9731f2c,105528,None,select_applications,None,105528,None,None
+176,2022-12-20 15:09:05.961718,5f28221bb87bb70bb9731f2c,105528,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+177,2022-12-20 15:09:07.311145,5f28221bb87bb70bb9731f2c,105528,None,select_applications,None,105528,None,None
+178,2022-12-20 15:09:13.517595,5f28221bb87bb70bb9731f2c,101008,None,select_applications,None,101008,None,None
+179,2022-12-20 15:09:16.087201,5f28221bb87bb70bb9731f2c,101008,None,select_applications,None,101008,None,None
+180,2022-12-20 15:09:16.145634,5f28221bb87bb70bb9731f2c,101008,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+181,2022-12-20 15:09:17.333397,5f28221bb87bb70bb9731f2c,101008,None,select_applications,None,101008,None,None
+182,2022-12-20 15:09:37.605125,5f28221bb87bb70bb9731f2c,105807,None,select_applications,None,105807,None,None
+183,2022-12-20 15:09:45.390977,5f28221bb87bb70bb9731f2c,105807,None,select_applications,None,105807,None,None
+184,2022-12-20 15:09:45.452348,5f28221bb87bb70bb9731f2c,105807,None,select_reject_application,unfair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+185,2022-12-20 15:10:14.324479,5f28221bb87bb70bb9731f2c,105807,None,select_applications,None,105807,None,None
+186,2022-12-20 15:10:14.331010,5f28221bb87bb70bb9731f2c,105807,None,select_applications,None,105807,None,None
+187,2022-12-20 15:10:14.390938,5f28221bb87bb70bb9731f2c,105807,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+188,2022-12-20 15:10:16.171127,5f28221bb87bb70bb9731f2c,105807,None,select_applications,None,105807,None,None
+189,2022-12-20 15:10:19.587687,5f28221bb87bb70bb9731f2c,100740,None,select_applications,None,100740,None,None
+190,2022-12-20 15:10:27.783141,5f28221bb87bb70bb9731f2c,100740,None,select_applications,None,100740,None,None
+191,2022-12-20 15:10:27.786091,5f28221bb87bb70bb9731f2c,100740,None,select_applications,None,100740,None,None
+192,2022-12-20 15:10:27.852307,5f28221bb87bb70bb9731f2c,100740,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+193,2022-12-20 15:10:28.986500,5f28221bb87bb70bb9731f2c,100740,None,select_applications,None,100740,None,None
+194,2022-12-20 15:10:32.929969,5f28221bb87bb70bb9731f2c,101427,None,select_applications,None,101427,None,None
+195,2022-12-20 15:10:57.827857,5f28221bb87bb70bb9731f2c,101427,None,select_applications,None,101427,None,None
+196,2022-12-20 15:10:57.833576,5f28221bb87bb70bb9731f2c,101427,None,select_applications,None,101427,None,None
+197,2022-12-20 15:10:57.887907,5f28221bb87bb70bb9731f2c,101427,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+198,2022-12-20 15:10:58.822615,5f28221bb87bb70bb9731f2c,101427,None,select_applications,None,101427,None,None
+199,2022-12-20 15:11:02.580832,5f28221bb87bb70bb9731f2c,106314,None,select_applications,None,106314,None,None
+200,2022-12-20 15:11:36.775786,5f28221bb87bb70bb9731f2c,106314,None,select_applications,None,106314,None,None
+201,2022-12-20 15:11:36.836674,5f28221bb87bb70bb9731f2c,106314,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+202,2022-12-20 15:11:43.645215,5f28221bb87bb70bb9731f2c,106314,None,select_applications,None,106314,None,None
+203,2022-12-20 15:11:51.044619,5f28221bb87bb70bb9731f2c,101697,None,select_applications,None,101697,None,None
+204,2022-12-20 15:11:53.181598,5f28221bb87bb70bb9731f2c,101697,None,select_applications,None,101697,None,None
+205,2022-12-20 15:11:53.243731,5f28221bb87bb70bb9731f2c,101697,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+206,2022-12-20 15:12:02.511422,5f28221bb87bb70bb9731f2c,101697,None,select_applications,None,101697,None,None
+207,2022-12-20 15:12:03.117574,5f28221bb87bb70bb9731f2c,101697,None,select_applications,None,101697,None,None
+208,2022-12-20 15:12:06.113009,5f28221bb87bb70bb9731f2c,101976,None,select_applications,None,101976,None,None
+209,2022-12-20 15:12:08.671118,5f28221bb87bb70bb9731f2c,101976,None,select_applications,None,101976,None,None
+210,2022-12-20 15:12:08.677218,5f28221bb87bb70bb9731f2c,101976,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+211,2022-12-20 15:12:10.449733,5f28221bb87bb70bb9731f2c,101976,None,select_applications,None,101976,None,None
+212,2022-12-20 15:12:13.218552,5f28221bb87bb70bb9731f2c,102933,None,select_applications,None,102933,None,None
+213,2022-12-20 15:12:23.348715,5f28221bb87bb70bb9731f2c,102933,None,select_applications,None,102933,None,None
+214,2022-12-20 15:12:23.362237,5f28221bb87bb70bb9731f2c,102933,None,select_applications,None,102933,None,None
+215,2022-12-20 15:12:23.495160,5f28221bb87bb70bb9731f2c,102933,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+216,2022-12-20 15:12:24.466224,5f28221bb87bb70bb9731f2c,102933,None,select_applications,None,102933,None,None
+217,2022-12-20 15:12:24.840240,5f28221bb87bb70bb9731f2c,102933,None,select_applications,None,102933,None,None
+218,2022-12-20 15:12:29.896300,5f28221bb87bb70bb9731f2c,100982,None,select_applications,None,100982,None,None
+219,2022-12-20 15:12:32.101453,5f28221bb87bb70bb9731f2c,100982,None,select_applications,None,100982,None,None
+220,2022-12-20 15:12:32.475159,5f28221bb87bb70bb9731f2c,100982,None,select_applications,None,100982,None,None
+221,2022-12-20 15:12:32.529569,5f28221bb87bb70bb9731f2c,100982,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+222,2022-12-20 15:12:36.024441,5f28221bb87bb70bb9731f2c,100982,None,select_applications,None,100982,None,None
+223,2022-12-20 15:13:05.931523,5f28221bb87bb70bb9731f2c,103025,None,select_applications,None,103025,None,None
+224,2022-12-20 15:13:08.407277,5f28221bb87bb70bb9731f2c,103025,None,select_applications,None,103025,None,None
+225,2022-12-20 15:13:08.410760,5f28221bb87bb70bb9731f2c,103025,None,select_applications,None,103025,None,None
+226,2022-12-20 15:13:08.543720,5f28221bb87bb70bb9731f2c,103025,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+227,2022-12-20 15:13:09.626528,5f28221bb87bb70bb9731f2c,103025,None,select_applications,None,103025,None,None
+228,2022-12-20 15:13:12.636444,5f28221bb87bb70bb9731f2c,100568,None,select_applications,None,100568,None,None
+229,2022-12-20 15:13:19.364371,5f28221bb87bb70bb9731f2c,100568,None,select_applications,None,100568,None,None
+230,2022-12-20 15:13:19.490118,5f28221bb87bb70bb9731f2c,100568,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+231,2022-12-20 15:13:21.605043,5f28221bb87bb70bb9731f2c,100568,None,select_applications,None,100568,None,None
+232,2022-12-20 15:13:24.850605,5f28221bb87bb70bb9731f2c,104230,None,select_applications,None,104230,None,None
+233,2022-12-20 15:13:54.213554,5f28221bb87bb70bb9731f2c,104230,None,select_applications,None,104230,None,None
+234,2022-12-20 15:13:54.271326,5f28221bb87bb70bb9731f2c,104230,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+235,2022-12-20 15:13:55.697311,5f28221bb87bb70bb9731f2c,104230,None,select_applications,None,104230,None,None
+236,2022-12-20 15:13:59.047866,5f28221bb87bb70bb9731f2c,105074,None,select_applications,None,105074,None,None
+237,2022-12-20 15:14:17.171545,5f28221bb87bb70bb9731f2c,105074,None,select_applications,None,105074,None,None
+238,2022-12-20 15:14:17.175693,5f28221bb87bb70bb9731f2c,105074,None,select_applications,None,105074,None,None
+239,2022-12-20 15:14:17.233535,5f28221bb87bb70bb9731f2c,105074,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+240,2022-12-20 15:14:18.543720,5f28221bb87bb70bb9731f2c,105074,None,select_applications,None,105074,None,None
+241,2022-12-20 15:14:22.397749,5f28221bb87bb70bb9731f2c,106199,None,select_applications,None,106199,None,None
+242,2022-12-20 15:14:24.577791,5f28221bb87bb70bb9731f2c,106199,None,select_applications,None,106199,None,None
+243,2022-12-20 15:14:24.584624,5f28221bb87bb70bb9731f2c,106199,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+244,2022-12-20 15:14:29.113496,5f28221bb87bb70bb9731f2c,106199,None,select_applications,None,106199,None,None
+245,2022-12-20 15:14:50.561165,5f28221bb87bb70bb9731f2c,105617,None,select_applications,None,105617,None,None
+246,2022-12-20 15:14:52.893577,5f28221bb87bb70bb9731f2c,105617,None,select_applications,None,105617,None,None
+247,2022-12-20 15:14:52.953758,5f28221bb87bb70bb9731f2c,105617,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+248,2022-12-20 15:14:56.193123,5f28221bb87bb70bb9731f2c,105617,None,select_applications,None,105617,None,None
+249,2022-12-20 15:14:58.238333,5f28221bb87bb70bb9731f2c,105617,None,select_applications,None,105617,None,None
+250,2022-12-20 15:15:02.128232,5f28221bb87bb70bb9731f2c,104035,None,select_applications,None,104035,None,None
+251,2022-12-20 15:15:05.984925,5f28221bb87bb70bb9731f2c,104035,None,select_applications,None,104035,None,None
+252,2022-12-20 15:15:05.989178,5f28221bb87bb70bb9731f2c,104035,None,select_applications,None,104035,None,None
+253,2022-12-20 15:15:06.050865,5f28221bb87bb70bb9731f2c,104035,None,select_reject_application,unfair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+254,2022-12-20 15:15:09.849305,5f28221bb87bb70bb9731f2c,104035,None,select_applications,None,104035,None,None
+255,2022-12-20 15:15:12.666865,5f28221bb87bb70bb9731f2c,106428,None,select_applications,None,106428,None,None
+256,2022-12-20 15:15:17.079220,5f28221bb87bb70bb9731f2c,106428,None,select_applications,None,106428,None,None
+257,2022-12-20 15:15:17.085384,5f28221bb87bb70bb9731f2c,106428,None,select_applications,None,106428,None,None
+258,2022-12-20 15:15:17.146241,5f28221bb87bb70bb9731f2c,106428,None,select_reject_application,fair,"[{'attribute': '101225_Income type', 'value': '0.024'}, {'attribute': '106647_Loan annuity', 'value': '0.024'}]",0,0
+259,2022-12-20 15:15:20.395224,5f28221bb87bb70bb9731f2c,106428,None,select_applications,None,106428,None,None
+260,2022-12-20 15:15:23.967384,5f28221bb87bb70bb9731f2c,102051,None,select_applications,None,102051,None,None

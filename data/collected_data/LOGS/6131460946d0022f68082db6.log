@@ -1,0 +1,75 @@
+106647
+fair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}]
+106401
+fair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}]
+106488
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}]
+101367
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}]
+100241
+fair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '100241_Number of children', 'value': '0.034'}]
+106802
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '100241_Number of children', 'value': '0.034'}]
+105035
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '100241_Number of children', 'value': '0.034'}]
+105035
+fair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '100241_Number of children', 'value': '0.034'}]
+104860
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '100241_Number of children', 'value': '0.034'}]
+103570
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '100241_Number of children', 'value': '0.034'}]
+100445
+fair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '100241_Number of children', 'value': '0.034'}]
+100278
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '100241_Number of children', 'value': '0.034'}]
+103102
+fair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '100241_Number of children', 'value': '0.034'}]
+105231
+fair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '100241_Number of children', 'value': '0.034'}]
+106585
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '100241_Number of children', 'value': '0.034'}]
+104410
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '104410_Family status', 'value': '0.03'}, {'attribute': '100241_Number of children', 'value': '0.034'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}]
+105067
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '104410_Family status', 'value': '0.03'}, {'attribute': '100241_Number of children', 'value': '0.034'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}]
+105802
+fair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '104410_Family status', 'value': '0.03'}, {'attribute': '100241_Number of children', 'value': '0.034'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}]
+104398
+fair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '104410_Family status', 'value': '0.03'}, {'attribute': '100241_Number of children', 'value': '0.034'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}]
+101715
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '104410_Family status', 'value': '0.03'}, {'attribute': '100241_Number of children', 'value': '0.034'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}]
+102701
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '104410_Family status', 'value': '0.03'}, {'attribute': '100241_Number of children', 'value': '0.034'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}]
+104921
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '104410_Family status', 'value': '0.03'}, {'attribute': '100241_Number of children', 'value': '0.034'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}]
+106354
+fair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '104410_Family status', 'value': '0.03'}, {'attribute': '100241_Number of children', 'value': '0.034'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}]
+106354
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '104410_Family status', 'value': '0.03'}, {'attribute': '100241_Number of children', 'value': '0.034'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}]
+105672
+unfair
+[{'attribute': '106647_Owns Property', 'value': '0.046'}, {'attribute': '100278_Housing situation', 'value': '0.027'}, {'attribute': '106401_Occupation Type', 'value': '0.027'}, {'attribute': '104410_Family status', 'value': '0.03'}, {'attribute': '100241_Number of children', 'value': '0.034'}, {'attribute': '106401_Has Work Phone', 'value': '0.005'}]

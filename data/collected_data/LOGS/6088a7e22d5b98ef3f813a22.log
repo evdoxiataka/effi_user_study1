@@ -1,0 +1,66 @@
+101107
+unfair
+[{'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '106647_Gender', 'value': '0'}]
+106647
+unfair
+[{'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}]
+103046
+unfair
+[{'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}]
+106401
+fair
+[{'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}]
+106261
+fair
+[{'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}]
+100384
+unfair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}]
+100001
+fair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}]
+100005
+fair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}]
+100013
+fair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+100028
+fair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+100038
+fair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+104230
+unfair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+102854
+unfair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+103516
+unfair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+104230
+fair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+100038
+unfair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+100170
+unfair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+100170
+fair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+100170
+unfair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+106258
+fair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+104877
+fair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]
+100074
+fair
+[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]

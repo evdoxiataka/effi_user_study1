@@ -1,0 +1,85 @@
+serial number,timestamp,ID,App ID,Pattern,Function,Attribute,Value,Lower bound,Upper bound
+1,2022-12-20 15:03:36.124253,5c48be0496d59b000183e68d,,,Login,,,,
+2,2022-12-20 15:12:55.100766,5c48be0496d59b000183e68d,106647,None,select_applications,None,106647,None,None
+3,2022-12-20 15:13:12.754044,5c48be0496d59b000183e68d,106647,None,select_applications,None,106647,None,None
+4,2022-12-20 15:13:30.157170,5c48be0496d59b000183e68d,106647,None,select_applications,None,106647,None,None
+5,2022-12-20 15:13:42.317248,5c48be0496d59b000183e68d,106647,None,select_applications,None,106647,None,None
+6,2022-12-20 15:13:53.599957,5c48be0496d59b000183e68d,106647,None,select_applications,None,106647,None,None
+7,2022-12-20 15:13:57.297555,5c48be0496d59b000183e68d,106647,None,select_applications,None,106647,None,None
+8,2022-12-20 15:14:17.460832,5c48be0496d59b000183e68d,106647,None,select_applications,None,106647,None,None
+9,2022-12-20 15:15:02.329424,5c48be0496d59b000183e68d,106647,None,select_applications,None,106647,None,None
+10,2022-12-20 15:15:29.623433,5c48be0496d59b000183e68d,106647,None,select_applications,None,106647,None,None
+11,2022-12-20 15:15:51.264310,5c48be0496d59b000183e68d,106647,None,select_applications,None,106647,None,None
+12,2022-12-20 15:15:51.280650,5c48be0496d59b000183e68d,106647,None,select_reject_application,fair,"[{'attribute': '106647_Owns Property', 'value': '0.018'}, {'attribute': '106647_Housing situation', 'value': '0.028'}, {'attribute': '106647_Gender', 'value': '0.039'}, {'attribute': '106647_Owns Car', 'value': '0.04'}, {'attribute': '106647_Years in current employment', 'value': '0.037'}, {'attribute': '106647_Number of times social circle were at risk to default on loan for 60 days', 'value': '0.027'}, {'attribute': '106647_Income type', 'value': '0.035'}, {'attribute': '106647_Number of times social circle defaulted on loan for 30 days', 'value': '0.044'}]",0,0
+13,2022-12-20 15:15:56.387374,5c48be0496d59b000183e68d,106647,None,select_applications,None,106647,None,None
+14,2022-12-20 15:17:52.604073,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+15,2022-12-20 15:18:01.671841,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+16,2022-12-20 15:18:22.657510,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+17,2022-12-20 15:18:25.117819,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+18,2022-12-20 15:18:36.256165,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+19,2022-12-20 15:18:53.165463,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+20,2022-12-20 15:19:10.971490,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+21,2022-12-20 15:19:32.427187,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+22,2022-12-20 15:19:39.845871,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+23,2022-12-20 15:19:43.133293,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+24,2022-12-20 15:19:51.513389,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+25,2022-12-20 15:20:03.984506,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+26,2022-12-20 15:20:07.334171,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+27,2022-12-20 15:20:09.353470,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+28,2022-12-20 15:20:14.085754,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+29,2022-12-20 15:20:39.563222,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+30,2022-12-20 15:21:11.431376,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+31,2022-12-20 15:21:11.500675,5c48be0496d59b000183e68d,104132,None,select_reject_application,fair,"[{'attribute': '106647_Owns Property', 'value': '0.018'}, {'attribute': '106647_Owns Car', 'value': '0.04'}, {'attribute': '104132_Owns Car', 'value': '0.038'}, {'attribute': '104132_Income type', 'value': '0.042'}, {'attribute': '106647_Years in current employment', 'value': '0.037'}, {'attribute': '104132_Income', 'value': '0.03'}, {'attribute': '104132_Gender', 'value': '0.039'}, {'attribute': '106647_Housing situation', 'value': '0.028'}, {'attribute': '106647_Gender', 'value': '0.039'}, {'attribute': '106647_Number of times social circle were at risk to default on loan for 60 days', 'value': '0.027'}, {'attribute': '104132_Has Work Phone', 'value': '0.001'}, {'attribute': '106647_Income type', 'value': '0.035'}, {'attribute': '106647_Number of times social circle defaulted on loan for 30 days', 'value': '0.044'}, {'attribute': '104132_Years since changing  identity document', 'value': '0.005'}]",0,0
+32,2022-12-20 15:21:23.124036,5c48be0496d59b000183e68d,104132,None,select_applications,None,104132,None,None
+33,2022-12-20 15:21:58.565981,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+34,2022-12-20 15:22:24.296396,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+35,2022-12-20 15:22:29.071763,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+36,2022-12-20 15:22:31.244790,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+37,2022-12-20 15:22:40.435529,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+38,2022-12-20 15:22:55.069799,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+39,2022-12-20 15:23:01.712695,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+40,2022-12-20 15:23:04.856370,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+41,2022-12-20 15:23:12.675565,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+42,2022-12-20 15:23:14.046498,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+43,2022-12-20 15:23:21.118273,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+44,2022-12-20 15:23:32.075409,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+45,2022-12-20 15:23:41.676516,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+46,2022-12-20 15:23:43.742081,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+47,2022-12-20 15:24:16.783512,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+48,2022-12-20 15:24:23.775748,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+49,2022-12-20 15:24:33.342046,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+50,2022-12-20 15:24:34.527521,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+51,2022-12-20 15:24:58.559010,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+52,2022-12-20 15:25:20.381054,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+53,2022-12-20 15:25:40.718225,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+54,2022-12-20 15:25:40.729953,5c48be0496d59b000183e68d,102854,None,select_reject_application,fair,"[{'attribute': '106647_Owns Property', 'value': '0.018'}, {'attribute': '106647_Owns Car', 'value': '0.04'}, {'attribute': '104132_Owns Car', 'value': '0.038'}, {'attribute': '104132_Income type', 'value': '0.042'}, {'attribute': '106647_Years in current employment', 'value': '0.037'}, {'attribute': '102854_Application Day', 'value': '0.005'}, {'attribute': '102854_Goods Price', 'value': '0.031'}, {'attribute': '102854_Owns Car', 'value': '0.059'}, {'attribute': '104132_Income', 'value': '0.03'}, {'attribute': '102854_Age', 'value': '0.046'}, {'attribute': '104132_Gender', 'value': '0.039'}, {'attribute': '102854_Has Work Phone', 'value': '0.002'}, {'attribute': '106647_Housing situation', 'value': '0.028'}, {'attribute': '106647_Gender', 'value': '0.039'}, {'attribute': '102854_Years since changing phone', 'value': '0.01'}, {'attribute': '102854_Family status', 'value': '0.027'}, {'attribute': '102854_Owns Property', 'value': '0.02'}, {'attribute': '106647_Number of times social circle were at risk to default on loan for 60 days', 'value': '0.027'}, {'attribute': '104132_Has Work Phone', 'value': '0.001'}, {'attribute': '106647_Income type', 'value': '0.035'}, {'attribute': '102854_Gender', 'value': '0.04'}, {'attribute': '106647_Number of times social circle defaulted on loan for 30 days', 'value': '0.044'}, {'attribute': '104132_Years since changing  identity document', 'value': '0.005'}]",0,0
+55,2022-12-20 15:25:45.640301,5c48be0496d59b000183e68d,102854,None,select_applications,None,102854,None,None
+56,2022-12-20 15:26:15.662973,5c48be0496d59b000183e68d,100001,None,similar_application,,100792,,
+57,2022-12-20 15:26:27.678311,5c48be0496d59b000183e68d,100150,None,select_applications,None,100150,None,None
+58,2022-12-20 15:27:45.754083,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+59,2022-12-20 15:27:52.056178,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+60,2022-12-20 15:28:00.359883,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+61,2022-12-20 15:28:00.382524,5c48be0496d59b000183e68d,100038,None,select_reject_application,fair,"[{'attribute': '106647_Owns Property', 'value': '0.018'}, {'attribute': '106647_Owns Car', 'value': '0.04'}, {'attribute': '104132_Owns Car', 'value': '0.038'}, {'attribute': '104132_Income type', 'value': '0.042'}, {'attribute': '106647_Years in current employment', 'value': '0.037'}, {'attribute': '102854_Application Day', 'value': '0.005'}, {'attribute': '102854_Goods Price', 'value': '0.031'}, {'attribute': '102854_Owns Car', 'value': '0.059'}, {'attribute': '104132_Income', 'value': '0.03'}, {'attribute': '102854_Age', 'value': '0.046'}, {'attribute': '104132_Gender', 'value': '0.039'}, {'attribute': '102854_Has Work Phone', 'value': '0.002'}, {'attribute': '106647_Housing situation', 'value': '0.028'}, {'attribute': '106647_Gender', 'value': '0.039'}, {'attribute': '102854_Years since changing phone', 'value': '0.01'}, {'attribute': '102854_Family status', 'value': '0.027'}, {'attribute': '102854_Owns Property', 'value': '0.02'}, {'attribute': '106647_Number of times social circle were at risk to default on loan for 60 days', 'value': '0.027'}, {'attribute': '104132_Has Work Phone', 'value': '0.001'}, {'attribute': '106647_Income type', 'value': '0.035'}, {'attribute': '102854_Gender', 'value': '0.04'}, {'attribute': '100038_Owns Car', 'value': '0.053'}, {'attribute': '106647_Number of times social circle defaulted on loan for 30 days', 'value': '0.044'}, {'attribute': '104132_Years since changing  identity document', 'value': '0.005'}]",0,0
+62,2022-12-20 15:28:14.078691,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+63,2022-12-20 15:28:18.923794,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+64,2022-12-20 15:28:22.857652,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+65,2022-12-20 15:28:27.167356,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+66,2022-12-20 15:28:39.286914,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+67,2022-12-20 15:28:43.719160,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+68,2022-12-20 15:29:04.221328,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+69,2022-12-20 15:29:33.149557,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+70,2022-12-20 15:29:34.703189,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+71,2022-12-20 15:29:36.375424,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+72,2022-12-20 15:29:44.305711,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+73,2022-12-20 15:29:58.613663,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+74,2022-12-20 15:30:11.043442,5c48be0496d59b000183e68d,100038,None,select_applications,None,100038,None,None
+75,2022-12-20 15:30:26.186115,5c48be0496d59b000183e68d,100067,None,select_applications,None,100067,None,None
+76,2022-12-20 15:30:38.181434,5c48be0496d59b000183e68d,100067,None,select_applications,None,100067,None,None
+77,2022-12-20 15:30:42.363317,5c48be0496d59b000183e68d,100067,None,select_applications,None,100067,None,None
+78,2022-12-20 15:30:46.805517,5c48be0496d59b000183e68d,100067,None,select_applications,None,100067,None,None
+79,2022-12-20 15:30:48.773431,5c48be0496d59b000183e68d,100067,None,select_applications,None,100067,None,None
+80,2022-12-20 15:31:08.983402,5c48be0496d59b000183e68d,100067,None,select_applications,None,100067,None,None
+81,2022-12-20 15:31:16.279870,5c48be0496d59b000183e68d,100067,None,select_applications,None,100067,None,None
+82,2022-12-20 15:31:16.291039,5c48be0496d59b000183e68d,100067,None,select_reject_application,fair,"[{'attribute': '106647_Owns Property', 'value': '0.018'}, {'attribute': '100038_Number of children', 'value': '0.019'}, {'attribute': '100067_Income', 'value': '0.034'}, {'attribute': '106647_Owns Car', 'value': '0.04'}, {'attribute': '104132_Income type', 'value': '0.042'}, {'attribute': '106647_Years in current employment', 'value': '0.037'}, {'attribute': '102854_Age', 'value': '0.046'}, {'attribute': '102854_Has Work Phone', 'value': '0.002'}, {'attribute': '106647_Housing situation', 'value': '0.028'}, {'attribute': '106647_Gender', 'value': '0.039'}, {'attribute': '102854_Family status', 'value': '0.027'}, {'attribute': '102854_Owns Property', 'value': '0.02'}, {'attribute': '106647_Number of times social circle were at risk to default on loan for 60 days', 'value': '0.027'}, {'attribute': '104132_Has Work Phone', 'value': '0.001'}, {'attribute': '100038_Owns Property', 'value': '0.021'}, {'attribute': '100067_Income type', 'value': '0.037'}, {'attribute': '100038_Owns Car', 'value': '0.053'}, {'attribute': '106647_Number of times social circle defaulted on loan for 30 days', 'value': '0.044'}, {'attribute': '100067_Owns Car', 'value': '0.061'}, {'attribute': '100038_Family status', 'value': '0.023'}, {'attribute': '100067_Gender', 'value': '0.045'}, {'attribute': '104132_Owns Car', 'value': '0.038'}, {'attribute': '100038_Contact city in Registration city', 'value': '0.041'}, {'attribute': '100038_Age', 'value': '0.038'}, {'attribute': '102854_Application Day', 'value': '0.005'}, {'attribute': '100038_Income type', 'value': '0.046'}, {'attribute': '102854_Goods Price', 'value': '0.031'}, {'attribute': '100067_Age', 'value': '0.037'}, {'attribute': '102854_Owns Car', 'value': '0.059'}, {'attribute': '104132_Income', 'value': '0.03'}, {'attribute': '104132_Gender', 'value': '0.039'}, {'attribute': '102854_Years since changing phone', 'value': '0.01'}, {'attribute': '106647_Income type', 'value': '0.035'}, {'attribute': '102854_Gender', 'value': '0.04'}, {'attribute': '100038_Has Work Phone', 'value': '0.005'}, {'attribute': '104132_Years since changing  identity document', 'value': '0.005'}]",0,0
+83,2022-12-20 15:31:35.109668,5c48be0496d59b000183e68d,100067,None,select_applications,None,100067,None,None
+84,2022-12-20 15:32:12.364961,5c48be0496d59b000183e68d,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '100'}",None,None

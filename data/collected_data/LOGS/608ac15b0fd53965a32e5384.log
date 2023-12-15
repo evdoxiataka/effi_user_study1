@@ -1,0 +1,42 @@
+101440
+unfair
+[{'attribute': '101440_Owns Car', 'value': '0.073'}]
+101440
+fair
+[{'attribute': '101440_Owns Car', 'value': '0.073'}]
+101367
+unfair
+[{'attribute': '101440_Owns Car', 'value': '0.073'}]
+106217
+fair
+[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]
+100013
+fair
+[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]
+100128
+fair
+[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]
+100066
+fair
+[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]
+100067
+unfair
+[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]
+100067
+fair
+[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]
+100106
+unfair
+[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]
+100168
+fair
+[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]
+100510
+fair
+[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]
+100074
+fair
+[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]
+100169
+fair
+[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]

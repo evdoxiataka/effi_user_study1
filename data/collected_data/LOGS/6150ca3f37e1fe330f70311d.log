@@ -1,0 +1,36 @@
+106647
+unfair
+[{'attribute': '106401_Highest education level', 'value': '0.073'}, {'attribute': '106401_Gender', 'value': '0'}, {'attribute': '106401_Owns Car', 'value': '0.062'}, {'attribute': '106647_Gender', 'value': '0'}]
+106647
+fair
+[{'attribute': '106401_Highest education level', 'value': '0.073'}, {'attribute': '106401_Gender', 'value': '0'}, {'attribute': '106401_Owns Car', 'value': '0.062'}, {'attribute': '106647_Gender', 'value': '0'}]
+106401
+fair
+[{'attribute': '106401_Highest education level', 'value': '0.073'}, {'attribute': '106401_Gender', 'value': '0'}, {'attribute': '106401_Owns Car', 'value': '0.062'}, {'attribute': '106647_Gender', 'value': '0'}]
+106488
+fair
+[{'attribute': '106401_Highest education level', 'value': '0.073'}, {'attribute': '106401_Gender', 'value': '0'}, {'attribute': '106401_Owns Car', 'value': '0.062'}, {'attribute': '106647_Gender', 'value': '0'}]
+101367
+fair
+[{'attribute': '106401_Highest education level', 'value': '0.073'}, {'attribute': '106401_Gender', 'value': '0'}, {'attribute': '106401_Owns Car', 'value': '0.062'}, {'attribute': '106647_Gender', 'value': '0'}]
+100241
+fair
+[{'attribute': '106401_Highest education level', 'value': '0.073'}, {'attribute': '106401_Gender', 'value': '0'}, {'attribute': '106401_Owns Car', 'value': '0.062'}, {'attribute': '106647_Gender', 'value': '0'}]
+106802
+fair
+[{'attribute': '106401_Highest education level', 'value': '0.073'}, {'attribute': '106401_Gender', 'value': '0'}, {'attribute': '106401_Owns Car', 'value': '0.062'}, {'attribute': '106647_Gender', 'value': '0'}]
+101021
+fair
+[{'attribute': '106401_Highest education level', 'value': '0.073'}, {'attribute': '106401_Gender', 'value': '0'}, {'attribute': '106401_Owns Car', 'value': '0.062'}, {'attribute': '106647_Gender', 'value': '0'}]
+101021
+unfair
+[{'attribute': '106401_Highest education level', 'value': '0.073'}, {'attribute': '106401_Gender', 'value': '0'}, {'attribute': '106401_Owns Car', 'value': '0.062'}, {'attribute': '106647_Gender', 'value': '0'}]
+100001
+fair
+[{'attribute': '106401_Highest education level', 'value': '0.073'}, {'attribute': '106401_Gender', 'value': '0'}, {'attribute': '106401_Owns Car', 'value': '0.062'}, {'attribute': '106647_Gender', 'value': '0'}]
+100005
+fair
+[{'attribute': '106401_Highest education level', 'value': '0.073'}, {'attribute': '100005_Owns Car', 'value': '0.038'}, {'attribute': '106401_Gender', 'value': '0'}, {'attribute': '106401_Owns Car', 'value': '0.062'}, {'attribute': '100005_Gender', 'value': '0.022'}, {'attribute': '106647_Gender', 'value': '0'}]
+100005
+unfair
+[{'attribute': '106401_Highest education level', 'value': '0.073'}, {'attribute': '100005_Owns Car', 'value': '0.038'}, {'attribute': '106401_Gender', 'value': '0'}, {'attribute': '106401_Owns Car', 'value': '0.062'}, {'attribute': '100005_Gender', 'value': '0.022'}, {'attribute': '106647_Gender', 'value': '0'}]

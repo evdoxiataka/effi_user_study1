@@ -1,0 +1,64 @@
+,S.no.,Column,Values,Display name
+0,,NAME_CONTRACT_TYPE,"Fixed or Not fixed 
+
+",Installments
+1,,CODE_GENDER,Male or Female,Gender 
+2,,FLAG_OWN_CAR,Yes or No,Owns Car
+3,,FLAG_OWN_REALTY,Yes or No,"Owns Property
+"
+4,,CNT_CHILDREN,Numerical  ,Number of children 
+5,,AMT_INCOME_TOTAL,Numerical  ,Income 
+6,,AMT_CREDIT,Numerical  ,Loan Credit amount 
+7,,AMT_ANNUITY,Numerical  ,Loan annuity
+8,,AMT_GOODS_PRICE,Numerical  ,Goods Price 
+9,,NAME_TYPE_SUITE,"'Unaccompanied', 'Family', etc. ","Accompanied while applying
+"
+10,,NAME_INCOME_TYPE,"'Working', 'Commercial associate', etc.",Income type
+11,,NAME_EDUCATION_TYPE,"'Higher education', 'Secondary / secondary special', etc. ",Highest education level
+12,,NAME_FAMILY_STATUS,"'Married', 'Single/not married', etc. ",Family status 
+13,,NAME_HOUSING_TYPE," 'House / apartment', 'Rented apartment', etc. 
+",Housing situation 
+14,,REGION_POPULATION_RELATIVE,"Numerical  
+",Region’s Normalized Population 
+15,,AGE,"Numerical 
+",Age
+16,,YEARS_EMPLOYED,"Numerical 
+",Years in current employment
+17,,YEARS_REGISTRATION,"Numerical 
+
+",Years since changing registration
+18,,YEARS_ID_PUBLISH,"Numerical 
+
+",Years since changing  identity document
+19,,FLAG_MOBIL, Yes or No,Has Mobile
+20,,FLAG_EMP_PHONE,Yes or No,Has Employee Phone
+21,,FLAG_WORK_PHONE,Yes or No,Has Work Phone
+22,,FLAG_CONT_MOBILE,Yes or No,Mobile reachable
+23,,FLAG_PHONE,Yes or No,Has Phone
+24,,FLAG_EMAIL,Yes or No,Has email
+25,,OCCUPATION_TYPE,"'Low-skill Laborers', 'Drivers', etc.",Occupation Type
+26,,CNT_FAM_MEMBERS,"Numerical 
+",Number of family members
+27,,REGION_RATING_CLIENT,Numerical,Region’s Rating
+28,,REGION_RATING_CLIENT_W_CITY, Numerical,Region & City Rating
+29,,WEEKDAY_APPR_PROCESS_START,"'MONDAY', 'TUESDAY', etc. ",Application Day
+30,,HOUR_APPR_PROCESS_START,Numerical ,Application Hour
+31,,REG_REGION_NOT_LIVE_REGION,"'Same', 'Different'",Contact address located in Registration region
+32,,REG_REGION_NOT_WORK_REGION,"'Same', 'Different'",Work address located in Registration region
+33,,LIVE_REGION_NOT_WORK_REGION,"'Same', 'Different'",Contact address located in work region
+34,,REG_CITY_NOT_LIVE_CITY,"'Same', 'Different'",Contact city in Registration city
+35,,REG_CITY_NOT_WORK_CITY,"'Same', 'Different'",Work address in Registration city
+36,,LIVE_CITY_NOT_WORK_CITY,"'Same', 'Different'",Contact city in work city 
+37,,ORGANIZATION_TYPE,"'Kindergarten', 'Self-employed', etc. 
+",Employer organization
+38,,OBS_30_CNT_SOCIAL_CIRCLE,Numerical ,Number of times social circle at default risk for 30 days    
+39,,DEF_30_CNT_SOCIAL_CIRCLE,Numerical,Number of times social circle defaulted on loan for 30 days  
+40,,OBS_60_CNT_SOCIAL_CIRCLE,Numerical,Number of times social circle were at risk to default on loan for 60 days    
+41,,DEF_60_CNT_SOCIAL_CIRCLE,Numerical,Number of times social circle defaulted on loan for 60 days 
+42,,YEARS_LAST_PHONE_CHANGE,Numerical ,Years since changing phone
+43,,AMT_REQ_CREDIT_BUREAU_HOUR,Numerical,Number of Credit Bureau enquiries 1 hour before application
+44,,AMT_REQ_CREDIT_BUREAU_DAY,Numerical,Number of Credit Bureau enquiries 1 day before application 
+45,,AMT_REQ_CREDIT_BUREAU_WEEK,Numerical,Number of Credit Bureau enquiries 1 week before application 
+46,,AMT_REQ_CREDIT_BUREAU_MON,Numerical,Number of Credit Bureau enquiries 1 month before application 
+47,,AMT_REQ_CREDIT_BUREAU_QRT,Numerical,Number of Credit Bureau enquiries 3 month before application 
+48,,AMT_REQ_CREDIT_BUREAU_YEAR,Numerical,Number of Credit Bureau enquiries 1 year before application

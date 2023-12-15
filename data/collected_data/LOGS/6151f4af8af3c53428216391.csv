@@ -1,0 +1,88 @@
+serial number,timestamp,ID,App ID,Pattern,Function,Attribute,Value,Lower bound,Upper bound
+1,2022-12-20 14:35:54.660256,6151f4af8af3c53428216391,,,Login,,,,
+2,2022-12-20 14:45:02.148300,6151f4af8af3c53428216391,0,None,apply_refine_search,Occupation Type,IT staff,,
+3,2022-12-20 14:45:18.081597,6151f4af8af3c53428216391,103940,None,select_applications,None,103940,None,None
+4,2022-12-20 14:45:38.867172,6151f4af8af3c53428216391,103940,None,select_applications,None,103940,None,None
+5,2022-12-20 14:45:38.871712,6151f4af8af3c53428216391,103940,None,select_reject_application,fair,[],0,0
+6,2022-12-20 14:45:45.569234,6151f4af8af3c53428216391,103940,None,select_applications,None,103940,None,None
+7,2022-12-20 14:46:55.872934,6151f4af8af3c53428216391,106647,None,select_applications,None,106647,None,None
+8,2022-12-20 14:46:59.286727,6151f4af8af3c53428216391,106647,None,select_applications,None,106647,None,None
+9,2022-12-20 14:46:59.289757,6151f4af8af3c53428216391,106647,None,select_reject_application,fair,[],0,0
+10,2022-12-20 14:47:01.451019,6151f4af8af3c53428216391,106647,None,select_applications,None,106647,None,None
+11,2022-12-20 14:47:31.440916,6151f4af8af3c53428216391,0,None,apply_refine_search,Age,,,
+12,2022-12-20 14:48:05.296653,6151f4af8af3c53428216391,106401,None,select_applications,None,106401,None,None
+13,2022-12-20 14:48:22.366194,6151f4af8af3c53428216391,106401,None,select_applications,None,106401,None,None
+14,2022-12-20 14:49:00.693167,6151f4af8af3c53428216391,0,None,apply_refine_search,Owns Property,,,
+15,2022-12-20 14:49:20.523655,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+16,2022-12-20 14:49:26.583966,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+17,2022-12-20 14:49:42.701086,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+18,2022-12-20 14:50:07.796284,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+19,2022-12-20 14:50:35.272595,6151f4af8af3c53428216391,0,None,apply_refine_search,Owns Car,,,
+20,2022-12-20 14:50:39.188621,6151f4af8af3c53428216391,100001,None,similar_application,,104394,,
+21,2022-12-20 14:50:41.246474,6151f4af8af3c53428216391,100001,None,similar_application,,104473,,
+22,2022-12-20 14:50:47.497795,6151f4af8af3c53428216391,100241,None,select_applications,None,100241,None,None
+23,2022-12-20 14:51:05.518162,6151f4af8af3c53428216391,100241,None,select_applications,None,100241,None,None
+24,2022-12-20 14:51:30.113752,6151f4af8af3c53428216391,100278,None,select_applications,None,100278,None,None
+25,2022-12-20 14:51:34.853187,6151f4af8af3c53428216391,100278,None,select_applications,None,100278,None,None
+26,2022-12-20 14:51:37.236659,6151f4af8af3c53428216391,100278,None,select_applications,None,100278,None,None
+27,2022-12-20 14:51:37.237609,6151f4af8af3c53428216391,100278,None,select_reject_application,unfair,"[{'attribute': '106488_Owns Car', 'value': '0.051'}, {'attribute': '106488_Installments', 'value': '0.051'}]",0,0
+28,2022-12-20 14:51:48.046976,6151f4af8af3c53428216391,100278,None,select_applications,None,100278,None,None
+29,2022-12-20 14:52:16.688839,6151f4af8af3c53428216391,0,None,apply_refine_search,Owns Property,,,
+30,2022-12-20 14:52:24.065332,6151f4af8af3c53428216391,0,None,apply_refine_search,,,,
+31,2022-12-20 14:52:35.283974,6151f4af8af3c53428216391,103102,None,select_applications,None,103102,None,None
+32,2022-12-20 14:53:06.600269,6151f4af8af3c53428216391,103102,None,select_applications,None,103102,None,None
+33,2022-12-20 14:53:15.797376,6151f4af8af3c53428216391,103102,None,select_applications,None,103102,None,None
+34,2022-12-20 14:53:22.466331,6151f4af8af3c53428216391,103102,None,select_applications,None,103102,None,None
+35,2022-12-20 14:54:04.652933,6151f4af8af3c53428216391,103102,None,select_applications,None,103102,None,None
+36,2022-12-20 14:54:17.333968,6151f4af8af3c53428216391,100445,None,select_applications,None,100445,None,None
+37,2022-12-20 14:54:53.142335,6151f4af8af3c53428216391,100445,None,select_applications,None,100445,None,None
+38,2022-12-20 14:55:04.044373,6151f4af8af3c53428216391,100445,None,select_applications,None,100445,None,None
+39,2022-12-20 14:55:14.747138,6151f4af8af3c53428216391,100445,None,select_applications,None,100445,None,None
+40,2022-12-20 14:55:27.220981,6151f4af8af3c53428216391,100445,None,select_applications,None,100445,None,None
+41,2022-12-20 14:55:30.645993,6151f4af8af3c53428216391,100445,None,select_applications,None,100445,None,None
+42,2022-12-20 14:55:39.779863,6151f4af8af3c53428216391,100445,None,select_applications,None,100445,None,None
+43,2022-12-20 14:55:40.142928,6151f4af8af3c53428216391,100445,None,select_reject_application,fair,"[{'attribute': '103102_Years in current employment', 'value': '0.034'}, {'attribute': '100445_Has Phone', 'value': '0.033'}, {'attribute': '103102_Income type', 'value': '0.035'}, {'attribute': '100445_Has email', 'value': '0.036'}, {'attribute': '106488_Owns Car', 'value': '0.051'}, {'attribute': '100445_Mobile reachable', 'value': '0.037'}, {'attribute': '100445_Has Mobile', 'value': '0.03'}, {'attribute': '100445_Housing situation', 'value': '0.026'}, {'attribute': '106488_Installments', 'value': '0.051'}, {'attribute': '103102_Age', 'value': '0.036'}]",0,0
+44,2022-12-20 14:55:44.465761,6151f4af8af3c53428216391,100445,None,select_applications,None,100445,None,None
+45,2022-12-20 14:56:02.805583,6151f4af8af3c53428216391,106401,None,select_applications,None,106401,None,None
+46,2022-12-20 14:56:17.181551,6151f4af8af3c53428216391,106401,None,select_applications,None,106401,None,None
+47,2022-12-20 14:56:34.917612,6151f4af8af3c53428216391,106401,None,select_applications,None,106401,None,None
+48,2022-12-20 14:56:51.388162,6151f4af8af3c53428216391,106401,None,select_reject_application,unfair,"[{'attribute': '103102_Years in current employment', 'value': '0.034'}, {'attribute': '100445_Has Phone', 'value': '0.033'}, {'attribute': '103102_Income type', 'value': '0.035'}, {'attribute': '100445_Has email', 'value': '0.036'}, {'attribute': '106401_Age', 'value': '0.044'}, {'attribute': '106488_Owns Car', 'value': '0.051'}, {'attribute': '100445_Mobile reachable', 'value': '0.037'}, {'attribute': '100445_Has Mobile', 'value': '0.03'}, {'attribute': '106401_Housing situation', 'value': '0.032'}, {'attribute': '100445_Housing situation', 'value': '0.026'}, {'attribute': '106488_Installments', 'value': '0.051'}, {'attribute': '103102_Age', 'value': '0.036'}]",0,0
+49,2022-12-20 14:56:51.389899,6151f4af8af3c53428216391,106401,None,select_applications,None,106401,None,None
+50,2022-12-20 14:56:55.261232,6151f4af8af3c53428216391,106401,None,select_applications,None,106401,None,None
+51,2022-12-20 14:57:15.744403,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+52,2022-12-20 14:57:22.675808,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+53,2022-12-20 14:57:43.652679,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+54,2022-12-20 14:57:47.358493,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+55,2022-12-20 14:57:57.352736,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+56,2022-12-20 14:58:11.468421,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+57,2022-12-20 14:58:20.772182,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+58,2022-12-20 14:58:35.069830,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+59,2022-12-20 14:58:41.792299,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+60,2022-12-20 14:58:50.300719,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+61,2022-12-20 14:59:00.635679,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+62,2022-12-20 14:59:18.389266,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+63,2022-12-20 14:59:21.676957,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+64,2022-12-20 14:59:25.689231,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+65,2022-12-20 14:59:29.440360,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+66,2022-12-20 14:59:29.443194,6151f4af8af3c53428216391,106488,None,select_reject_application,fair,"[{'attribute': '106488_Gender', 'value': '0.028'}, {'attribute': '106488_Owns Car', 'value': '0.051'}, {'attribute': '106488_Has Mobile', 'value': '0.02'}, {'attribute': '100445_Mobile reachable', 'value': '0.037'}, {'attribute': '100445_Has Mobile', 'value': '0.03'}, {'attribute': '106401_Age', 'value': '0.044'}, {'attribute': '106488_Installments', 'value': '0.023'}, {'attribute': '106488_Years in current employment', 'value': '0.034'}, {'attribute': '103102_Years in current employment', 'value': '0.034'}, {'attribute': '100445_Has Phone', 'value': '0.033'}, {'attribute': '103102_Income type', 'value': '0.035'}, {'attribute': '106488_Housing situation', 'value': '0.029'}, {'attribute': '100445_Has email', 'value': '0.036'}, {'attribute': '106488_Mobile reachable', 'value': '0.021'}, {'attribute': '106488_Income type', 'value': '0.019'}, {'attribute': '106488_Has Employee Phone', 'value': '0.019'}, {'attribute': '106401_Housing situation', 'value': '0.032'}, {'attribute': '100445_Housing situation', 'value': '0.026'}, {'attribute': '103102_Age', 'value': '0.036'}]",0,0
+67,2022-12-20 14:59:31.638293,6151f4af8af3c53428216391,106488,None,select_applications,None,106488,None,None
+68,2022-12-20 14:59:45.573623,6151f4af8af3c53428216391,101367,None,select_applications,None,101367,None,None
+69,2022-12-20 14:59:59.635025,6151f4af8af3c53428216391,101367,None,select_applications,None,101367,None,None
+70,2022-12-20 15:00:02.882062,6151f4af8af3c53428216391,101367,None,select_applications,None,101367,None,None
+71,2022-12-20 15:00:11.118744,6151f4af8af3c53428216391,101367,None,select_applications,None,101367,None,None
+72,2022-12-20 15:00:25.961938,6151f4af8af3c53428216391,101367,None,select_reject_application,fair,"[{'attribute': '106488_Gender', 'value': '0.028'}, {'attribute': '106488_Owns Car', 'value': '0.051'}, {'attribute': '106488_Has Mobile', 'value': '0.02'}, {'attribute': '101367_Gender', 'value': '0.049'}, {'attribute': '100445_Mobile reachable', 'value': '0.037'}, {'attribute': '100445_Has Mobile', 'value': '0.03'}, {'attribute': '106401_Age', 'value': '0.044'}, {'attribute': '106488_Installments', 'value': '0.023'}, {'attribute': '106488_Years in current employment', 'value': '0.034'}, {'attribute': '103102_Years in current employment', 'value': '0.034'}, {'attribute': '100445_Has Phone', 'value': '0.033'}, {'attribute': '103102_Income type', 'value': '0.035'}, {'attribute': '106488_Housing situation', 'value': '0.029'}, {'attribute': '100445_Has email', 'value': '0.036'}, {'attribute': '106488_Mobile reachable', 'value': '0.021'}, {'attribute': '106488_Income type', 'value': '0.019'}, {'attribute': '106488_Has Employee Phone', 'value': '0.019'}, {'attribute': '101367_Age', 'value': '0.042'}, {'attribute': '106401_Housing situation', 'value': '0.032'}, {'attribute': '100445_Housing situation', 'value': '0.026'}, {'attribute': '103102_Age', 'value': '0.036'}]",0,0
+73,2022-12-20 15:00:25.960385,6151f4af8af3c53428216391,101367,None,select_applications,None,101367,None,None
+74,2022-12-20 15:00:33.157644,6151f4af8af3c53428216391,101367,None,select_applications,None,101367,None,None
+75,2022-12-20 15:00:56.226831,6151f4af8af3c53428216391,100241,None,select_applications,None,100241,None,None
+76,2022-12-20 15:01:06.933680,6151f4af8af3c53428216391,100241,None,select_applications,None,100241,None,None
+77,2022-12-20 15:01:12.966285,6151f4af8af3c53428216391,100241,None,select_reject_application,fair,"[{'attribute': '100241_Age', 'value': '0.037'}, {'attribute': '106488_Gender', 'value': '0.028'}, {'attribute': '106488_Owns Car', 'value': '0.051'}, {'attribute': '106488_Has Mobile', 'value': '0.02'}, {'attribute': '101367_Gender', 'value': '0.049'}, {'attribute': '100445_Mobile reachable', 'value': '0.037'}, {'attribute': '100445_Has Mobile', 'value': '0.03'}, {'attribute': '106401_Age', 'value': '0.044'}, {'attribute': '106488_Installments', 'value': '0.023'}, {'attribute': '106488_Years in current employment', 'value': '0.034'}, {'attribute': '103102_Years in current employment', 'value': '0.034'}, {'attribute': '100445_Has Phone', 'value': '0.033'}, {'attribute': '103102_Income type', 'value': '0.035'}, {'attribute': '106488_Housing situation', 'value': '0.029'}, {'attribute': '100445_Has email', 'value': '0.036'}, {'attribute': '106488_Mobile reachable', 'value': '0.021'}, {'attribute': '106488_Income type', 'value': '0.019'}, {'attribute': '106488_Has Employee Phone', 'value': '0.019'}, {'attribute': '101367_Age', 'value': '0.042'}, {'attribute': '106401_Housing situation', 'value': '0.032'}, {'attribute': '100445_Housing situation', 'value': '0.026'}, {'attribute': '103102_Age', 'value': '0.036'}]",0,0
+78,2022-12-20 15:01:12.967852,6151f4af8af3c53428216391,100241,None,select_applications,None,100241,None,None
+79,2022-12-20 15:01:22.693272,6151f4af8af3c53428216391,100241,None,select_applications,None,100241,None,None
+80,2022-12-20 15:01:50.334301,6151f4af8af3c53428216391,0,None,apply_refine_search,Region's Rating,,,
+81,2022-12-20 15:01:51.817876,6151f4af8af3c53428216391,0,None,apply_refine_search,,,,
+82,2022-12-20 15:01:56.444963,6151f4af8af3c53428216391,106802,None,select_applications,None,106802,None,None
+83,2022-12-20 15:02:09.621264,6151f4af8af3c53428216391,106802,None,select_applications,None,106802,None,None
+84,2022-12-20 15:02:18.510419,6151f4af8af3c53428216391,106802,None,select_applications,None,106802,None,None
+85,2022-12-20 15:02:18.514097,6151f4af8af3c53428216391,106802,None,select_reject_application,fair,"[{'attribute': '100241_Age', 'value': '0.037'}, {'attribute': '106488_Gender', 'value': '0.028'}, {'attribute': '106488_Owns Car', 'value': '0.051'}, {'attribute': '106488_Has Mobile', 'value': '0.02'}, {'attribute': '101367_Gender', 'value': '0.049'}, {'attribute': '100445_Mobile reachable', 'value': '0.037'}, {'attribute': '100445_Has Mobile', 'value': '0.03'}, {'attribute': '106802_Income type', 'value': '0.039'}, {'attribute': '106401_Age', 'value': '0.044'}, {'attribute': '106488_Installments', 'value': '0.023'}, {'attribute': '106488_Years in current employment', 'value': '0.034'}, {'attribute': '103102_Years in current employment', 'value': '0.034'}, {'attribute': '100445_Has Phone', 'value': '0.033'}, {'attribute': '103102_Income type', 'value': '0.035'}, {'attribute': '106488_Housing situation', 'value': '0.029'}, {'attribute': '100445_Has email', 'value': '0.036'}, {'attribute': '106488_Mobile reachable', 'value': '0.021'}, {'attribute': '106488_Income type', 'value': '0.019'}, {'attribute': '106488_Has Employee Phone', 'value': '0.019'}, {'attribute': '101367_Age', 'value': '0.042'}, {'attribute': '106401_Housing situation', 'value': '0.032'}, {'attribute': '100445_Housing situation', 'value': '0.026'}, {'attribute': '103102_Age', 'value': '0.036'}]",0,0
+86,2022-12-20 15:02:41.698113,6151f4af8af3c53428216391,106802,None,select_applications,None,106802,None,None
+87,2022-12-20 15:02:55.635229,6151f4af8af3c53428216391,104860,None,select_applications,None,104860,None,None

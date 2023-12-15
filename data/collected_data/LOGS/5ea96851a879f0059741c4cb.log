@@ -1,0 +1,66 @@
+106647
+fair
+[]
+106401
+fair
+[]
+103971
+unfair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}]
+106488
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}]
+101365
+unfair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+100013
+unfair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+100013
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+100001
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+100005
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+100005
+unfair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+100038
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+100042
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+100109
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+100128
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+104458
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+100168
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+105239
+unfair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+102996
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+105370
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+101363
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+100172
+unfair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]
+100057
+fair
+[{'attribute': '106401_Region & City Rating', 'value': '0.055'}, {'attribute': '101365_Owns Car', 'value': '0.051'}]

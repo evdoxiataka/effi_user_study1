@@ -1,0 +1,177 @@
+100001
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}]
+100005
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}]
+100013
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}]
+104458
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100168
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+105239
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+102996
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+106647
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+106401
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+106401
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+106488
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+106488
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+101367
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100241
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+106802
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+106802
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100028
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100038
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100038
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100042
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100057
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100065
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100067
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100066
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100091
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100074
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100074
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100090
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100092
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100092
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100106
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100762
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+105035
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+104860
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+103570
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100445
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+100278
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+102838
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+101366
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+103102
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+105231
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+106585
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+104410
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+105067
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+105802
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+104398
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+104398
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+101715
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+102701
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+102701
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+104921
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+106354
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+105672
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+105672
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+104320
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+104320
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+101225
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+103420
+fair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]
+103420
+unfair
+[{'attribute': '100001_Owns Car', 'value': '0.073'}, {'attribute': '104458_Years in current employment', 'value': '0.057'}]

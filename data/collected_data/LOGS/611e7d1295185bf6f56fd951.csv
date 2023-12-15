@@ -1,0 +1,85 @@
+serial number,timestamp,ID,App ID,Pattern,Function,Attribute,Value,Lower bound,Upper bound
+1,2022-12-20 14:36:42.481326,611e7d1295185bf6f56fd951,,,Login,,,,
+2,2022-12-20 14:45:46.434204,611e7d1295185bf6f56fd951,106647,None,select_applications,None,106647,None,None
+3,2022-12-20 14:46:12.505710,611e7d1295185bf6f56fd951,106647,None,select_applications,None,106647,None,None
+4,2022-12-20 14:46:35.792606,611e7d1295185bf6f56fd951,106647,None,select_reject_application,fair,[],0,0
+5,2022-12-20 14:46:35.796546,611e7d1295185bf6f56fd951,106647,None,select_applications,None,106647,None,None
+6,2022-12-20 14:46:36.802653,611e7d1295185bf6f56fd951,106647,None,select_applications,None,106647,None,None
+7,2022-12-20 14:46:46.697198,611e7d1295185bf6f56fd951,106401,None,select_applications,None,106401,None,None
+8,2022-12-20 14:47:07.915038,611e7d1295185bf6f56fd951,106401,None,select_applications,None,106401,None,None
+9,2022-12-20 14:47:14.380364,611e7d1295185bf6f56fd951,106401,None,select_applications,None,106401,None,None
+10,2022-12-20 14:48:00.066926,611e7d1295185bf6f56fd951,106401,None,select_applications,None,106401,None,None
+11,2022-12-20 14:48:01.073884,611e7d1295185bf6f56fd951,106401,None,select_applications,None,106401,None,None
+12,2022-12-20 14:48:08.055418,611e7d1295185bf6f56fd951,106401,None,select_applications,None,106401,None,None
+13,2022-12-20 14:48:08.434892,611e7d1295185bf6f56fd951,106401,None,select_reject_application,unfair,"[{'attribute': '106401_Gender', 'value': '0.037'}]",0,0
+14,2022-12-20 14:48:12.518460,611e7d1295185bf6f56fd951,106401,None,select_applications,None,106401,None,None
+15,2022-12-20 14:48:31.966073,611e7d1295185bf6f56fd951,106488,None,select_applications,None,106488,None,None
+16,2022-12-20 14:48:49.987589,611e7d1295185bf6f56fd951,106488,None,select_applications,None,106488,None,None
+17,2022-12-20 14:48:51.904236,611e7d1295185bf6f56fd951,106488,None,select_applications,None,106488,None,None
+18,2022-12-20 14:48:55.829462,611e7d1295185bf6f56fd951,106488,None,select_applications,None,106488,None,None
+19,2022-12-20 14:49:05.140326,611e7d1295185bf6f56fd951,106488,None,select_applications,None,106488,None,None
+20,2022-12-20 14:49:26.864773,611e7d1295185bf6f56fd951,106488,None,select_applications,None,106488,None,None
+21,2022-12-20 14:50:06.625661,611e7d1295185bf6f56fd951,106488,None,select_applications,None,106488,None,None
+22,2022-12-20 14:50:30.867377,611e7d1295185bf6f56fd951,106488,None,select_applications,None,106488,None,None
+23,2022-12-20 14:50:36.086616,611e7d1295185bf6f56fd951,106488,None,select_applications,None,106488,None,None
+24,2022-12-20 14:50:36.471709,611e7d1295185bf6f56fd951,106488,None,select_reject_application,fair,"[{'attribute': '106488_Owns Property', 'value': '0.041'}, {'attribute': '106401_Gender', 'value': '0.037'}, {'attribute': '106488_Occupation Type', 'value': '0.043'}, {'attribute': '106488_Years in current employment', 'value': '0.04'}]",0,0
+25,2022-12-20 14:50:43.332597,611e7d1295185bf6f56fd951,106488,None,select_applications,None,106488,None,None
+26,2022-12-20 14:50:58.079230,611e7d1295185bf6f56fd951,101367,None,select_applications,None,101367,None,None
+27,2022-12-20 14:51:58.150113,611e7d1295185bf6f56fd951,101367,None,select_applications,None,101367,None,None
+28,2022-12-20 14:52:00.643641,611e7d1295185bf6f56fd951,101367,None,select_applications,None,101367,None,None
+29,2022-12-20 14:52:32.342444,611e7d1295185bf6f56fd951,101367,None,select_applications,None,101367,None,None
+30,2022-12-20 14:53:09.521659,611e7d1295185bf6f56fd951,101367,None,select_applications,None,101367,None,None
+31,2022-12-20 14:53:12.565670,611e7d1295185bf6f56fd951,101367,None,select_applications,None,101367,None,None
+32,2022-12-20 14:53:41.436022,611e7d1295185bf6f56fd951,101367,None,select_applications,None,101367,None,None
+33,2022-12-20 14:53:46.571435,611e7d1295185bf6f56fd951,101367,None,select_applications,None,101367,None,None
+34,2022-12-20 14:54:02.509551,611e7d1295185bf6f56fd951,101367,None,select_applications,None,101367,None,None
+35,2022-12-20 14:54:02.536715,611e7d1295185bf6f56fd951,101367,None,select_reject_application,unfair,"[{'attribute': '106488_Owns Property', 'value': '0.041'}, {'attribute': '106401_Gender', 'value': '0.037'}, {'attribute': '101367_Owns Property', 'value': '0.042'}, {'attribute': '106488_Occupation Type', 'value': '0.043'}, {'attribute': '101367_Has email', 'value': '0.036'}, {'attribute': '101367_Income type', 'value': '0.047'}, {'attribute': '101367_Number of children', 'value': '0.043'}, {'attribute': '106488_Years in current employment', 'value': '0.04'}]",0,0
+36,2022-12-20 14:54:14.476048,611e7d1295185bf6f56fd951,101367,None,select_applications,None,101367,None,None
+37,2022-12-20 14:54:32.592140,611e7d1295185bf6f56fd951,100241,None,select_applications,None,100241,None,None
+38,2022-12-20 14:54:50.364179,611e7d1295185bf6f56fd951,100241,None,select_applications,None,100241,None,None
+39,2022-12-20 14:54:58.119563,611e7d1295185bf6f56fd951,100241,None,select_applications,None,100241,None,None
+40,2022-12-20 14:55:35.983410,611e7d1295185bf6f56fd951,100241,None,select_applications,None,100241,None,None
+41,2022-12-20 14:55:47.393146,611e7d1295185bf6f56fd951,100241,None,select_applications,None,100241,None,None
+42,2022-12-20 14:55:56.305038,611e7d1295185bf6f56fd951,100241,None,select_applications,None,100241,None,None
+43,2022-12-20 14:56:17.298771,611e7d1295185bf6f56fd951,100241,None,select_applications,None,100241,None,None
+44,2022-12-20 14:56:17.317223,611e7d1295185bf6f56fd951,100241,None,select_reject_application,unfair,"[{'attribute': '106488_Owns Property', 'value': '0.041'}, {'attribute': '100241_Owns Car', 'value': '0.049'}, {'attribute': '106401_Gender', 'value': '0.037'}, {'attribute': '101367_Owns Property', 'value': '0.042'}, {'attribute': '106488_Occupation Type', 'value': '0.043'}, {'attribute': '100241_Housing situation', 'value': '0.041'}, {'attribute': '100241_Family status', 'value': '0.044'}, {'attribute': '101367_Has email', 'value': '0.036'}, {'attribute': '101367_Income type', 'value': '0.047'}, {'attribute': '100241_Loan Credit amount ', 'value': '0.04'}, {'attribute': '101367_Number of children', 'value': '0.043'}, {'attribute': '106488_Years in current employment', 'value': '0.04'}]",0,0
+45,2022-12-20 14:56:26.318730,611e7d1295185bf6f56fd951,100241,None,select_applications,None,100241,None,None
+46,2022-12-20 14:56:53.486708,611e7d1295185bf6f56fd951,106802,None,select_applications,None,106802,None,None
+47,2022-12-20 14:57:31.681968,611e7d1295185bf6f56fd951,106802,None,select_applications,None,106802,None,None
+48,2022-12-20 14:57:57.806917,611e7d1295185bf6f56fd951,106802,None,select_applications,None,106802,None,None
+49,2022-12-20 14:58:17.272131,611e7d1295185bf6f56fd951,106802,None,select_applications,None,106802,None,None
+50,2022-12-20 14:58:22.512660,611e7d1295185bf6f56fd951,106802,None,select_applications,None,106802,None,None
+51,2022-12-20 14:58:30.357694,611e7d1295185bf6f56fd951,106802,None,select_applications,None,106802,None,None
+52,2022-12-20 14:58:45.720625,611e7d1295185bf6f56fd951,106802,None,select_applications,None,106802,None,None
+53,2022-12-20 14:58:57.865376,611e7d1295185bf6f56fd951,106802,None,select_applications,None,106802,None,None
+54,2022-12-20 14:58:57.874253,611e7d1295185bf6f56fd951,106802,None,select_reject_application,fair,"[{'attribute': '106488_Owns Property', 'value': '0.041'}, {'attribute': '106401_Gender', 'value': '0.037'}, {'attribute': '101367_Owns Property', 'value': '0.042'}, {'attribute': '100241_Housing situation', 'value': '0.041'}, {'attribute': '101367_Income type', 'value': '0.047'}, {'attribute': '106802_Housing situation', 'value': '0.042'}, {'attribute': '106802_Family status', 'value': '0.041'}, {'attribute': '106488_Years in current employment', 'value': '0.04'}, {'attribute': '106488_Occupation Type', 'value': '0.043'}, {'attribute': '100241_Family status', 'value': '0.044'}, {'attribute': '101367_Has email', 'value': '0.036'}, {'attribute': '100241_Loan Credit amount ', 'value': '0.04'}, {'attribute': '106802_Loan Credit amount ', 'value': '0.045'}, {'attribute': '106802_Gender', 'value': '0.032'}, {'attribute': '101367_Number of children', 'value': '0.043'}, {'attribute': '106802_Income', 'value': '0.043'}, {'attribute': '106802_Occupation Type', 'value': '0.043'}, {'attribute': '100241_Owns Car', 'value': '0.049'}]",0,0
+55,2022-12-20 14:59:06.280122,611e7d1295185bf6f56fd951,106802,None,select_applications,None,106802,None,None
+56,2022-12-20 14:59:10.079159,611e7d1295185bf6f56fd951,106802,None,select_applications,None,106802,None,None
+57,2022-12-20 14:59:17.371673,611e7d1295185bf6f56fd951,106802,None,select_applications,None,106802,None,None
+58,2022-12-20 14:59:59.000776,611e7d1295185bf6f56fd951,105035,None,select_applications,None,105035,None,None
+59,2022-12-20 15:00:11.962242,611e7d1295185bf6f56fd951,105035,None,select_applications,None,105035,None,None
+60,2022-12-20 15:00:37.763703,611e7d1295185bf6f56fd951,105035,None,select_applications,None,105035,None,None
+61,2022-12-20 15:01:05.452284,611e7d1295185bf6f56fd951,105035,None,select_applications,None,105035,None,None
+62,2022-12-20 15:01:15.255018,611e7d1295185bf6f56fd951,105035,None,select_applications,None,105035,None,None
+63,2022-12-20 15:01:26.592941,611e7d1295185bf6f56fd951,105035,None,select_applications,None,105035,None,None
+64,2022-12-20 15:01:34.080980,611e7d1295185bf6f56fd951,105035,None,select_applications,None,105035,None,None
+65,2022-12-20 15:01:34.105398,611e7d1295185bf6f56fd951,105035,None,select_reject_application,fair,"[{'attribute': '106488_Owns Property', 'value': '0.041'}, {'attribute': '106401_Gender', 'value': '0.037'}, {'attribute': '101367_Owns Property', 'value': '0.042'}, {'attribute': '106802_Owns Property', 'value': '0.052'}, {'attribute': '100241_Housing situation', 'value': '0.041'}, {'attribute': '101367_Income type', 'value': '0.047'}, {'attribute': '105035_Employer organization', 'value': '0.051'}, {'attribute': '106802_Housing situation', 'value': '0.042'}, {'attribute': '106802_Family status', 'value': '0.041'}, {'attribute': '106488_Years in current employment', 'value': '0.04'}, {'attribute': '105035_Gender', 'value': '0.009'}, {'attribute': '106488_Occupation Type', 'value': '0.043'}, {'attribute': '105035_Family status', 'value': '0.055'}, {'attribute': '100241_Family status', 'value': '0.044'}, {'attribute': '101367_Has email', 'value': '0.036'}, {'attribute': '105035_Occupation Type', 'value': '0.054'}, {'attribute': '100241_Loan Credit amount ', 'value': '0.04'}, {'attribute': '106802_Loan Credit amount ', 'value': '0.045'}, {'attribute': '106802_Gender', 'value': '0.032'}, {'attribute': '101367_Number of children', 'value': '0.043'}, {'attribute': '106802_Income', 'value': '0.043'}, {'attribute': '106802_Occupation Type', 'value': '0.043'}, {'attribute': '106802_Number of children', 'value': '0.054'}, {'attribute': '100241_Owns Car', 'value': '0.049'}]",0,0
+66,2022-12-20 15:01:47.416815,611e7d1295185bf6f56fd951,105035,None,select_applications,None,105035,None,None
+67,2022-12-20 15:01:50.198952,611e7d1295185bf6f56fd951,105035,None,select_applications,None,105035,None,None
+68,2022-12-20 15:02:00.243462,611e7d1295185bf6f56fd951,105035,None,select_applications,None,105035,None,None
+69,2022-12-20 15:02:36.563759,611e7d1295185bf6f56fd951,105035,None,select_applications,None,105035,None,None
+70,2022-12-20 15:02:55.690392,611e7d1295185bf6f56fd951,105035,None,select_applications,None,105035,None,None
+71,2022-12-20 15:02:59.699348,611e7d1295185bf6f56fd951,104860,None,select_applications,None,104860,None,None
+72,2022-12-20 15:03:08.023939,611e7d1295185bf6f56fd951,104860,None,select_applications,None,104860,None,None
+73,2022-12-20 15:03:21.488500,611e7d1295185bf6f56fd951,104860,None,select_applications,None,104860,None,None
+74,2022-12-20 15:03:38.168310,611e7d1295185bf6f56fd951,104860,None,select_applications,None,104860,None,None
+75,2022-12-20 15:03:48.227015,611e7d1295185bf6f56fd951,104860,None,select_applications,None,104860,None,None
+76,2022-12-20 15:03:55.437914,611e7d1295185bf6f56fd951,104860,None,select_applications,None,104860,None,None
+77,2022-12-20 15:04:02.108763,611e7d1295185bf6f56fd951,104860,None,select_applications,None,104860,None,None
+78,2022-12-20 15:04:07.287106,611e7d1295185bf6f56fd951,104860,None,select_applications,None,104860,None,None
+79,2022-12-20 15:04:11.786705,611e7d1295185bf6f56fd951,104860,None,select_applications,None,104860,None,None
+80,2022-12-20 15:04:20.865709,611e7d1295185bf6f56fd951,104860,None,select_applications,None,104860,None,None
+81,2022-12-20 15:04:30.890678,611e7d1295185bf6f56fd951,104860,None,select_reject_application,unfair,"[{'attribute': '106488_Owns Property', 'value': '0.041'}, {'attribute': '106401_Gender', 'value': '0.037'}, {'attribute': '101367_Owns Property', 'value': '0.042'}, {'attribute': '100241_Housing situation', 'value': '0.041'}, {'attribute': '104860_Loan Credit amount ', 'value': '0.056'}, {'attribute': '104860_Income', 'value': '0.05'}, {'attribute': '104860_Gender', 'value': '0.014'}, {'attribute': '106802_Family status', 'value': '0.041'}, {'attribute': '104860_Family status', 'value': '0.059'}, {'attribute': '104860_Occupation Type', 'value': '0.054'}, {'attribute': '105035_Occupation Type', 'value': '0.054'}, {'attribute': '106802_Gender', 'value': '0.032'}, {'attribute': '106802_Occupation Type', 'value': '0.043'}, {'attribute': '106802_Number of children', 'value': '0.054'}, {'attribute': '104860_Number of children', 'value': '0.043'}, {'attribute': '104860_Number of family members', 'value': '0.043'}, {'attribute': '104860_Owns Property', 'value': '0.041'}, {'attribute': '100241_Owns Car', 'value': '0.049'}, {'attribute': '106802_Owns Property', 'value': '0.052'}, {'attribute': '104860_Income type', 'value': '0.054'}, {'attribute': '105035_Number of children', 'value': '0.052'}, {'attribute': '101367_Income type', 'value': '0.047'}, {'attribute': '105035_Employer organization', 'value': '0.051'}, {'attribute': '105035_Owns Property', 'value': '0.05'}, {'attribute': '106802_Housing situation', 'value': '0.042'}, {'attribute': '106488_Years in current employment', 'value': '0.04'}, {'attribute': '105035_Gender', 'value': '0.009'}, {'attribute': '106488_Occupation Type', 'value': '0.043'}, {'attribute': '105035_Family status', 'value': '0.055'}, {'attribute': '100241_Family status', 'value': '0.044'}, {'attribute': '101367_Has email', 'value': '0.036'}, {'attribute': '100241_Loan Credit amount ', 'value': '0.04'}, {'attribute': '106802_Loan Credit amount ', 'value': '0.045'}, {'attribute': '101367_Number of children', 'value': '0.043'}, {'attribute': '106802_Income', 'value': '0.043'}]",0,0
+82,2022-12-20 15:04:30.893283,611e7d1295185bf6f56fd951,104860,None,select_applications,None,104860,None,None
+83,2022-12-20 15:04:37.337113,611e7d1295185bf6f56fd951,104860,None,select_applications,None,104860,None,None
+84,2022-12-20 15:04:51.859193,611e7d1295185bf6f56fd951,103570,None,select_applications,None,103570,None,None

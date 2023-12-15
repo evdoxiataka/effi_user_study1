@@ -1,0 +1,42 @@
+100001
+fair
+[]
+104458
+fair
+[{'attribute': '104458_Owns Car', 'value': '0.073'}]
+100038
+unfair
+[{'attribute': '104458_Income', 'value': '0.037'}, {'attribute': '104458_Owns Car', 'value': '0.073'}]
+100028
+fair
+[{'attribute': '104458_Income', 'value': '0.037'}, {'attribute': '104458_Owns Car', 'value': '0.073'}, {'attribute': '100028_Owns Car', 'value': '0.073'}]
+100067
+fair
+[{'attribute': '100038_Mobile reachable', 'value': '0.015'}, {'attribute': '100038_Income', 'value': '0.028'}, {'attribute': '104458_Owns Car', 'value': '0.073'}, {'attribute': '100038_Number of children', 'value': '0.02'}, {'attribute': '104458_Income', 'value': '0.037'}, {'attribute': '100038_Owns Property', 'value': '0.008'}, {'attribute': '100028_Owns Car', 'value': '0.073'}, {'attribute': '100038_Has Mobile', 'value': '0.024'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100013
+fair
+[{'attribute': '100038_Mobile reachable', 'value': '0.015'}, {'attribute': '100038_Income', 'value': '0.028'}, {'attribute': '104458_Owns Car', 'value': '0.073'}, {'attribute': '100038_Number of children', 'value': '0.02'}, {'attribute': '104458_Income', 'value': '0.037'}, {'attribute': '100038_Owns Property', 'value': '0.008'}, {'attribute': '100028_Owns Car', 'value': '0.073'}, {'attribute': '100038_Has Mobile', 'value': '0.024'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100005
+fair
+[{'attribute': '100038_Mobile reachable', 'value': '0.015'}, {'attribute': '100038_Income', 'value': '0.028'}, {'attribute': '104458_Owns Car', 'value': '0.073'}, {'attribute': '100038_Number of children', 'value': '0.02'}, {'attribute': '104458_Income', 'value': '0.037'}, {'attribute': '100038_Owns Property', 'value': '0.008'}, {'attribute': '100028_Owns Car', 'value': '0.073'}, {'attribute': '100038_Has Mobile', 'value': '0.024'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100128
+fair
+[{'attribute': '100038_Mobile reachable', 'value': '0.015'}, {'attribute': '100038_Income', 'value': '0.023'}, {'attribute': '106647_Has Employee Phone', 'value': '0.011'}, {'attribute': '106647_Has Mobile', 'value': '0.006'}, {'attribute': '104458_Owns Car', 'value': '0.073'}, {'attribute': '100038_Number of children', 'value': '0.013'}, {'attribute': '104458_Income', 'value': '0.037'}, {'attribute': '100038_Owns Property', 'value': '0.004'}, {'attribute': '100028_Owns Car', 'value': '0.073'}, {'attribute': '100038_Has Mobile', 'value': '0.024'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100168
+fair
+[{'attribute': '100038_Mobile reachable', 'value': '0.015'}, {'attribute': '100038_Income', 'value': '0.023'}, {'attribute': '106647_Has Employee Phone', 'value': '0.011'}, {'attribute': '106647_Has Mobile', 'value': '0.006'}, {'attribute': '104458_Owns Car', 'value': '0.073'}, {'attribute': '100038_Number of children', 'value': '0.013'}, {'attribute': '104458_Income', 'value': '0.037'}, {'attribute': '100038_Owns Property', 'value': '0.004'}, {'attribute': '100028_Owns Car', 'value': '0.073'}, {'attribute': '100038_Has Mobile', 'value': '0.024'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100422
+unfair
+[{'attribute': '100038_Mobile reachable', 'value': '0.015'}, {'attribute': '100038_Income', 'value': '0.023'}, {'attribute': '106647_Has Employee Phone', 'value': '0.011'}, {'attribute': '106647_Has Mobile', 'value': '0.006'}, {'attribute': '104458_Owns Car', 'value': '0.073'}, {'attribute': '100422_Mobile reachable', 'value': '0.013'}, {'attribute': '100038_Number of children', 'value': '0.013'}, {'attribute': '104458_Income', 'value': '0.037'}, {'attribute': '100422_Number of children', 'value': '0.041'}, {'attribute': '100038_Owns Property', 'value': '0.004'}, {'attribute': '100028_Owns Car', 'value': '0.073'}, {'attribute': '100038_Has Mobile', 'value': '0.024'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100106
+unfair
+[{'attribute': '100038_Mobile reachable', 'value': '0.015'}, {'attribute': '100038_Income', 'value': '0.023'}, {'attribute': '106647_Has Employee Phone', 'value': '0.011'}, {'attribute': '106647_Has Mobile', 'value': '0.006'}, {'attribute': '104458_Owns Car', 'value': '0.073'}, {'attribute': '100422_Mobile reachable', 'value': '0.013'}, {'attribute': '100038_Number of children', 'value': '0.013'}, {'attribute': '104458_Income', 'value': '0.037'}, {'attribute': '100422_Number of children', 'value': '0.041'}, {'attribute': '100038_Owns Property', 'value': '0.004'}, {'attribute': '100028_Owns Car', 'value': '0.073'}, {'attribute': '100038_Has Mobile', 'value': '0.024'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100106
+fair
+[{'attribute': '100038_Mobile reachable', 'value': '0.015'}, {'attribute': '100038_Income', 'value': '0.023'}, {'attribute': '106647_Has Employee Phone', 'value': '0.011'}, {'attribute': '106647_Has Mobile', 'value': '0.006'}, {'attribute': '104458_Owns Car', 'value': '0.073'}, {'attribute': '100422_Mobile reachable', 'value': '0.013'}, {'attribute': '100038_Number of children', 'value': '0.013'}, {'attribute': '104458_Income', 'value': '0.037'}, {'attribute': '100422_Number of children', 'value': '0.041'}, {'attribute': '100038_Owns Property', 'value': '0.004'}, {'attribute': '100028_Owns Car', 'value': '0.073'}, {'attribute': '100038_Has Mobile', 'value': '0.024'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100171
+unfair
+[{'attribute': '100038_Mobile reachable', 'value': '0.015'}, {'attribute': '100038_Income', 'value': '0.023'}, {'attribute': '106647_Has Employee Phone', 'value': '0.011'}, {'attribute': '106647_Has Mobile', 'value': '0.006'}, {'attribute': '104458_Owns Car', 'value': '0.073'}, {'attribute': '100422_Mobile reachable', 'value': '0.013'}, {'attribute': '100038_Number of children', 'value': '0.013'}, {'attribute': '104458_Income', 'value': '0.037'}, {'attribute': '100422_Number of children', 'value': '0.041'}, {'attribute': '100038_Owns Property', 'value': '0.004'}, {'attribute': '100028_Owns Car', 'value': '0.073'}, {'attribute': '100038_Has Mobile', 'value': '0.024'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100171
+fair
+[{'attribute': '100038_Mobile reachable', 'value': '0.015'}, {'attribute': '100038_Income', 'value': '0.023'}, {'attribute': '106647_Has Employee Phone', 'value': '0.011'}, {'attribute': '106647_Has Mobile', 'value': '0.006'}, {'attribute': '104458_Owns Car', 'value': '0.073'}, {'attribute': '100422_Mobile reachable', 'value': '0.013'}, {'attribute': '100038_Number of children', 'value': '0.013'}, {'attribute': '104458_Income', 'value': '0.037'}, {'attribute': '100422_Number of children', 'value': '0.041'}, {'attribute': '100038_Owns Property', 'value': '0.004'}, {'attribute': '100028_Owns Car', 'value': '0.073'}, {'attribute': '100038_Has Mobile', 'value': '0.024'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]

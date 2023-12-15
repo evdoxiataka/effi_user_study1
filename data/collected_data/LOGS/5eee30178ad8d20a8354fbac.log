@@ -1,0 +1,36 @@
+105532
+fair
+[]
+100005
+fair
+[{'attribute': '105532_Application Day', 'value': '0.043'}]
+100013
+unfair
+[{'attribute': '105532_Application Day', 'value': '0.043'}, {'attribute': '100005_Owns Car', 'value': '0.04'}]
+100042
+unfair
+[{'attribute': '105532_Application Day', 'value': '0.043'}, {'attribute': '100005_Owns Car', 'value': '0.04'}]
+100763
+fair
+[{'attribute': '105532_Application Day', 'value': '0.043'}, {'attribute': '100005_Owns Car', 'value': '0.04'}]
+100038
+fair
+[{'attribute': '105532_Application Day', 'value': '0.043'}, {'attribute': '100005_Owns Car', 'value': '0.04'}]
+106258
+fair
+[{'attribute': '105532_Application Day', 'value': '0.043'}, {'attribute': '100005_Owns Car', 'value': '0.04'}]
+100001
+unfair
+[{'attribute': '105532_Application Day', 'value': '0.043'}, {'attribute': '100005_Owns Car', 'value': '0.04'}]
+100028
+fair
+[{'attribute': '105532_Application Day', 'value': '0.043'}, {'attribute': '100005_Owns Car', 'value': '0.04'}]
+100791
+fair
+[{'attribute': '105532_Application Day', 'value': '0.043'}, {'attribute': '100005_Owns Car', 'value': '0.04'}]
+100765
+unfair
+[{'attribute': '105532_Application Day', 'value': '0.043'}, {'attribute': '100005_Owns Car', 'value': '0.04'}]
+100777
+fair
+[{'attribute': '105532_Application Day', 'value': '0.043'}, {'attribute': '100005_Owns Car', 'value': '0.04'}]

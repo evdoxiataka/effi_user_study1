@@ -1,0 +1,66 @@
+106647
+fair
+[{'attribute': '106647_Gender', 'value': '0'}]
+106647
+unfair
+[{'attribute': '106647_Gender', 'value': '0'}]
+106401
+unfair
+[{'attribute': '106647_Gender', 'value': '0'}]
+106488
+unfair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+101367
+unfair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100001
+fair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100005
+fair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100013
+fair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100028
+unfair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100038
+fair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100042
+fair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100057
+fair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100065
+unfair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100241
+fair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+106802
+fair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+104860
+unfair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+104860
+fair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100066
+fair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100067
+fair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100074
+fair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+100074
+unfair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]
+103570
+unfair
+[{'attribute': '106401_Owns Car', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}]

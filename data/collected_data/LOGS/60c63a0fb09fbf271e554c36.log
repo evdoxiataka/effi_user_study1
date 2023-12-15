@@ -1,0 +1,42 @@
+101367
+fair
+[{'attribute': '101367_Years in current employment', 'value': '0.039'}]
+106647
+fair
+[{'attribute': '101367_Years in current employment', 'value': '0.039'}]
+106488
+fair
+[{'attribute': '101367_Years in current employment', 'value': '0.039'}]
+106401
+fair
+[{'attribute': '101367_Years in current employment', 'value': '0.039'}]
+106802
+fair
+[{'attribute': '101367_Years in current employment', 'value': '0.039'}]
+100241
+fair
+[{'attribute': '101367_Years in current employment', 'value': '0.039'}]
+106258
+fair
+[{'attribute': '101367_Years in current employment', 'value': '0.039'}]
+100001
+fair
+[{'attribute': '101367_Years in current employment', 'value': '0.039'}]
+100038
+unfair
+[{'attribute': '101367_Years in current employment', 'value': '0.039'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100091
+unfair
+[{'attribute': '101367_Years in current employment', 'value': '0.039'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100091
+fair
+[{'attribute': '100091_Years since changing  identity document', 'value': '0.03'}, {'attribute': '100091_Occupation Type', 'value': '0.04'}, {'attribute': '101367_Years in current employment', 'value': '0.039'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100013
+fair
+[{'attribute': '100091_Years since changing  identity document', 'value': '0.03'}, {'attribute': '100091_Occupation Type', 'value': '0.04'}, {'attribute': '101367_Years in current employment', 'value': '0.039'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100172
+fair
+[{'attribute': '100091_Occupation Type', 'value': '0.04'}, {'attribute': '100172_Number of times social circle at default risk for 30 days', 'value': '0.034'}, {'attribute': '101367_Years in current employment', 'value': '0.039'}, {'attribute': '100091_Years since changing  identity document', 'value': '0.03'}, {'attribute': '100013_Years in current employment', 'value': '0.049'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]
+100005
+fair
+[{'attribute': '100091_Occupation Type', 'value': '0.04'}, {'attribute': '100172_Number of times social circle at default risk for 30 days', 'value': '0.036'}, {'attribute': '101367_Years in current employment', 'value': '0.039'}, {'attribute': '100091_Years since changing  identity document', 'value': '0.03'}, {'attribute': '100013_Years in current employment', 'value': '0.049'}, {'attribute': '100038_Owns Car', 'value': '0.073'}]

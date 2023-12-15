@@ -1,0 +1,135 @@
+serial number,timestamp,ID,App ID,Pattern,Function,Attribute,Value,Lower bound,Upper bound
+1,2022-12-20 14:43:44.323906,608ac15b0fd53965a32e5384,,,Login,,,,
+2,2022-12-20 14:52:19.037806,608ac15b0fd53965a32e5384,106647,None,select_applications,None,106647,None,None
+3,2022-12-20 14:52:35.402817,608ac15b0fd53965a32e5384,105760,None,select_applications,None,105760,None,None
+4,2022-12-20 14:52:45.399292,608ac15b0fd53965a32e5384,0,None,apply_refine_search,,,,
+5,2022-12-20 14:52:50.072816,608ac15b0fd53965a32e5384,0,None,apply_refine_search,Age,,,
+6,2022-12-20 14:52:51.697721,608ac15b0fd53965a32e5384,0,None,apply_refine_search,,,,
+7,2022-12-20 14:52:54.123192,608ac15b0fd53965a32e5384,0,None,apply_refine_search,Contact address located in Registration region,,,
+8,2022-12-20 14:53:48.465376,608ac15b0fd53965a32e5384,101440,None,select_applications,None,101440,None,None
+9,2022-12-20 14:53:50.679622,608ac15b0fd53965a32e5384,101440,None,select_applications,None,101440,None,None
+10,2022-12-20 14:53:50.875979,608ac15b0fd53965a32e5384,101440,None,select_applications,None,101440,None,None
+11,2022-12-20 14:53:50.995149,608ac15b0fd53965a32e5384,101440,None,select_applications,None,101440,None,None
+12,2022-12-20 14:53:51.087033,608ac15b0fd53965a32e5384,101440,None,select_applications,None,101440,None,None
+13,2022-12-20 14:54:05.405984,608ac15b0fd53965a32e5384,101440,None,select_applications,None,101440,None,None
+14,2022-12-20 14:54:05.410640,608ac15b0fd53965a32e5384,101440,None,select_reject_application,unfair,"[{'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+15,2022-12-20 14:54:06.181459,608ac15b0fd53965a32e5384,101440,None,select_reject_application,fair,"[{'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+16,2022-12-20 14:54:06.183642,608ac15b0fd53965a32e5384,101440,None,select_applications,None,101440,None,None
+17,2022-12-20 14:54:30.775542,608ac15b0fd53965a32e5384,101440,None,select_applications,None,101440,None,None
+18,2022-12-20 14:54:31.291384,608ac15b0fd53965a32e5384,101440,None,select_applications,None,101440,None,None
+19,2022-12-20 14:54:32.178696,608ac15b0fd53965a32e5384,101440,None,select_applications,None,101440,None,None
+20,2022-12-20 14:54:38.623514,608ac15b0fd53965a32e5384,101440,None,select_applications,None,101440,None,None
+21,2022-12-20 14:54:51.661675,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+22,2022-12-20 14:54:54.253911,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+23,2022-12-20 14:55:16.693532,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+24,2022-12-20 14:55:17.030919,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+25,2022-12-20 14:55:17.547923,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+26,2022-12-20 14:55:18.077373,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+27,2022-12-20 14:55:20.516158,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+28,2022-12-20 14:55:21.118034,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+29,2022-12-20 14:55:21.597476,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+30,2022-12-20 14:55:22.229927,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+31,2022-12-20 14:55:22.749711,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+32,2022-12-20 14:55:23.084838,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+33,2022-12-20 14:55:23.527424,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+34,2022-12-20 14:56:24.101315,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+35,2022-12-20 14:56:24.468882,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+36,2022-12-20 14:56:24.851212,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+37,2022-12-20 14:56:34.512997,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+38,2022-12-20 14:56:34.577291,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+39,2022-12-20 14:56:34.633441,608ac15b0fd53965a32e5384,101367,None,select_reject_application,unfair,"[{'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+40,2022-12-20 14:56:35.869475,608ac15b0fd53965a32e5384,101367,None,select_applications,None,101367,None,None
+41,2022-12-20 14:57:01.184934,608ac15b0fd53965a32e5384,106217,None,select_applications,None,106217,None,None
+42,2022-12-20 14:57:21.512377,608ac15b0fd53965a32e5384,106217,None,select_applications,None,106217,None,None
+43,2022-12-20 14:57:23.457035,608ac15b0fd53965a32e5384,106217,None,select_applications,None,106217,None,None
+44,2022-12-20 14:57:30.593282,608ac15b0fd53965a32e5384,106217,None,select_applications,None,106217,None,None
+45,2022-12-20 14:57:30.595923,608ac15b0fd53965a32e5384,106217,None,select_reject_application,fair,"[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+46,2022-12-20 14:57:31.877383,608ac15b0fd53965a32e5384,106217,None,select_applications,None,106217,None,None
+47,2022-12-20 14:57:31.937102,608ac15b0fd53965a32e5384,106217,None,select_applications,None,106217,None,None
+48,2022-12-20 14:57:45.005699,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+49,2022-12-20 14:58:10.505960,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+50,2022-12-20 14:58:11.412538,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+51,2022-12-20 14:58:12.078367,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+52,2022-12-20 14:58:39.322055,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+53,2022-12-20 14:58:52.855209,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+54,2022-12-20 14:58:54.438952,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+55,2022-12-20 14:58:54.444136,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+56,2022-12-20 14:58:54.511224,608ac15b0fd53965a32e5384,100013,None,select_reject_application,fair,"[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+57,2022-12-20 14:58:54.550091,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+58,2022-12-20 14:58:54.562075,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+59,2022-12-20 14:58:56.159650,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+60,2022-12-20 14:58:56.255204,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+61,2022-12-20 14:58:56.723569,608ac15b0fd53965a32e5384,100013,None,select_applications,None,100013,None,None
+62,2022-12-20 14:59:04.465872,608ac15b0fd53965a32e5384,100001,None,select_applications,None,100001,None,None
+63,2022-12-20 14:59:04.664923,608ac15b0fd53965a32e5384,100001,None,select_applications,None,100001,None,None
+64,2022-12-20 14:59:06.254796,608ac15b0fd53965a32e5384,100001,None,select_applications,None,100001,None,None
+65,2022-12-20 14:59:06.684975,608ac15b0fd53965a32e5384,100005,None,select_applications,None,100005,None,None
+66,2022-12-20 14:59:12.816313,608ac15b0fd53965a32e5384,100057,None,select_applications,None,100057,None,None
+67,2022-12-20 14:59:14.337564,608ac15b0fd53965a32e5384,100057,None,select_applications,None,100057,None,None
+68,2022-12-20 14:59:22.615735,608ac15b0fd53965a32e5384,100074,None,select_applications,None,100074,None,None
+69,2022-12-20 14:59:35.201284,608ac15b0fd53965a32e5384,100128,None,select_applications,None,100128,None,None
+70,2022-12-20 15:00:01.787843,608ac15b0fd53965a32e5384,100128,None,select_reject_application,fair,"[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+71,2022-12-20 15:00:01.788846,608ac15b0fd53965a32e5384,100128,None,select_applications,None,100128,None,None
+72,2022-12-20 15:00:03.325851,608ac15b0fd53965a32e5384,100128,None,select_applications,None,100128,None,None
+73,2022-12-20 15:00:11.616923,608ac15b0fd53965a32e5384,100066,None,select_applications,None,100066,None,None
+74,2022-12-20 15:00:43.226970,608ac15b0fd53965a32e5384,100066,None,select_applications,None,100066,None,None
+75,2022-12-20 15:00:43.228693,608ac15b0fd53965a32e5384,100066,None,select_reject_application,fair,"[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+76,2022-12-20 15:00:44.353008,608ac15b0fd53965a32e5384,100066,None,select_applications,None,100066,None,None
+77,2022-12-20 15:01:05.611941,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+78,2022-12-20 15:01:05.784295,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+79,2022-12-20 15:01:07.826232,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+80,2022-12-20 15:01:17.938430,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+81,2022-12-20 15:01:17.948624,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+82,2022-12-20 15:01:19.343236,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+83,2022-12-20 15:01:19.404417,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+84,2022-12-20 15:01:19.748501,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+85,2022-12-20 15:01:20.414597,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+86,2022-12-20 15:01:20.557367,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+87,2022-12-20 15:01:20.940190,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+88,2022-12-20 15:01:22.407111,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+89,2022-12-20 15:01:22.466636,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+90,2022-12-20 15:01:23.362015,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+91,2022-12-20 15:01:23.556225,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+92,2022-12-20 15:01:23.893196,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+93,2022-12-20 15:01:33.336505,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+94,2022-12-20 15:01:33.884677,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+95,2022-12-20 15:01:34.068829,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+96,2022-12-20 15:01:34.428928,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+97,2022-12-20 15:01:34.479247,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+98,2022-12-20 15:01:56.509822,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+99,2022-12-20 15:01:56.513494,608ac15b0fd53965a32e5384,100067,None,select_reject_application,unfair,"[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+100,2022-12-20 15:01:56.517195,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+101,2022-12-20 15:01:57.798229,608ac15b0fd53965a32e5384,100067,None,select_reject_application,fair,"[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+102,2022-12-20 15:01:57.803746,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+103,2022-12-20 15:02:00.489394,608ac15b0fd53965a32e5384,100067,None,select_applications,None,100067,None,None
+104,2022-12-20 15:02:54.246682,608ac15b0fd53965a32e5384,100106,None,select_applications,None,100106,None,None
+105,2022-12-20 15:03:19.791042,608ac15b0fd53965a32e5384,100106,None,select_applications,None,100106,None,None
+106,2022-12-20 15:03:19.853680,608ac15b0fd53965a32e5384,100106,None,select_reject_application,unfair,"[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+107,2022-12-20 15:03:21.559094,608ac15b0fd53965a32e5384,100106,None,select_applications,None,100106,None,None
+108,2022-12-20 15:03:38.521551,608ac15b0fd53965a32e5384,100168,None,select_applications,None,100168,None,None
+109,2022-12-20 15:04:17.315419,608ac15b0fd53965a32e5384,100168,None,select_applications,None,100168,None,None
+110,2022-12-20 15:04:17.318869,608ac15b0fd53965a32e5384,100168,None,select_reject_application,fair,"[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+111,2022-12-20 15:04:19.078059,608ac15b0fd53965a32e5384,100168,None,select_applications,None,100168,None,None
+112,2022-12-20 15:04:49.315094,608ac15b0fd53965a32e5384,100510,None,select_applications,None,100510,None,None
+113,2022-12-20 15:05:27.491382,608ac15b0fd53965a32e5384,100510,None,select_applications,None,100510,None,None
+114,2022-12-20 15:05:27.531789,608ac15b0fd53965a32e5384,100510,None,select_applications,None,100510,None,None
+115,2022-12-20 15:05:27.782260,608ac15b0fd53965a32e5384,100510,None,select_applications,None,100510,None,None
+116,2022-12-20 15:05:36.896295,608ac15b0fd53965a32e5384,100510,None,select_applications,None,100510,None,None
+116,2022-12-20 15:05:36.895295,608ac15b0fd53965a32e5384,100510,None,select_applications,None,100510,None,None
+117,2022-12-20 15:05:36.899656,608ac15b0fd53965a32e5384,100510,None,select_reject_application,fair,"[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+118,2022-12-20 15:05:38.097757,608ac15b0fd53965a32e5384,100510,None,select_applications,None,100510,None,None
+119,2022-12-20 15:05:55.718909,608ac15b0fd53965a32e5384,0,None,apply_refine_search,Income,,,
+120,2022-12-20 15:07:19.862637,608ac15b0fd53965a32e5384,100074,None,select_applications,None,100074,None,None
+121,2022-12-20 15:07:27.036307,608ac15b0fd53965a32e5384,100074,None,select_applications,None,100074,None,None
+122,2022-12-20 15:07:27.378151,608ac15b0fd53965a32e5384,100074,None,select_applications,None,100074,None,None
+123,2022-12-20 15:07:27.417357,608ac15b0fd53965a32e5384,100074,None,select_applications,None,100074,None,None
+124,2022-12-20 15:07:34.695252,608ac15b0fd53965a32e5384,100074,None,select_applications,None,100074,None,None
+125,2022-12-20 15:07:34.720272,608ac15b0fd53965a32e5384,100074,None,select_applications,None,100074,None,None
+126,2022-12-20 15:08:01.788838,608ac15b0fd53965a32e5384,100074,None,select_applications,None,100074,None,None
+127,2022-12-20 15:08:01.792892,608ac15b0fd53965a32e5384,100074,None,select_reject_application,fair,"[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+128,2022-12-20 15:08:01.791965,608ac15b0fd53965a32e5384,100074,None,select_applications,None,100074,None,None
+129,2022-12-20 15:08:03.597269,608ac15b0fd53965a32e5384,100074,None,select_applications,None,100074,None,None
+130,2022-12-20 15:08:33.761794,608ac15b0fd53965a32e5384,100169,None,select_applications,None,100169,None,None
+131,2022-12-20 15:09:02.425397,608ac15b0fd53965a32e5384,100169,None,select_applications,None,100169,None,None
+132,2022-12-20 15:09:02.429712,608ac15b0fd53965a32e5384,100169,None,select_reject_application,fair,"[{'attribute': '106217_Number of Credit Bureau enquiries 1 day before application', 'value': '0.029'}, {'attribute': '101440_Owns Car', 'value': '0.073'}]",0,0
+133,2022-12-20 15:09:04.661176,608ac15b0fd53965a32e5384,100169,None,select_applications,None,100169,None,None

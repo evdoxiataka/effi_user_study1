@@ -1,0 +1,249 @@
+serial number,timestamp,ID,App ID,Pattern,Function,Attribute,Value,Lower bound,Upper bound
+1,2022-12-20 14:37:28.464688,61065060bc55a8b70bc64d05,,,Login,,,,
+2,2022-12-20 14:40:30.571699,61065060bc55a8b70bc64d05,0,None,apply_refine_search,Age,,,
+3,2022-12-20 14:40:33.661230,61065060bc55a8b70bc64d05,0,None,apply_refine_search,Contact address located in work region,,,
+4,2022-12-20 14:40:39.513412,61065060bc55a8b70bc64d05,0,None,apply_refine_search,Contact address located in Registration region,Different,,
+5,2022-12-20 14:41:12.493279,61065060bc55a8b70bc64d05,0,None,apply_refine_search,Age,18-25,,
+6,2022-12-20 14:41:21.729658,61065060bc55a8b70bc64d05,102092,None,select_applications,None,102092,None,None
+7,2022-12-20 14:41:29.965584,61065060bc55a8b70bc64d05,102092,None,select_applications,None,102092,None,None
+8,2022-12-20 14:41:34.716974,61065060bc55a8b70bc64d05,102092,None,select_applications,None,102092,None,None
+9,2022-12-20 14:41:37.714698,61065060bc55a8b70bc64d05,102092,None,select_applications,None,102092,None,None
+10,2022-12-20 14:41:42.629724,61065060bc55a8b70bc64d05,102092,None,select_applications,None,102092,None,None
+11,2022-12-20 14:42:07.732254,61065060bc55a8b70bc64d05,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '20', 'risk_rate': '30'}",None,None
+12,2022-12-20 14:42:11.036230,61065060bc55a8b70bc64d05,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '90', 'risk_rate': '47'}",None,None
+13,2022-12-20 14:42:22.538029,61065060bc55a8b70bc64d05,106647,None,select_applications,None,106647,None,None
+14,2022-12-20 14:42:25.257676,61065060bc55a8b70bc64d05,106647,None,select_applications,None,106647,None,None
+15,2022-12-20 14:42:25.261367,61065060bc55a8b70bc64d05,106647,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+16,2022-12-20 14:42:25.631308,61065060bc55a8b70bc64d05,106647,None,select_applications,None,106647,None,None
+17,2022-12-20 14:42:25.635359,61065060bc55a8b70bc64d05,106647,None,select_applications,None,106647,None,None
+18,2022-12-20 14:42:25.637533,61065060bc55a8b70bc64d05,106647,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+19,2022-12-20 14:42:28.767798,61065060bc55a8b70bc64d05,106647,None,select_applications,None,106647,None,None
+20,2022-12-20 14:42:28.766944,61065060bc55a8b70bc64d05,106647,None,select_applications,None,106647,None,None
+21,2022-12-20 14:42:28.771124,61065060bc55a8b70bc64d05,106647,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+22,2022-12-20 14:42:39.047796,61065060bc55a8b70bc64d05,106647,None,select_applications,None,106647,None,None
+23,2022-12-20 14:42:39.048838,61065060bc55a8b70bc64d05,106647,None,select_applications,None,106647,None,None
+24,2022-12-20 14:42:39.050819,61065060bc55a8b70bc64d05,106647,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+25,2022-12-20 14:42:53.703157,61065060bc55a8b70bc64d05,106647,None,select_applications,None,106647,None,None
+26,2022-12-20 14:42:53.704416,61065060bc55a8b70bc64d05,106647,None,select_applications,None,106647,None,None
+27,2022-12-20 14:42:53.707516,61065060bc55a8b70bc64d05,106647,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+28,2022-12-20 14:42:56.651951,61065060bc55a8b70bc64d05,106647,None,select_applications,None,106647,None,None
+29,2022-12-20 14:43:09.511038,61065060bc55a8b70bc64d05,106401,None,select_applications,None,106401,None,None
+30,2022-12-20 14:43:18.376134,61065060bc55a8b70bc64d05,106401,None,select_applications,None,106401,None,None
+31,2022-12-20 14:43:18.375175,61065060bc55a8b70bc64d05,106401,None,select_applications,None,106401,None,None
+32,2022-12-20 14:43:18.380613,61065060bc55a8b70bc64d05,106401,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+33,2022-12-20 14:43:19.861813,61065060bc55a8b70bc64d05,106401,None,select_applications,None,106401,None,None
+34,2022-12-20 14:43:36.374991,61065060bc55a8b70bc64d05,0,None,Applications_Prediction_Confidence,None,ascend,,
+35,2022-12-20 14:43:52.134986,61065060bc55a8b70bc64d05,100001,None,select_applications,None,100001,None,None
+36,2022-12-20 14:43:53.913262,61065060bc55a8b70bc64d05,100001,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+37,2022-12-20 14:43:53.915061,61065060bc55a8b70bc64d05,100001,None,select_applications,None,100001,None,None
+38,2022-12-20 14:43:58.540922,61065060bc55a8b70bc64d05,100001,None,select_applications,None,100001,None,None
+39,2022-12-20 14:44:07.349684,61065060bc55a8b70bc64d05,100013,None,select_applications,None,100013,None,None
+40,2022-12-20 14:44:09.070765,61065060bc55a8b70bc64d05,100013,None,select_applications,None,100013,None,None
+41,2022-12-20 14:44:09.072987,61065060bc55a8b70bc64d05,100013,None,select_applications,None,100013,None,None
+42,2022-12-20 14:44:09.077117,61065060bc55a8b70bc64d05,100013,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+43,2022-12-20 14:44:10.710137,61065060bc55a8b70bc64d05,100013,None,select_applications,None,100013,None,None
+44,2022-12-20 14:44:34.998549,61065060bc55a8b70bc64d05,100005,None,select_applications,None,100005,None,None
+45,2022-12-20 14:44:39.985067,61065060bc55a8b70bc64d05,100005,None,select_applications,None,100005,None,None
+46,2022-12-20 14:44:39.986485,61065060bc55a8b70bc64d05,100005,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+47,2022-12-20 14:44:49.291015,61065060bc55a8b70bc64d05,100005,None,select_applications,None,100005,None,None
+48,2022-12-20 14:44:49.292628,61065060bc55a8b70bc64d05,100005,None,select_applications,None,100005,None,None
+49,2022-12-20 14:44:49.297198,61065060bc55a8b70bc64d05,100005,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+50,2022-12-20 14:44:51.212605,61065060bc55a8b70bc64d05,100005,None,select_applications,None,100005,None,None
+51,2022-12-20 14:44:51.220408,61065060bc55a8b70bc64d05,100005,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+52,2022-12-20 14:44:56.958422,61065060bc55a8b70bc64d05,100005,None,select_applications,None,100005,None,None
+53,2022-12-20 14:44:56.961864,61065060bc55a8b70bc64d05,100005,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+54,2022-12-20 14:44:57.833698,61065060bc55a8b70bc64d05,100005,None,select_applications,None,100005,None,None
+55,2022-12-20 14:45:00.714445,61065060bc55a8b70bc64d05,100028,None,select_applications,None,100028,None,None
+56,2022-12-20 14:45:02.124769,61065060bc55a8b70bc64d05,100028,None,select_applications,None,100028,None,None
+57,2022-12-20 14:45:02.127745,61065060bc55a8b70bc64d05,100028,None,select_applications,None,100028,None,None
+58,2022-12-20 14:45:02.131676,61065060bc55a8b70bc64d05,100028,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+59,2022-12-20 14:45:03.390538,61065060bc55a8b70bc64d05,100028,None,select_applications,None,100028,None,None
+60,2022-12-20 14:45:10.145993,61065060bc55a8b70bc64d05,100038,None,select_applications,None,100038,None,None
+61,2022-12-20 14:45:29.660230,61065060bc55a8b70bc64d05,100038,None,select_applications,None,100038,None,None
+62,2022-12-20 14:45:29.664200,61065060bc55a8b70bc64d05,100038,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+63,2022-12-20 14:45:30.570669,61065060bc55a8b70bc64d05,100038,None,select_applications,None,100038,None,None
+64,2022-12-20 14:45:30.792585,61065060bc55a8b70bc64d05,100038,None,select_applications,None,100038,None,None
+65,2022-12-20 14:45:33.270714,61065060bc55a8b70bc64d05,100042,None,select_applications,None,100042,None,None
+66,2022-12-20 14:45:34.286466,61065060bc55a8b70bc64d05,100042,None,select_applications,None,100042,None,None
+67,2022-12-20 14:45:34.288657,61065060bc55a8b70bc64d05,100042,None,select_applications,None,100042,None,None
+66,2022-12-20 14:45:34.291369,61065060bc55a8b70bc64d05,100042,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+67,2022-12-20 14:45:36.180977,61065060bc55a8b70bc64d05,100042,None,select_applications,None,100042,None,None
+68,2022-12-20 14:45:38.664593,61065060bc55a8b70bc64d05,100042,None,select_applications,None,100042,None,None
+69,2022-12-20 14:45:47.943107,61065060bc55a8b70bc64d05,100042,None,select_applications,None,100042,None,None
+70,2022-12-20 14:46:00.946644,61065060bc55a8b70bc64d05,100057,None,select_applications,None,100057,None,None
+71,2022-12-20 14:46:12.244313,61065060bc55a8b70bc64d05,100057,None,select_applications,None,100057,None,None
+72,2022-12-20 14:46:12.246130,61065060bc55a8b70bc64d05,100057,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+73,2022-12-20 14:46:12.476602,61065060bc55a8b70bc64d05,100057,None,select_applications,None,100057,None,None
+74,2022-12-20 14:46:20.584880,61065060bc55a8b70bc64d05,100065,None,select_applications,None,100065,None,None
+75,2022-12-20 14:46:24.960537,61065060bc55a8b70bc64d05,100065,None,select_applications,None,100065,None,None
+76,2022-12-20 14:46:24.964610,61065060bc55a8b70bc64d05,100065,None,select_applications,None,100065,None,None
+77,2022-12-20 14:46:25.900560,61065060bc55a8b70bc64d05,100065,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+78,2022-12-20 14:46:28.944812,61065060bc55a8b70bc64d05,100065,None,select_applications,None,100065,None,None
+79,2022-12-20 14:46:36.080919,61065060bc55a8b70bc64d05,100066,None,select_applications,None,100066,None,None
+80,2022-12-20 14:46:36.264502,61065060bc55a8b70bc64d05,100066,None,select_applications,None,100066,None,None
+81,2022-12-20 14:46:47.481380,61065060bc55a8b70bc64d05,100066,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+82,2022-12-20 14:46:47.517872,61065060bc55a8b70bc64d05,100066,None,select_applications,None,100066,None,None
+83,2022-12-20 14:48:58.916556,61065060bc55a8b70bc64d05,100067,None,select_applications,None,100067,None,None
+84,2022-12-20 14:49:00.144652,61065060bc55a8b70bc64d05,100067,None,select_applications,None,100067,None,None
+85,2022-12-20 14:49:00.146195,61065060bc55a8b70bc64d05,100067,None,select_applications,None,100067,None,None
+86,2022-12-20 14:49:00.200451,61065060bc55a8b70bc64d05,100067,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+87,2022-12-20 14:49:01.833970,61065060bc55a8b70bc64d05,100067,None,select_applications,None,100067,None,None
+88,2022-12-20 14:49:24.575264,61065060bc55a8b70bc64d05,100074,None,select_applications,None,100074,None,None
+89,2022-12-20 14:49:25.620899,61065060bc55a8b70bc64d05,100074,None,select_applications,None,100074,None,None
+90,2022-12-20 14:49:25.624068,61065060bc55a8b70bc64d05,100074,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+91,2022-12-20 14:49:26.912569,61065060bc55a8b70bc64d05,100074,None,select_applications,None,100074,None,None
+92,2022-12-20 14:49:30.565182,61065060bc55a8b70bc64d05,100090,None,select_applications,None,100090,None,None
+93,2022-12-20 14:49:32.758636,61065060bc55a8b70bc64d05,100090,None,select_applications,None,100090,None,None
+94,2022-12-20 14:49:32.760643,61065060bc55a8b70bc64d05,100090,None,select_applications,None,100090,None,None
+95,2022-12-20 14:49:32.763899,61065060bc55a8b70bc64d05,100090,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+96,2022-12-20 14:49:33.869740,61065060bc55a8b70bc64d05,100090,None,select_applications,None,100090,None,None
+97,2022-12-20 14:49:39.298791,61065060bc55a8b70bc64d05,100091,None,select_applications,None,100091,None,None
+98,2022-12-20 14:49:40.278555,61065060bc55a8b70bc64d05,100091,None,select_applications,None,100091,None,None
+99,2022-12-20 14:49:40.281284,61065060bc55a8b70bc64d05,100091,None,select_applications,None,100091,None,None
+100,2022-12-20 14:49:40.282271,61065060bc55a8b70bc64d05,100091,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+101,2022-12-20 14:50:04.939359,61065060bc55a8b70bc64d05,100091,None,select_applications,None,100091,None,None
+102,2022-12-20 14:50:10.477988,61065060bc55a8b70bc64d05,100092,None,select_applications,None,100092,None,None
+103,2022-12-20 14:50:11.472368,61065060bc55a8b70bc64d05,100092,None,select_applications,None,100092,None,None
+104,2022-12-20 14:50:11.474236,61065060bc55a8b70bc64d05,100092,None,select_applications,None,100092,None,None
+105,2022-12-20 14:50:11.476800,61065060bc55a8b70bc64d05,100092,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+106,2022-12-20 14:50:12.707125,61065060bc55a8b70bc64d05,100092,None,select_applications,None,100092,None,None
+107,2022-12-20 14:50:16.430186,61065060bc55a8b70bc64d05,100106,None,select_applications,None,100106,None,None
+108,2022-12-20 14:50:18.240502,61065060bc55a8b70bc64d05,100106,None,select_applications,None,100106,None,None
+109,2022-12-20 14:50:18.242600,61065060bc55a8b70bc64d05,100106,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+110,2022-12-20 14:50:20.243706,61065060bc55a8b70bc64d05,100106,None,select_applications,None,100106,None,None
+111,2022-12-20 14:50:24.709318,61065060bc55a8b70bc64d05,100107,None,select_applications,None,100107,None,None
+112,2022-12-20 14:50:25.969410,61065060bc55a8b70bc64d05,100107,None,select_applications,None,100107,None,None
+113,2022-12-20 14:50:27.339434,61065060bc55a8b70bc64d05,100107,None,select_applications,None,100107,None,None
+114,2022-12-20 14:50:27.353312,61065060bc55a8b70bc64d05,100107,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+115,2022-12-20 14:50:28.804302,61065060bc55a8b70bc64d05,100107,None,select_applications,None,100107,None,None
+116,2022-12-20 14:50:32.565201,61065060bc55a8b70bc64d05,100109,None,select_applications,None,100109,None,None
+117,2022-12-20 14:50:33.862422,61065060bc55a8b70bc64d05,100109,None,select_applications,None,100109,None,None
+118,2022-12-20 14:50:33.864577,61065060bc55a8b70bc64d05,100109,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+119,2022-12-20 14:50:37.450422,61065060bc55a8b70bc64d05,100109,None,select_applications,None,100109,None,None
+120,2022-12-20 14:50:42.568507,61065060bc55a8b70bc64d05,100117,None,select_applications,None,100117,None,None
+121,2022-12-20 14:50:44.216524,61065060bc55a8b70bc64d05,100117,None,select_applications,None,100117,None,None
+122,2022-12-20 14:50:44.218149,61065060bc55a8b70bc64d05,100117,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+123,2022-12-20 14:50:45.337988,61065060bc55a8b70bc64d05,100117,None,select_applications,None,100117,None,None
+124,2022-12-20 14:50:49.498363,61065060bc55a8b70bc64d05,100128,None,select_applications,None,100128,None,None
+125,2022-12-20 14:50:50.835941,61065060bc55a8b70bc64d05,100128,None,select_applications,None,100128,None,None
+126,2022-12-20 14:50:50.837078,61065060bc55a8b70bc64d05,100128,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+127,2022-12-20 14:50:52.885987,61065060bc55a8b70bc64d05,100128,None,select_applications,None,100128,None,None
+128,2022-12-20 14:51:10.260062,61065060bc55a8b70bc64d05,100141,None,select_applications,None,100141,None,None
+129,2022-12-20 14:51:11.632460,61065060bc55a8b70bc64d05,100141,None,select_applications,None,100141,None,None
+130,2022-12-20 14:51:11.631493,61065060bc55a8b70bc64d05,100141,None,select_applications,None,100141,None,None
+131,2022-12-20 14:51:11.635969,61065060bc55a8b70bc64d05,100141,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+132,2022-12-20 14:51:13.147896,61065060bc55a8b70bc64d05,100141,None,select_applications,None,100141,None,None
+133,2022-12-20 14:51:23.715100,61065060bc55a8b70bc64d05,100150,None,select_applications,None,100150,None,None
+134,2022-12-20 14:51:27.214653,61065060bc55a8b70bc64d05,100150,None,select_applications,None,100150,None,None
+135,2022-12-20 14:51:27.212744,61065060bc55a8b70bc64d05,100150,None,select_applications,None,100150,None,None
+136,2022-12-20 14:51:27.216895,61065060bc55a8b70bc64d05,100150,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+137,2022-12-20 14:51:28.500641,61065060bc55a8b70bc64d05,100150,None,select_applications,None,100150,None,None
+138,2022-12-20 14:51:32.144375,61065060bc55a8b70bc64d05,100168,None,select_applications,None,100168,None,None
+139,2022-12-20 14:51:33.904306,61065060bc55a8b70bc64d05,100168,None,select_applications,None,100168,None,None
+140,2022-12-20 14:51:33.905763,61065060bc55a8b70bc64d05,100168,None,select_applications,None,100168,None,None
+141,2022-12-20 14:51:33.908465,61065060bc55a8b70bc64d05,100168,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+142,2022-12-20 14:51:35.353721,61065060bc55a8b70bc64d05,100168,None,select_applications,None,100168,None,None
+143,2022-12-20 14:51:42.560466,61065060bc55a8b70bc64d05,100169,None,select_applications,None,100169,None,None
+144,2022-12-20 14:51:44.568028,61065060bc55a8b70bc64d05,100169,None,select_applications,None,100169,None,None
+145,2022-12-20 14:51:44.567004,61065060bc55a8b70bc64d05,100169,None,select_applications,None,100169,None,None
+146,2022-12-20 14:51:44.573965,61065060bc55a8b70bc64d05,100169,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+147,2022-12-20 14:51:45.599831,61065060bc55a8b70bc64d05,100169,None,select_applications,None,100169,None,None
+148,2022-12-20 14:51:51.104426,61065060bc55a8b70bc64d05,100170,None,select_applications,None,100170,None,None
+149,2022-12-20 14:51:59.428142,61065060bc55a8b70bc64d05,100170,None,select_applications,None,100170,None,None
+150,2022-12-20 14:51:59.424709,61065060bc55a8b70bc64d05,100170,None,select_applications,None,100170,None,None
+151,2022-12-20 14:51:59.433486,61065060bc55a8b70bc64d05,100170,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+152,2022-12-20 14:52:21.959870,61065060bc55a8b70bc64d05,100170,None,select_applications,None,100170,None,None
+153,2022-12-20 14:52:27.997024,61065060bc55a8b70bc64d05,100171,None,select_applications,None,100171,None,None
+154,2022-12-20 14:52:29.314903,61065060bc55a8b70bc64d05,100171,None,select_applications,None,100171,None,None
+155,2022-12-20 14:52:29.312854,61065060bc55a8b70bc64d05,100171,None,select_applications,None,100171,None,None
+156,2022-12-20 14:52:29.322416,61065060bc55a8b70bc64d05,100171,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+157,2022-12-20 14:52:31.524331,61065060bc55a8b70bc64d05,100171,None,select_applications,None,100171,None,None
+158,2022-12-20 14:52:38.862095,61065060bc55a8b70bc64d05,100172,None,select_applications,None,100172,None,None
+159,2022-12-20 14:52:41.044611,61065060bc55a8b70bc64d05,100172,None,select_applications,None,100172,None,None
+160,2022-12-20 14:52:41.043552,61065060bc55a8b70bc64d05,100172,None,select_applications,None,100172,None,None
+161,2022-12-20 14:52:41.047812,61065060bc55a8b70bc64d05,100172,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+162,2022-12-20 14:52:42.439482,61065060bc55a8b70bc64d05,100172,None,select_applications,None,100172,None,None
+163,2022-12-20 14:52:46.882583,61065060bc55a8b70bc64d05,100184,None,select_applications,None,100184,None,None
+164,2022-12-20 14:53:02.538946,61065060bc55a8b70bc64d05,100184,None,select_applications,None,100184,None,None
+165,2022-12-20 14:53:02.540967,61065060bc55a8b70bc64d05,100184,None,select_applications,None,100184,None,None
+166,2022-12-20 14:53:02.545219,61065060bc55a8b70bc64d05,100184,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+167,2022-12-20 14:53:04.144151,61065060bc55a8b70bc64d05,100184,None,select_applications,None,100184,None,None
+168,2022-12-20 14:53:16.120692,61065060bc55a8b70bc64d05,100187,None,select_applications,None,100187,None,None
+169,2022-12-20 14:53:17.649983,61065060bc55a8b70bc64d05,100187,None,select_applications,None,100187,None,None
+170,2022-12-20 14:53:17.648985,61065060bc55a8b70bc64d05,100187,None,select_applications,None,100187,None,None
+171,2022-12-20 14:53:17.655270,61065060bc55a8b70bc64d05,100187,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+172,2022-12-20 14:53:39.679929,61065060bc55a8b70bc64d05,100187,None,select_applications,None,100187,None,None
+173,2022-12-20 14:53:48.557492,61065060bc55a8b70bc64d05,100212,None,select_applications,None,100212,None,None
+174,2022-12-20 14:53:50.500690,61065060bc55a8b70bc64d05,100212,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+175,2022-12-20 14:53:50.495879,61065060bc55a8b70bc64d05,100212,None,select_applications,None,100212,None,None
+176,2022-12-20 14:53:52.173736,61065060bc55a8b70bc64d05,100212,None,select_applications,None,100212,None,None
+177,2022-12-20 14:53:58.087170,61065060bc55a8b70bc64d05,100222,None,select_applications,None,100222,None,None
+178,2022-12-20 14:53:59.733239,61065060bc55a8b70bc64d05,100222,None,select_applications,None,100222,None,None
+179,2022-12-20 14:53:59.732583,61065060bc55a8b70bc64d05,100222,None,select_applications,None,100222,None,None
+180,2022-12-20 14:53:59.749018,61065060bc55a8b70bc64d05,100222,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+181,2022-12-20 14:54:00.742899,61065060bc55a8b70bc64d05,100222,None,select_applications,None,100222,None,None
+182,2022-12-20 14:54:07.413861,61065060bc55a8b70bc64d05,100241,None,select_applications,None,100241,None,None
+183,2022-12-20 14:54:36.912440,61065060bc55a8b70bc64d05,100241,None,select_applications,None,100241,None,None
+183,2022-12-20 14:54:36.907123,61065060bc55a8b70bc64d05,100241,None,select_applications,None,100241,None,None
+184,2022-12-20 14:54:36.918292,61065060bc55a8b70bc64d05,100241,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+185,2022-12-20 14:54:38.127306,61065060bc55a8b70bc64d05,100241,None,select_applications,None,100241,None,None
+186,2022-12-20 14:54:53.204432,61065060bc55a8b70bc64d05,100278,None,select_applications,None,100278,None,None
+187,2022-12-20 14:55:11.207949,61065060bc55a8b70bc64d05,100278,None,select_applications,None,100278,None,None
+188,2022-12-20 14:55:11.206055,61065060bc55a8b70bc64d05,100278,None,select_applications,None,100278,None,None
+189,2022-12-20 14:55:11.267022,61065060bc55a8b70bc64d05,100278,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+190,2022-12-20 14:55:12.125176,61065060bc55a8b70bc64d05,100278,None,select_applications,None,100278,None,None
+191,2022-12-20 14:55:28.726202,61065060bc55a8b70bc64d05,100306,None,select_applications,None,100306,None,None
+192,2022-12-20 14:55:35.102231,61065060bc55a8b70bc64d05,100306,None,select_applications,None,100306,None,None
+193,2022-12-20 14:55:36.046525,61065060bc55a8b70bc64d05,100306,None,select_applications,None,100306,None,None
+194,2022-12-20 14:55:36.506234,61065060bc55a8b70bc64d05,100306,None,select_applications,None,100306,None,None
+195,2022-12-20 14:55:36.510503,61065060bc55a8b70bc64d05,100306,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+196,2022-12-20 14:55:37.899856,61065060bc55a8b70bc64d05,100306,None,select_applications,None,100306,None,None
+197,2022-12-20 14:55:52.739634,61065060bc55a8b70bc64d05,100445,None,select_applications,None,100445,None,None
+198,2022-12-20 14:56:06.065687,61065060bc55a8b70bc64d05,100445,None,select_applications,None,100445,None,None
+199,2022-12-20 14:56:07.002727,61065060bc55a8b70bc64d05,100445,None,select_applications,None,100445,None,None
+200,2022-12-20 14:56:07.004341,61065060bc55a8b70bc64d05,100445,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+201,2022-12-20 14:56:08.303840,61065060bc55a8b70bc64d05,100445,None,select_applications,None,100445,None,None
+202,2022-12-20 14:56:20.633952,61065060bc55a8b70bc64d05,100422,None,select_applications,None,100422,None,None
+203,2022-12-20 14:56:26.432152,61065060bc55a8b70bc64d05,100422,None,select_applications,None,100422,None,None
+204,2022-12-20 14:56:26.486604,61065060bc55a8b70bc64d05,100422,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+205,2022-12-20 14:56:27.321800,61065060bc55a8b70bc64d05,100422,None,select_applications,None,100422,None,None
+206,2022-12-20 14:56:40.022368,61065060bc55a8b70bc64d05,0,None,apply_refine_search,Age,,,
+207,2022-12-20 14:56:46.543860,61065060bc55a8b70bc64d05,100001,None,similar_application,,105041,,
+208,2022-12-20 14:57:26.999884,61065060bc55a8b70bc64d05,100711,None,select_applications,None,100711,None,None
+209,2022-12-20 14:57:29.309116,61065060bc55a8b70bc64d05,100711,None,select_applications,None,100711,None,None
+210,2022-12-20 14:57:29.317020,61065060bc55a8b70bc64d05,100711,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+211,2022-12-20 14:57:30.322080,61065060bc55a8b70bc64d05,100711,None,select_applications,None,100711,None,None
+212,2022-12-20 14:57:46.241347,61065060bc55a8b70bc64d05,100256,None,select_applications,None,100256,None,None
+213,2022-12-20 14:57:55.256793,61065060bc55a8b70bc64d05,100256,None,select_applications,None,100256,None,None
+214,2022-12-20 14:57:55.257993,61065060bc55a8b70bc64d05,100256,None,select_applications,None,100256,None,None
+215,2022-12-20 14:57:55.312338,61065060bc55a8b70bc64d05,100256,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+216,2022-12-20 14:57:56.215239,61065060bc55a8b70bc64d05,100256,None,select_applications,None,100256,None,None
+217,2022-12-20 14:58:20.237726,61065060bc55a8b70bc64d05,100245,None,select_applications,None,100245,None,None
+218,2022-12-20 14:58:20.520398,61065060bc55a8b70bc64d05,100245,None,select_applications,None,100245,None,None
+219,2022-12-20 14:58:24.589529,61065060bc55a8b70bc64d05,100245,None,select_applications,None,100245,None,None
+220,2022-12-20 14:58:24.590473,61065060bc55a8b70bc64d05,100245,None,select_applications,None,100245,None,None
+221,2022-12-20 14:58:24.595179,61065060bc55a8b70bc64d05,100245,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+222,2022-12-20 14:58:26.411813,61065060bc55a8b70bc64d05,100245,None,select_applications,None,100245,None,None
+223,2022-12-20 14:58:37.743214,61065060bc55a8b70bc64d05,100384,None,select_applications,None,100384,None,None
+224,2022-12-20 14:58:41.206470,61065060bc55a8b70bc64d05,100384,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+224,2022-12-20 14:58:41.202708,61065060bc55a8b70bc64d05,100384,None,select_applications,None,100384,None,None
+225,2022-12-20 14:58:42.313466,61065060bc55a8b70bc64d05,100384,None,select_applications,None,100384,None,None
+226,2022-12-20 14:58:51.142073,61065060bc55a8b70bc64d05,100271,None,select_applications,None,100271,None,None
+227,2022-12-20 14:58:52.086569,61065060bc55a8b70bc64d05,100271,None,select_applications,None,100271,None,None
+228,2022-12-20 14:58:52.087275,61065060bc55a8b70bc64d05,100271,None,select_applications,None,100271,None,None
+229,2022-12-20 14:58:52.094964,61065060bc55a8b70bc64d05,100271,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+230,2022-12-20 14:58:53.400645,61065060bc55a8b70bc64d05,100271,None,select_applications,None,100271,None,None
+231,2022-12-20 14:59:00.788178,61065060bc55a8b70bc64d05,100280,None,select_applications,None,100280,None,None
+232,2022-12-20 14:59:03.764277,61065060bc55a8b70bc64d05,100280,None,select_applications,None,100280,None,None
+233,2022-12-20 14:59:03.767693,61065060bc55a8b70bc64d05,100280,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+234,2022-12-20 14:59:04.574655,61065060bc55a8b70bc64d05,100280,None,select_applications,None,100280,None,None
+235,2022-12-20 14:59:12.353070,61065060bc55a8b70bc64d05,100311,None,select_applications,None,100311,None,None
+236,2022-12-20 14:59:14.607738,61065060bc55a8b70bc64d05,100311,None,select_applications,None,100311,None,None
+237,2022-12-20 14:59:15.095479,61065060bc55a8b70bc64d05,100311,None,select_applications,None,100311,None,None
+238,2022-12-20 14:59:15.098775,61065060bc55a8b70bc64d05,100311,None,select_reject_application,fair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+239,2022-12-20 14:59:15.955723,61065060bc55a8b70bc64d05,100311,None,select_applications,None,100311,None,None
+240,2022-12-20 14:59:23.461002,61065060bc55a8b70bc64d05,100330,None,select_applications,None,100330,None,None
+241,2022-12-20 14:59:25.176403,61065060bc55a8b70bc64d05,100330,None,select_applications,None,100330,None,None
+242,2022-12-20 14:59:25.177889,61065060bc55a8b70bc64d05,100330,None,select_applications,None,100330,None,None
+243,2022-12-20 14:59:25.180555,61065060bc55a8b70bc64d05,100330,None,select_reject_application,unfair,"[{'attribute': '102092_Owns Car', 'value': '0.024'}, {'attribute': '102092_Highest education level', 'value': '0.046'}, {'attribute': '102092_Gender', 'value': '0'}]",0,0
+244,2022-12-20 14:59:26.406479,61065060bc55a8b70bc64d05,100330,None,select_applications,None,100330,None,None

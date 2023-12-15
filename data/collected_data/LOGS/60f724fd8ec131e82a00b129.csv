@@ -1,0 +1,292 @@
+serial number,timestamp,ID,App ID,Pattern,Function,Attribute,Value,Lower bound,Upper bound
+1,2022-12-20 14:43:51.172431,60f724fd8ec131e82a00b129,,,Login,,,,
+2,2022-12-20 14:47:30.503047,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '20', 'risk_rate': '30'}",None,None
+3,2022-12-20 14:47:45.714577,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '13', 'risk_rate': '31'}",None,None
+4,2022-12-20 14:48:20.294836,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '30', 'risk_rate': '47'}",None,None
+5,2022-12-20 14:48:29.758138,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '50'}",None,None
+6,2022-12-20 14:48:41.118441,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '100'}",None,None
+7,2022-12-20 14:48:50.966523,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '17', 'risk_rate': '94'}",None,None
+8,2022-12-20 14:49:00.885621,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '15', 'risk_rate': '93'}",None,None
+9,2022-12-20 14:49:06.671820,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '23', 'risk_rate': '87'}",None,None
+10,2022-12-20 14:49:11.448663,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '91'}",None,None
+11,2022-12-20 14:49:18.778404,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '23', 'risk_rate': '91'}",None,None
+12,2022-12-20 14:50:07.770643,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '24', 'risk_rate': '92'}",None,None
+13,2022-12-20 14:50:14.541411,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '91'}",None,None
+14,2022-12-20 14:50:27.710660,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '13', 'risk_rate': '85'}",None,None
+15,2022-12-20 14:50:34.676827,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '47', 'risk_rate': '83'}",None,None
+16,2022-12-20 14:50:40.990117,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '47', 'risk_rate': '83'}",None,None
+17,2022-12-20 14:50:46.372659,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '37', 'risk_rate': '81'}",None,None
+18,2022-12-20 14:50:53.626377,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '79'}",None,None
+19,2022-12-20 14:51:00.691547,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '15', 'risk_rate': '93'}",None,None
+20,2022-12-20 14:51:04.603025,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '12', 'risk_rate': '92'}",None,None
+21,2022-12-20 14:51:09.662837,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '33', 'risk_rate': '82'}",None,None
+22,2022-12-20 14:51:13.669919,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '48', 'risk_rate': '83'}",None,None
+23,2022-12-20 14:51:19.671136,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '47', 'risk_rate': '83'}",None,None
+24,2022-12-20 14:51:23.923023,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '30', 'risk_rate': '83'}",None,None
+25,2022-12-20 14:51:28.992108,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '139', 'risk_rate': '84'}",None,None
+26,2022-12-20 14:51:32.534192,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '88', 'risk_rate': '84'}",None,None
+27,2022-12-20 14:51:35.213057,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '70', 'risk_rate': '84'}",None,None
+28,2022-12-20 14:51:39.312092,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '91', 'risk_rate': '85'}",None,None
+29,2022-12-20 14:51:42.354281,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '23', 'risk_rate': '87'}",None,None
+30,2022-12-20 14:51:46.473095,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '91'}",None,None
+31,2022-12-20 14:51:49.290111,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '23', 'risk_rate': '91'}",None,None
+32,2022-12-20 14:51:51.992549,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '24', 'risk_rate': '92'}",None,None
+33,2022-12-20 14:52:02.951383,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '145', 'risk_rate': '72'}",None,None
+34,2022-12-20 14:52:05.973207,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '77', 'risk_rate': '73'}",None,None
+35,2022-12-20 14:52:10.957834,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '73'}",None,None
+36,2022-12-20 14:52:13.502920,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '16', 'risk_rate': '75'}",None,None
+37,2022-12-20 14:52:22.151360,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '73'}",None,None
+38,2022-12-20 14:52:24.991632,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '16', 'risk_rate': '75'}",None,None
+39,2022-12-20 14:52:29.030931,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '16', 'risk_rate': '75'}",None,None
+40,2022-12-20 14:52:34.391082,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '37', 'risk_rate': '81'}",None,None
+41,2022-12-20 14:52:38.682673,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '20', 'risk_rate': '80'}",None,None
+42,2022-12-20 14:52:42.731624,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '79'}",None,None
+43,2022-12-20 14:52:50.971297,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '79'}",None,None
+44,2022-12-20 14:52:55.274363,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '23', 'risk_rate': '78'}",None,None
+45,2022-12-20 14:52:57.899797,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '26', 'risk_rate': '77'}",None,None
+46,2022-12-20 14:53:02.233138,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '26', 'risk_rate': '77'}",None,None
+47,2022-12-20 14:53:08.464923,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '25', 'risk_rate': '76'}",None,None
+48,2022-12-20 14:53:12.298944,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '17', 'risk_rate': '76'}",None,None
+49,2022-12-20 14:53:16.747299,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '20', 'risk_rate': '75'}",None,None
+50,2022-12-20 14:53:20.854628,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '12', 'risk_rate': '75'}",None,None
+51,2022-12-20 14:53:25.378304,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '73'}",None,None
+52,2022-12-20 14:53:51.079605,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '12', 'risk_rate': '50'}",None,None
+53,2022-12-20 14:53:57.077466,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '50'}",None,None
+54,2022-12-20 14:54:01.223877,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '50'}",None,None
+55,2022-12-20 14:54:05.325602,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '50'}",None,None
+56,2022-12-20 14:54:08.891913,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '142', 'risk_rate': '48'}",None,None
+57,2022-12-20 14:54:13.683724,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '30', 'risk_rate': '47'}",None,None
+58,2022-12-20 14:54:16.368417,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '90', 'risk_rate': '47'}",None,None
+59,2022-12-20 14:54:19.289643,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '19', 'risk_rate': '47'}",None,None
+60,2022-12-20 14:54:21.974912,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '91', 'risk_rate': '46'}",None,None
+61,2022-12-20 14:54:27.217545,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '45'}",None,None
+62,2022-12-20 14:54:31.970756,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '36'}",None,None
+63,2022-12-20 14:54:36.159336,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '36'}",None,None
+64,2022-12-20 14:54:40.819694,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '36'}",None,None
+65,2022-12-20 14:54:44.967874,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '36'}",None,None
+66,2022-12-20 14:54:48.972847,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '36'}",None,None
+67,2022-12-20 14:54:51.634743,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '13', 'risk_rate': '31'}",None,None
+68,2022-12-20 14:54:54.856441,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '20', 'risk_rate': '30'}",None,None
+69,2022-12-20 14:54:57.600284,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '50'}",None,None
+70,2022-12-20 14:55:01.951099,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '50'}",None,None
+71,2022-12-20 14:55:05.530176,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '12', 'risk_rate': '50'}",None,None
+72,2022-12-20 14:55:12.876414,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '51', 'risk_rate': '51'}",None,None
+73,2022-12-20 14:55:15.835077,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '50', 'risk_rate': '52'}",None,None
+74,2022-12-20 14:55:19.669724,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '15', 'risk_rate': '53'}",None,None
+75,2022-12-20 14:55:32.542091,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '19', 'risk_rate': '53'}",None,None
+76,2022-12-20 14:55:40.469993,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '15', 'risk_rate': '53'}",None,None
+77,2022-12-20 14:55:44.254301,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '55'}",None,None
+78,2022-12-20 14:55:44.422479,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '12', 'risk_rate': '58'}",None,None
+79,2022-12-20 14:55:45.657851,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '12', 'risk_rate': '58'}",None,None
+80,2022-12-20 14:55:45.676675,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '26', 'risk_rate': '58'}",None,None
+81,2022-12-20 14:55:46.641213,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '12', 'risk_rate': '58'}",None,None
+82,2022-12-20 14:55:49.728025,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '26', 'risk_rate': '58'}",None,None
+83,2022-12-20 14:55:54.182911,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '57'}",None,None
+84,2022-12-20 14:55:57.713387,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '57'}",None,None
+85,2022-12-20 14:56:01.399079,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '16', 'risk_rate': '56'}",None,None
+86,2022-12-20 14:56:04.181179,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '18', 'risk_rate': '56'}",None,None
+87,2022-12-20 14:56:08.717781,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '16', 'risk_rate': '56'}",None,None
+88,2022-12-20 14:56:12.427685,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '55'}",None,None
+89,2022-12-20 14:56:16.281836,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '22', 'risk_rate': '55'}",None,None
+90,2022-12-20 14:56:20.543210,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '55'}",None,None
+91,2022-12-20 14:56:24.646583,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '55'}",None,None
+92,2022-12-20 14:56:28.364576,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '15', 'risk_rate': '53'}",None,None
+93,2022-12-20 14:56:34.706945,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '24', 'risk_rate': '58'}",None,None
+94,2022-12-20 14:56:38.218805,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '24', 'risk_rate': '58'}",None,None
+95,2022-12-20 14:56:41.518347,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '29', 'risk_rate': '59'}",None,None
+96,2022-12-20 14:56:44.761760,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '17', 'risk_rate': '59'}",None,None
+97,2022-12-20 14:56:47.567617,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '20', 'risk_rate': '60'}",None,None
+98,2022-12-20 14:56:49.989410,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '42', 'risk_rate': '60'}",None,None
+99,2022-12-20 14:56:53.144616,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '20', 'risk_rate': '60'}",None,None
+100,2022-12-20 14:56:57.012855,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '36', 'risk_rate': '61'}",None,None
+101,2022-12-20 14:56:59.678070,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '45', 'risk_rate': '62'}",None,None
+102,2022-12-20 14:57:02.619083,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '45', 'risk_rate': '62'}",None,None
+103,2022-12-20 14:57:07.782884,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '13', 'risk_rate': '62'}",None,None
+104,2022-12-20 14:57:11.437161,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '13', 'risk_rate': '62'}",None,None
+105,2022-12-20 14:57:15.752719,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '352', 'risk_rate': '62'}",None,None
+106,2022-12-20 14:57:16.519472,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '22', 'risk_rate': '64'}",None,None
+107,2022-12-20 14:57:20.297304,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '64'}",None,None
+108,2022-12-20 14:57:26.070265,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '64'}",None,None
+109,2022-12-20 14:57:43.228737,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '64'}",None,None
+110,2022-12-20 14:57:44.337159,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '17', 'risk_rate': '65'}",None,None
+111,2022-12-20 14:57:54.177288,60f724fd8ec131e82a00b129,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '17', 'risk_rate': '65'}",None,None
+112,2022-12-20 14:58:16.254180,60f724fd8ec131e82a00b129,0,None,apply_refine_search,Age,,,
+113,2022-12-20 14:58:22.506727,60f724fd8ec131e82a00b129,106647,None,select_applications,None,106647,None,None
+114,2022-12-20 14:58:23.701107,60f724fd8ec131e82a00b129,106647,None,select_applications,None,106647,None,None
+115,2022-12-20 14:58:25.669144,60f724fd8ec131e82a00b129,106647,None,select_applications,None,106647,None,None
+116,2022-12-20 14:58:29.084687,60f724fd8ec131e82a00b129,106647,None,select_applications,None,106647,None,None
+117,2022-12-20 14:58:31.549610,60f724fd8ec131e82a00b129,106647,None,select_applications,None,106647,None,None
+118,2022-12-20 14:58:42.092795,60f724fd8ec131e82a00b129,106647,None,select_applications,None,106647,None,None
+119,2022-12-20 14:58:46.411599,60f724fd8ec131e82a00b129,106647,None,select_applications,None,106647,None,None
+120,2022-12-20 14:58:46.668553,60f724fd8ec131e82a00b129,106647,None,select_reject_application,unfair,[],0,0
+121,2022-12-20 14:58:49.573830,60f724fd8ec131e82a00b129,106647,None,select_applications,None,106647,None,None
+122,2022-12-20 14:58:55.734713,60f724fd8ec131e82a00b129,106401,None,select_applications,None,106401,None,None
+123,2022-12-20 14:59:00.233006,60f724fd8ec131e82a00b129,106401,None,select_applications,None,106401,None,None
+124,2022-12-20 14:59:12.283418,60f724fd8ec131e82a00b129,106401,None,select_reject_application,fair,[],0,0
+125,2022-12-20 14:59:17.037612,60f724fd8ec131e82a00b129,106401,None,select_applications,None,106401,None,None
+126,2022-12-20 14:59:17.838320,60f724fd8ec131e82a00b129,106488,None,select_applications,None,106488,None,None
+127,2022-12-20 14:59:40.532045,60f724fd8ec131e82a00b129,106488,None,select_applications,None,106488,None,None
+128,2022-12-20 14:59:55.013556,60f724fd8ec131e82a00b129,106488,None,select_applications,None,106488,None,None
+129,2022-12-20 15:00:05.062588,60f724fd8ec131e82a00b129,106488,None,select_applications,None,106488,None,None
+130,2022-12-20 15:00:08.455431,60f724fd8ec131e82a00b129,106488,None,select_applications,None,106488,None,None
+131,2022-12-20 15:00:14.082236,60f724fd8ec131e82a00b129,106488,None,select_applications,None,106488,None,None
+132,2022-12-20 15:00:14.545458,60f724fd8ec131e82a00b129,106488,None,select_applications,None,106488,None,None
+133,2022-12-20 15:00:22.000786,60f724fd8ec131e82a00b129,106488,None,select_reject_application,fair,[],0,0
+134,2022-12-20 15:00:28.333779,60f724fd8ec131e82a00b129,106488,None,select_applications,None,106488,None,None
+135,2022-12-20 15:00:37.465613,60f724fd8ec131e82a00b129,101367,None,select_applications,None,101367,None,None
+136,2022-12-20 15:02:07.146801,60f724fd8ec131e82a00b129,103046,None,select_applications,None,103046,None,None
+137,2022-12-20 15:02:08.485067,60f724fd8ec131e82a00b129,103046,None,select_applications,None,103046,None,None
+138,2022-12-20 15:02:08.492213,60f724fd8ec131e82a00b129,103046,None,select_applications,None,103046,None,None
+139,2022-12-20 15:02:11.447568,60f724fd8ec131e82a00b129,103046,None,select_reject_application,fair,[],0,0
+140,2022-12-20 15:02:12.113525,60f724fd8ec131e82a00b129,103046,None,select_applications,None,103046,None,None
+141,2022-12-20 15:02:12.938866,60f724fd8ec131e82a00b129,104318,None,select_applications,None,104318,None,None
+142,2022-12-20 15:02:19.096468,60f724fd8ec131e82a00b129,104318,None,select_applications,None,104318,None,None
+143,2022-12-20 15:02:19.149310,60f724fd8ec131e82a00b129,104318,None,select_applications,None,104318,None,None
+144,2022-12-20 15:02:19.578910,60f724fd8ec131e82a00b129,104318,None,select_reject_application,fair,[],0,0
+145,2022-12-20 15:02:22.251261,60f724fd8ec131e82a00b129,104318,None,select_applications,None,104318,None,None
+146,2022-12-20 15:02:22.595873,60f724fd8ec131e82a00b129,104620,None,select_applications,None,104620,None,None
+147,2022-12-20 15:02:23.397919,60f724fd8ec131e82a00b129,104620,None,select_applications,None,104620,None,None
+148,2022-12-20 15:02:23.853421,60f724fd8ec131e82a00b129,104620,None,select_reject_application,fair,[],0,0
+149,2022-12-20 15:02:25.510523,60f724fd8ec131e82a00b129,104620,None,select_applications,None,104620,None,None
+150,2022-12-20 15:02:26.740308,60f724fd8ec131e82a00b129,104620,None,select_applications,None,104620,None,None
+151,2022-12-20 15:02:32.285575,60f724fd8ec131e82a00b129,105357,None,select_applications,None,105357,None,None
+152,2022-12-20 15:02:33.922558,60f724fd8ec131e82a00b129,105357,None,select_applications,None,105357,None,None
+153,2022-12-20 15:02:33.937626,60f724fd8ec131e82a00b129,105357,None,select_applications,None,105357,None,None
+154,2022-12-20 15:02:33.960286,60f724fd8ec131e82a00b129,105357,None,select_reject_application,fair,[],0,0
+155,2022-12-20 15:02:35.613228,60f724fd8ec131e82a00b129,105357,None,select_applications,None,105357,None,None
+156,2022-12-20 15:02:39.891047,60f724fd8ec131e82a00b129,102193,None,select_applications,None,102193,None,None
+157,2022-12-20 15:02:44.159718,60f724fd8ec131e82a00b129,102193,None,select_applications,None,102193,None,None
+158,2022-12-20 15:02:44.175572,60f724fd8ec131e82a00b129,102193,None,select_reject_application,unfair,[],0,0
+159,2022-12-20 15:02:45.695593,60f724fd8ec131e82a00b129,102193,None,select_applications,None,102193,None,None
+160,2022-12-20 15:02:47.907775,60f724fd8ec131e82a00b129,100330,None,select_applications,None,100330,None,None
+161,2022-12-20 15:02:50.028800,60f724fd8ec131e82a00b129,100330,None,select_applications,None,100330,None,None
+162,2022-12-20 15:02:50.051047,60f724fd8ec131e82a00b129,100330,None,select_reject_application,unfair,[],0,0
+163,2022-12-20 15:02:51.663806,60f724fd8ec131e82a00b129,100330,None,select_applications,None,100330,None,None
+164,2022-12-20 15:02:51.939453,60f724fd8ec131e82a00b129,100330,None,select_applications,None,100330,None,None
+165,2022-12-20 15:02:58.366752,60f724fd8ec131e82a00b129,103515,None,select_applications,None,103515,None,None
+166,2022-12-20 15:02:58.763775,60f724fd8ec131e82a00b129,103515,None,select_applications,None,103515,None,None
+167,2022-12-20 15:03:00.250284,60f724fd8ec131e82a00b129,103515,None,select_applications,None,103515,None,None
+168,2022-12-20 15:03:09.854340,60f724fd8ec131e82a00b129,103515,None,select_applications,None,103515,None,None
+169,2022-12-20 15:03:09.870255,60f724fd8ec131e82a00b129,103515,None,select_applications,None,103515,None,None
+170,2022-12-20 15:03:09.892406,60f724fd8ec131e82a00b129,103515,None,select_reject_application,fair,[],0,0
+171,2022-12-20 15:03:11.520940,60f724fd8ec131e82a00b129,103515,None,select_applications,None,103515,None,None
+172,2022-12-20 15:03:24.666655,60f724fd8ec131e82a00b129,106354,None,select_applications,None,106354,None,None
+173,2022-12-20 15:03:26.070079,60f724fd8ec131e82a00b129,106354,None,select_applications,None,106354,None,None
+174,2022-12-20 15:03:26.081272,60f724fd8ec131e82a00b129,106354,None,select_applications,None,106354,None,None
+175,2022-12-20 15:03:26.079706,60f724fd8ec131e82a00b129,106354,None,select_reject_application,fair,[],0,0
+176,2022-12-20 15:03:27.577898,60f724fd8ec131e82a00b129,106354,None,select_applications,None,106354,None,None
+177,2022-12-20 15:03:29.043540,60f724fd8ec131e82a00b129,105672,None,select_applications,None,105672,None,None
+178,2022-12-20 15:03:30.502693,60f724fd8ec131e82a00b129,105672,None,select_applications,None,105672,None,None
+179,2022-12-20 15:03:30.538986,60f724fd8ec131e82a00b129,105672,None,select_reject_application,fair,[],0,0
+180,2022-12-20 15:03:31.924669,60f724fd8ec131e82a00b129,105672,None,select_applications,None,105672,None,None
+181,2022-12-20 15:03:32.776936,60f724fd8ec131e82a00b129,105672,None,select_applications,None,105672,None,None
+182,2022-12-20 15:03:37.487421,60f724fd8ec131e82a00b129,104320,None,select_applications,None,104320,None,None
+183,2022-12-20 15:03:39.019750,60f724fd8ec131e82a00b129,104320,None,select_applications,None,104320,None,None
+184,2022-12-20 15:03:39.692200,60f724fd8ec131e82a00b129,104320,None,select_applications,None,104320,None,None
+185,2022-12-20 15:03:39.703826,60f724fd8ec131e82a00b129,104320,None,select_reject_application,fair,[],0,0
+186,2022-12-20 15:03:41.219272,60f724fd8ec131e82a00b129,104320,None,select_applications,None,104320,None,None
+187,2022-12-20 15:03:43.851125,60f724fd8ec131e82a00b129,101225,None,select_applications,None,101225,None,None
+188,2022-12-20 15:03:45.408236,60f724fd8ec131e82a00b129,101225,None,select_applications,None,101225,None,None
+189,2022-12-20 15:03:45.413192,60f724fd8ec131e82a00b129,101225,None,select_applications,None,101225,None,None
+190,2022-12-20 15:03:45.449448,60f724fd8ec131e82a00b129,101225,None,select_reject_application,fair,[],0,0
+191,2022-12-20 15:03:45.757598,60f724fd8ec131e82a00b129,101225,None,select_applications,None,101225,None,None
+192,2022-12-20 15:03:45.791776,60f724fd8ec131e82a00b129,101225,None,select_applications,None,101225,None,None
+193,2022-12-20 15:03:47.319510,60f724fd8ec131e82a00b129,101225,None,select_applications,None,101225,None,None
+194,2022-12-20 15:03:53.831160,60f724fd8ec131e82a00b129,102450,None,select_applications,None,102450,None,None
+195,2022-12-20 15:03:55.236935,60f724fd8ec131e82a00b129,102450,None,select_applications,None,102450,None,None
+196,2022-12-20 15:03:55.263749,60f724fd8ec131e82a00b129,102450,None,select_applications,None,102450,None,None
+197,2022-12-20 15:03:55.271957,60f724fd8ec131e82a00b129,102450,None,select_reject_application,unfair,[],0,0
+198,2022-12-20 15:03:56.599414,60f724fd8ec131e82a00b129,102450,None,select_applications,None,102450,None,None
+199,2022-12-20 15:03:57.877253,60f724fd8ec131e82a00b129,103420,None,select_applications,None,103420,None,None
+200,2022-12-20 15:03:59.401334,60f724fd8ec131e82a00b129,103420,None,select_applications,None,103420,None,None
+201,2022-12-20 15:03:59.417131,60f724fd8ec131e82a00b129,103420,None,select_applications,None,103420,None,None
+202,2022-12-20 15:03:59.442186,60f724fd8ec131e82a00b129,103420,None,select_reject_application,unfair,[],0,0
+203,2022-12-20 15:04:00.916750,60f724fd8ec131e82a00b129,103420,None,select_applications,None,103420,None,None
+204,2022-12-20 15:04:05.389005,60f724fd8ec131e82a00b129,105528,None,select_applications,None,105528,None,None
+205,2022-12-20 15:04:07.200658,60f724fd8ec131e82a00b129,105528,None,select_applications,None,105528,None,None
+206,2022-12-20 15:04:07.959248,60f724fd8ec131e82a00b129,105528,None,select_applications,None,105528,None,None
+207,2022-12-20 15:04:08.137377,60f724fd8ec131e82a00b129,105528,None,select_reject_application,unfair,[],0,0
+208,2022-12-20 15:04:10.184764,60f724fd8ec131e82a00b129,105528,None,select_applications,None,105528,None,None
+209,2022-12-20 15:04:11.190218,60f724fd8ec131e82a00b129,101008,None,select_applications,None,101008,None,None
+210,2022-12-20 15:04:12.780059,60f724fd8ec131e82a00b129,101008,None,select_applications,None,101008,None,None
+211,2022-12-20 15:04:12.794361,60f724fd8ec131e82a00b129,101008,None,select_reject_application,unfair,[],0,0
+212,2022-12-20 15:04:14.393400,60f724fd8ec131e82a00b129,101008,None,select_applications,None,101008,None,None
+213,2022-12-20 15:04:19.091965,60f724fd8ec131e82a00b129,105807,None,select_applications,None,105807,None,None
+214,2022-12-20 15:04:20.518653,60f724fd8ec131e82a00b129,105807,None,select_applications,None,105807,None,None
+215,2022-12-20 15:04:20.533003,60f724fd8ec131e82a00b129,105807,None,select_applications,None,105807,None,None
+216,2022-12-20 15:04:20.562513,60f724fd8ec131e82a00b129,105807,None,select_reject_application,unfair,[],0,0
+217,2022-12-20 15:04:22.229382,60f724fd8ec131e82a00b129,105807,None,select_applications,None,105807,None,None
+218,2022-12-20 15:04:23.964886,60f724fd8ec131e82a00b129,100740,None,select_applications,None,100740,None,None
+219,2022-12-20 15:04:25.337719,60f724fd8ec131e82a00b129,100740,None,select_applications,None,100740,None,None
+220,2022-12-20 15:04:25.362354,60f724fd8ec131e82a00b129,100740,None,select_reject_application,fair,[],0,0
+221,2022-12-20 15:04:26.842419,60f724fd8ec131e82a00b129,100740,None,select_applications,None,100740,None,None
+222,2022-12-20 15:04:31.780621,60f724fd8ec131e82a00b129,101427,None,select_applications,None,101427,None,None
+223,2022-12-20 15:04:33.428998,60f724fd8ec131e82a00b129,101427,None,select_applications,None,101427,None,None
+224,2022-12-20 15:04:33.431631,60f724fd8ec131e82a00b129,101427,None,select_applications,None,101427,None,None
+225,2022-12-20 15:04:33.457308,60f724fd8ec131e82a00b129,101427,None,select_reject_application,fair,[],0,0
+226,2022-12-20 15:04:35.013963,60f724fd8ec131e82a00b129,101427,None,select_applications,None,101427,None,None
+227,2022-12-20 15:04:38.092045,60f724fd8ec131e82a00b129,106314,None,select_applications,None,106314,None,None
+228,2022-12-20 15:04:39.628219,60f724fd8ec131e82a00b129,106314,None,select_applications,None,106314,None,None
+229,2022-12-20 15:04:39.632976,60f724fd8ec131e82a00b129,106314,None,select_reject_application,unfair,[],0,0
+230,2022-12-20 15:04:41.187426,60f724fd8ec131e82a00b129,106314,None,select_applications,None,106314,None,None
+231,2022-12-20 15:04:45.667897,60f724fd8ec131e82a00b129,101697,None,select_applications,None,101697,None,None
+232,2022-12-20 15:04:48.147463,60f724fd8ec131e82a00b129,101697,None,select_applications,None,101697,None,None
+233,2022-12-20 15:04:48.159272,60f724fd8ec131e82a00b129,101697,None,select_reject_application,unfair,[],0,0
+234,2022-12-20 15:04:49.732615,60f724fd8ec131e82a00b129,101697,None,select_applications,None,101697,None,None
+235,2022-12-20 15:04:51.086976,60f724fd8ec131e82a00b129,101976,None,select_applications,None,101976,None,None
+236,2022-12-20 15:04:52.743074,60f724fd8ec131e82a00b129,101976,None,select_applications,None,101976,None,None
+237,2022-12-20 15:04:52.767955,60f724fd8ec131e82a00b129,101976,None,select_reject_application,unfair,[],0,0
+238,2022-12-20 15:04:54.677937,60f724fd8ec131e82a00b129,101976,None,select_applications,None,101976,None,None
+239,2022-12-20 15:04:59.597809,60f724fd8ec131e82a00b129,100982,None,select_applications,None,100982,None,None
+240,2022-12-20 15:05:01.245263,60f724fd8ec131e82a00b129,100982,None,select_applications,None,100982,None,None
+241,2022-12-20 15:05:01.262904,60f724fd8ec131e82a00b129,100982,None,select_reject_application,fair,[],0,0
+242,2022-12-20 15:05:02.757931,60f724fd8ec131e82a00b129,100982,None,select_applications,None,100982,None,None
+243,2022-12-20 15:05:03.973532,60f724fd8ec131e82a00b129,102933,None,select_applications,None,102933,None,None
+244,2022-12-20 15:05:05.415287,60f724fd8ec131e82a00b129,102933,None,select_applications,None,102933,None,None
+245,2022-12-20 15:05:05.450376,60f724fd8ec131e82a00b129,102933,None,select_reject_application,fair,[],0,0
+246,2022-12-20 15:05:06.710269,60f724fd8ec131e82a00b129,102933,None,select_applications,None,102933,None,None
+247,2022-12-20 15:05:11.795345,60f724fd8ec131e82a00b129,103025,None,select_applications,None,103025,None,None
+248,2022-12-20 15:05:13.235196,60f724fd8ec131e82a00b129,103025,None,select_applications,None,103025,None,None
+249,2022-12-20 15:05:13.256663,60f724fd8ec131e82a00b129,103025,None,select_applications,None,103025,None,None
+250,2022-12-20 15:05:13.283650,60f724fd8ec131e82a00b129,103025,None,select_reject_application,unfair,[],0,0
+251,2022-12-20 15:05:14.845802,60f724fd8ec131e82a00b129,103025,None,select_applications,None,103025,None,None
+252,2022-12-20 15:05:16.409240,60f724fd8ec131e82a00b129,100568,None,select_applications,None,100568,None,None
+253,2022-12-20 15:05:17.767601,60f724fd8ec131e82a00b129,100568,None,select_applications,None,100568,None,None
+254,2022-12-20 15:05:17.773742,60f724fd8ec131e82a00b129,100568,None,select_applications,None,100568,None,None
+255,2022-12-20 15:05:17.795000,60f724fd8ec131e82a00b129,100568,None,select_reject_application,fair,[],0,0
+256,2022-12-20 15:05:19.255363,60f724fd8ec131e82a00b129,100568,None,select_applications,None,100568,None,None
+257,2022-12-20 15:05:23.979534,60f724fd8ec131e82a00b129,104230,None,select_applications,None,104230,None,None
+258,2022-12-20 15:05:25.802027,60f724fd8ec131e82a00b129,104230,None,select_applications,None,104230,None,None
+259,2022-12-20 15:05:25.812766,60f724fd8ec131e82a00b129,104230,None,select_applications,None,104230,None,None
+260,2022-12-20 15:05:25.826861,60f724fd8ec131e82a00b129,104230,None,select_reject_application,unfair,[],0,0
+261,2022-12-20 15:05:27.174477,60f724fd8ec131e82a00b129,104230,None,select_applications,None,104230,None,None
+262,2022-12-20 15:05:28.574420,60f724fd8ec131e82a00b129,105074,None,select_applications,None,105074,None,None
+263,2022-12-20 15:05:30.131311,60f724fd8ec131e82a00b129,105074,None,select_applications,None,105074,None,None
+264,2022-12-20 15:05:30.140571,60f724fd8ec131e82a00b129,105074,None,select_reject_application,fair,[],0,0
+265,2022-12-20 15:05:30.137193,60f724fd8ec131e82a00b129,105074,None,select_applications,None,105074,None,None
+266,2022-12-20 15:05:31.817640,60f724fd8ec131e82a00b129,105074,None,select_applications,None,105074,None,None
+267,2022-12-20 15:05:35.851935,60f724fd8ec131e82a00b129,106199,None,select_applications,None,106199,None,None
+268,2022-12-20 15:05:37.163538,60f724fd8ec131e82a00b129,106199,None,select_applications,None,106199,None,None
+269,2022-12-20 15:05:37.175187,60f724fd8ec131e82a00b129,106199,None,select_applications,None,106199,None,None
+270,2022-12-20 15:05:37.189716,60f724fd8ec131e82a00b129,106199,None,select_reject_application,fair,[],0,0
+271,2022-12-20 15:05:38.699775,60f724fd8ec131e82a00b129,106199,None,select_applications,None,106199,None,None
+272,2022-12-20 15:05:40.079578,60f724fd8ec131e82a00b129,105617,None,select_applications,None,105617,None,None
+273,2022-12-20 15:05:41.459271,60f724fd8ec131e82a00b129,105617,None,select_applications,None,105617,None,None
+274,2022-12-20 15:05:41.465673,60f724fd8ec131e82a00b129,105617,None,select_applications,None,105617,None,None
+275,2022-12-20 15:05:41.498117,60f724fd8ec131e82a00b129,105617,None,select_reject_application,unfair,[],0,0
+276,2022-12-20 15:05:42.827605,60f724fd8ec131e82a00b129,105617,None,select_applications,None,105617,None,None
+277,2022-12-20 15:05:46.624528,60f724fd8ec131e82a00b129,104035,None,select_applications,None,104035,None,None
+278,2022-12-20 15:05:48.080624,60f724fd8ec131e82a00b129,104035,None,select_applications,None,104035,None,None
+279,2022-12-20 15:05:48.088433,60f724fd8ec131e82a00b129,104035,None,select_applications,None,104035,None,None
+280,2022-12-20 15:05:48.107658,60f724fd8ec131e82a00b129,104035,None,select_reject_application,fair,[],0,0
+281,2022-12-20 15:05:49.665672,60f724fd8ec131e82a00b129,104035,None,select_applications,None,104035,None,None
+282,2022-12-20 15:05:50.956040,60f724fd8ec131e82a00b129,106428,None,select_applications,None,106428,None,None
+283,2022-12-20 15:05:52.147742,60f724fd8ec131e82a00b129,106428,None,select_applications,None,106428,None,None
+284,2022-12-20 15:05:52.159766,60f724fd8ec131e82a00b129,106428,None,select_applications,None,106428,None,None
+285,2022-12-20 15:05:52.368379,60f724fd8ec131e82a00b129,106428,None,select_reject_application,fair,[],0,0
+286,2022-12-20 15:05:53.568382,60f724fd8ec131e82a00b129,106428,None,select_applications,None,106428,None,None
+287,2022-12-20 15:05:55.162440,60f724fd8ec131e82a00b129,102051,None,select_applications,None,102051,None,None
+288,2022-12-20 15:05:56.709802,60f724fd8ec131e82a00b129,102051,None,select_applications,None,102051,None,None
+289,2022-12-20 15:05:56.713428,60f724fd8ec131e82a00b129,102051,None,select_applications,None,102051,None,None
+290,2022-12-20 15:05:56.737891,60f724fd8ec131e82a00b129,102051,None,select_reject_application,fair,[],0,0
+291,2022-12-20 15:05:58.094892,60f724fd8ec131e82a00b129,102051,None,select_applications,None,102051,None,None

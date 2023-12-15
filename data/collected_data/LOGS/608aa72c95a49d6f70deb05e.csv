@@ -1,0 +1,181 @@
+serial number,timestamp,ID,App ID,Pattern,Function,Attribute,Value,Lower bound,Upper bound
+1,2022-12-20 14:37:53.487119,608aa72c95a49d6f70deb05e,,,Login,,,,
+2,2022-12-20 14:39:38.350337,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+3,2022-12-20 14:39:49.823525,608aa72c95a49d6f70deb05e,0,None,Clicked-on-Causal-Graph-Node,Node Value,Mobile reachable,None,None
+4,2022-12-20 14:40:18.936184,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+5,2022-12-20 14:40:49.002714,608aa72c95a49d6f70deb05e,106401,None,select_applications,None,106401,None,None
+6,2022-12-20 14:40:50.379708,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+7,2022-12-20 14:40:53.185538,608aa72c95a49d6f70deb05e,0,None,apply_refine_search,Owns Car,,,
+8,2022-12-20 14:41:01.445307,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+9,2022-12-20 14:41:07.702736,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+10,2022-12-20 14:41:07.841109,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+11,2022-12-20 14:41:11.101234,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+12,2022-12-20 14:41:21.507104,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+13,2022-12-20 14:41:27.839328,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+14,2022-12-20 14:41:32.180738,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+15,2022-12-20 14:41:34.913657,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+16,2022-12-20 14:41:40.515866,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+17,2022-12-20 14:41:47.442292,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+18,2022-12-20 14:41:51.964225,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+19,2022-12-20 14:41:52.824387,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+20,2022-12-20 14:42:08.496831,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+21,2022-12-20 14:42:11.027924,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+22,2022-12-20 14:42:15.912733,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+23,2022-12-20 14:42:21.184973,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+24,2022-12-20 14:42:24.016262,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+25,2022-12-20 14:42:39.831544,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+26,2022-12-20 14:42:42.807464,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+27,2022-12-20 14:42:44.831537,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+28,2022-12-20 14:42:48.205579,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+29,2022-12-20 14:42:48.250489,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+30,2022-12-20 14:42:48.291854,608aa72c95a49d6f70deb05e,106647,None,select_reject_application,fair,"[{'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '106647_Has Phone', 'value': '0.036'}, {'attribute': '106647_Years in current employment', 'value': '0.047'}, {'attribute': '106647_Has email', 'value': '0'}, {'attribute': '106647_Highest education level', 'value': '0.06'}, {'attribute': '106647_Number of children', 'value': '0.05'}, {'attribute': '106647_Has Mobile', 'value': '0.029'}, {'attribute': '106647_Application Day', 'value': '0'}, {'attribute': '106647_Housing situation', 'value': '0.052'}, {'attribute': '106647_Occupation Type', 'value': '0.037'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Age', 'value': '0.043'}, {'attribute': '106647_Years since changing phone', 'value': '0'}, {'attribute': '106647_Income type', 'value': '0.045'}, {'attribute': '106647_Years since changing  identity document', 'value': '0'}, {'attribute': '106647_Application Hour', 'value': '0'}]",0,0
+31,2022-12-20 14:42:49.626178,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+32,2022-12-20 14:42:49.627427,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+33,2022-12-20 14:42:50.534399,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+34,2022-12-20 14:42:50.536975,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+35,2022-12-20 14:42:50.541087,608aa72c95a49d6f70deb05e,106647,None,select_reject_application,unfair,"[{'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '106647_Has Phone', 'value': '0.036'}, {'attribute': '106647_Years in current employment', 'value': '0.047'}, {'attribute': '106647_Has email', 'value': '0'}, {'attribute': '106647_Highest education level', 'value': '0.06'}, {'attribute': '106647_Number of children', 'value': '0.05'}, {'attribute': '106647_Has Mobile', 'value': '0.029'}, {'attribute': '106647_Application Day', 'value': '0'}, {'attribute': '106647_Housing situation', 'value': '0.052'}, {'attribute': '106647_Occupation Type', 'value': '0.037'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Age', 'value': '0.043'}, {'attribute': '106647_Years since changing phone', 'value': '0'}, {'attribute': '106647_Income type', 'value': '0.045'}, {'attribute': '106647_Years since changing  identity document', 'value': '0'}, {'attribute': '106647_Application Hour', 'value': '0'}]",0,0
+36,2022-12-20 14:42:51.024566,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+37,2022-12-20 14:42:51.026168,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+38,2022-12-20 14:42:51.027639,608aa72c95a49d6f70deb05e,106647,None,select_reject_application,fair,"[{'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '106647_Has Phone', 'value': '0.036'}, {'attribute': '106647_Years in current employment', 'value': '0.047'}, {'attribute': '106647_Has email', 'value': '0'}, {'attribute': '106647_Highest education level', 'value': '0.06'}, {'attribute': '106647_Number of children', 'value': '0.05'}, {'attribute': '106647_Has Mobile', 'value': '0.029'}, {'attribute': '106647_Application Day', 'value': '0'}, {'attribute': '106647_Housing situation', 'value': '0.052'}, {'attribute': '106647_Occupation Type', 'value': '0.037'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Age', 'value': '0.043'}, {'attribute': '106647_Years since changing phone', 'value': '0'}, {'attribute': '106647_Income type', 'value': '0.045'}, {'attribute': '106647_Years since changing  identity document', 'value': '0'}, {'attribute': '106647_Application Hour', 'value': '0'}]",0,0
+39,2022-12-20 14:42:52.125669,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+40,2022-12-20 14:43:20.769632,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+41,2022-12-20 14:43:27.435909,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+42,2022-12-20 14:43:28.809672,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+43,2022-12-20 14:43:33.011383,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+44,2022-12-20 14:43:35.012243,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+45,2022-12-20 14:43:36.573545,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+46,2022-12-20 14:43:58.273543,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+47,2022-12-20 14:43:59.878926,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+48,2022-12-20 14:44:01.434949,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+49,2022-12-20 14:44:07.847974,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+50,2022-12-20 14:44:11.585495,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+51,2022-12-20 14:44:13.333683,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+52,2022-12-20 14:44:16.829290,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+53,2022-12-20 14:44:20.514452,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+54,2022-12-20 14:44:24.599824,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+55,2022-12-20 14:44:30.838571,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+56,2022-12-20 14:44:33.019073,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+57,2022-12-20 14:44:35.383623,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+58,2022-12-20 14:44:35.385395,608aa72c95a49d6f70deb05e,100038,None,select_reject_application,unfair,"[{'attribute': '100038_Years in current employment', 'value': '0.048'}, {'attribute': '100038_Number of children', 'value': '0.034'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '100038_Age', 'value': '0.042'}, {'attribute': '106647_Has Phone', 'value': '0.036'}, {'attribute': '106647_Years in current employment', 'value': '0.047'}, {'attribute': '100038_Income type', 'value': '0.06'}, {'attribute': '106647_Has email', 'value': '0'}, {'attribute': '100038_Gender', 'value': '0'}, {'attribute': '106647_Highest education level', 'value': '0.06'}, {'attribute': '100038_Application Hour', 'value': '0'}, {'attribute': '106647_Number of children', 'value': '0.05'}, {'attribute': '106647_Has Mobile', 'value': '0.029'}, {'attribute': '106647_Application Day', 'value': '0'}, {'attribute': '106647_Housing situation', 'value': '0.052'}, {'attribute': '106647_Occupation Type', 'value': '0.037'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Age', 'value': '0.043'}, {'attribute': '106647_Years since changing phone', 'value': '0'}, {'attribute': '106647_Income type', 'value': '0.045'}, {'attribute': '100038_Application Day', 'value': '0'}, {'attribute': '100038_Owns Property', 'value': '0.06'}, {'attribute': '106647_Years since changing  identity document', 'value': '0'}, {'attribute': '100038_Owns Car', 'value': '0'}, {'attribute': '106647_Application Hour', 'value': '0'}]",0,0
+59,2022-12-20 14:44:36.508279,608aa72c95a49d6f70deb05e,100038,None,select_applications,None,100038,None,None
+60,2022-12-20 14:44:51.048376,608aa72c95a49d6f70deb05e,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '20', 'risk_rate': '30'}",None,None
+61,2022-12-20 14:45:02.279582,608aa72c95a49d6f70deb05e,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '100'}",None,None
+62,2022-12-20 14:45:37.412910,608aa72c95a49d6f70deb05e,100005,None,select_applications,None,100005,None,None
+63,2022-12-20 14:45:40.120954,608aa72c95a49d6f70deb05e,100005,None,select_applications,None,100005,None,None
+64,2022-12-20 14:45:41.663867,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+65,2022-12-20 14:45:42.557900,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+66,2022-12-20 14:45:43.144502,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+67,2022-12-20 14:45:43.573894,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+68,2022-12-20 14:45:43.741801,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+69,2022-12-20 14:45:44.251736,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+70,2022-12-20 14:45:45.832142,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+71,2022-12-20 14:45:45.986353,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+72,2022-12-20 14:45:47.989957,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+73,2022-12-20 14:45:48.154226,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+74,2022-12-20 14:45:49.122979,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+75,2022-12-20 14:45:50.326250,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+76,2022-12-20 14:45:50.500034,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+77,2022-12-20 14:45:51.772605,608aa72c95a49d6f70deb05e,0,None,apply_refine_search,,,,
+78,2022-12-20 14:45:52.876214,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+79,2022-12-20 14:45:53.594159,608aa72c95a49d6f70deb05e,0,None,apply_refine_search,,,,
+80,2022-12-20 14:45:55.046807,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+81,2022-12-20 14:45:56.821391,608aa72c95a49d6f70deb05e,100005,None,select_applications,None,100005,None,None
+82,2022-12-20 14:45:58.003367,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+83,2022-12-20 14:46:05.456830,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+84,2022-12-20 14:46:05.658479,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+85,2022-12-20 14:46:06.700650,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+86,2022-12-20 14:46:25.932514,608aa72c95a49d6f70deb05e,100005,None,similar_application,,105749,,
+87,2022-12-20 14:46:41.972603,608aa72c95a49d6f70deb05e,100005,None,similar_application,,100005,,
+88,2022-12-20 14:46:48.440468,608aa72c95a49d6f70deb05e,100005,None,similar_application,,103240,,
+89,2022-12-20 14:47:13.595587,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+90,2022-12-20 14:47:18.025784,608aa72c95a49d6f70deb05e,104466,None,select_applications,None,104466,None,None
+91,2022-12-20 14:47:20.279709,608aa72c95a49d6f70deb05e,104466,None,select_applications,None,104466,None,None
+92,2022-12-20 14:47:22.342101,608aa72c95a49d6f70deb05e,104466,None,select_applications,None,104466,None,None
+93,2022-12-20 14:47:30.997582,608aa72c95a49d6f70deb05e,104466,None,select_applications,None,104466,None,None
+94,2022-12-20 14:47:33.215066,608aa72c95a49d6f70deb05e,104466,None,select_applications,None,104466,None,None
+95,2022-12-20 14:47:50.584692,608aa72c95a49d6f70deb05e,104466,None,select_applications,None,104466,None,None
+96,2022-12-20 14:47:52.592037,608aa72c95a49d6f70deb05e,104466,None,select_applications,None,104466,None,None
+97,2022-12-20 14:47:57.234639,608aa72c95a49d6f70deb05e,104466,None,select_reject_application,unfair,"[{'attribute': '104466_Years in current employment', 'value': '0.033'}, {'attribute': '100038_Years in current employment', 'value': '0.048'}, {'attribute': '100038_Number of children', 'value': '0.034'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '100038_Age', 'value': '0.042'}, {'attribute': '106647_Has Phone', 'value': '0.036'}, {'attribute': '106647_Years in current employment', 'value': '0.047'}, {'attribute': '100038_Income type', 'value': '0.06'}, {'attribute': '106647_Has email', 'value': '0'}, {'attribute': '100038_Gender', 'value': '0'}, {'attribute': '106647_Highest education level', 'value': '0.06'}, {'attribute': '104466_Gender', 'value': '0'}, {'attribute': '104466_Age', 'value': '0.043'}, {'attribute': '100038_Application Hour', 'value': '0'}, {'attribute': '106647_Number of children', 'value': '0.05'}, {'attribute': '106647_Has Mobile', 'value': '0.029'}, {'attribute': '106647_Application Day', 'value': '0'}, {'attribute': '106647_Housing situation', 'value': '0.052'}, {'attribute': '106647_Occupation Type', 'value': '0.037'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Age', 'value': '0.043'}, {'attribute': '106647_Years since changing phone', 'value': '0'}, {'attribute': '106647_Income type', 'value': '0.045'}, {'attribute': '100038_Application Day', 'value': '0'}, {'attribute': '100038_Owns Property', 'value': '0.06'}, {'attribute': '106647_Years since changing  identity document', 'value': '0'}, {'attribute': '100038_Owns Car', 'value': '0'}, {'attribute': '106647_Application Hour', 'value': '0'}, {'attribute': '104466_Owns Car', 'value': '0'}]",0,0
+98,2022-12-20 14:47:57.232995,608aa72c95a49d6f70deb05e,104466,None,select_applications,None,104466,None,None
+99,2022-12-20 14:47:58.271519,608aa72c95a49d6f70deb05e,104466,None,select_applications,None,104466,None,None
+100,2022-12-20 14:48:11.152564,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+101,2022-12-20 14:48:11.650758,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+102,2022-12-20 14:48:11.804294,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+103,2022-12-20 14:48:12.287639,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+104,2022-12-20 14:48:12.457968,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+105,2022-12-20 14:48:13.364323,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+106,2022-12-20 14:48:13.615618,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+107,2022-12-20 14:48:13.839812,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+108,2022-12-20 14:48:14.017500,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+109,2022-12-20 14:48:15.613901,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+110,2022-12-20 14:48:19.066111,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+111,2022-12-20 14:48:19.244801,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+112,2022-12-20 14:48:19.625231,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+113,2022-12-20 14:48:39.576927,608aa72c95a49d6f70deb05e,101758,None,select_applications,None,101758,None,None
+114,2022-12-20 14:48:43.010683,608aa72c95a49d6f70deb05e,102298,None,select_applications,None,102298,None,None
+115,2022-12-20 14:48:45.098399,608aa72c95a49d6f70deb05e,102298,None,select_applications,None,102298,None,None
+116,2022-12-20 14:48:48.323867,608aa72c95a49d6f70deb05e,102298,None,select_applications,None,102298,None,None
+117,2022-12-20 14:49:14.032142,608aa72c95a49d6f70deb05e,102298,None,select_applications,None,102298,None,None
+118,2022-12-20 14:49:14.075782,608aa72c95a49d6f70deb05e,102298,None,select_reject_application,fair,"[{'attribute': '104466_Years in current employment', 'value': '0.033'}, {'attribute': '100038_Number of children', 'value': '0.034'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '106647_Has Phone', 'value': '0.036'}, {'attribute': '106647_Years in current employment', 'value': '0.047'}, {'attribute': '106647_Has email', 'value': '0'}, {'attribute': '100038_Gender', 'value': '0'}, {'attribute': '100038_Application Hour', 'value': '0'}, {'attribute': '106647_Housing situation', 'value': '0.052'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Age', 'value': '0.043'}, {'attribute': '106647_Years since changing phone', 'value': '0'}, {'attribute': '100038_Owns Property', 'value': '0.06'}, {'attribute': '100038_Owns Car', 'value': '0'}, {'attribute': '106647_Application Hour', 'value': '0'}, {'attribute': '100038_Years in current employment', 'value': '0.048'}, {'attribute': '100038_Age', 'value': '0.042'}, {'attribute': '100038_Income type', 'value': '0.06'}, {'attribute': '106647_Highest education level', 'value': '0.06'}, {'attribute': '104466_Gender', 'value': '0'}, {'attribute': '102298_Gender', 'value': '0'}, {'attribute': '104466_Age', 'value': '0.043'}, {'attribute': '102298_Owns Car', 'value': '0'}, {'attribute': '106647_Number of children', 'value': '0.05'}, {'attribute': '106647_Has Mobile', 'value': '0.029'}, {'attribute': '106647_Application Day', 'value': '0'}, {'attribute': '106647_Occupation Type', 'value': '0.037'}, {'attribute': '106647_Income type', 'value': '0.045'}, {'attribute': '100038_Application Day', 'value': '0'}, {'attribute': '106647_Years since changing  identity document', 'value': '0'}, {'attribute': '104466_Owns Car', 'value': '0'}]",0,0
+119,2022-12-20 14:49:15.310847,608aa72c95a49d6f70deb05e,102298,None,select_applications,None,102298,None,None
+120,2022-12-20 14:49:52.799307,608aa72c95a49d6f70deb05e,0,None,Clicked-on-Causal-Graph-Node,Node Value,Installments,None,None
+121,2022-12-20 14:50:04.109538,608aa72c95a49d6f70deb05e,0,None,Clicked-on-Causal-Graph-Node,Node Value,Employer organization,None,None
+122,2022-12-20 14:50:04.107559,608aa72c95a49d6f70deb05e,0,None,Clicked-on-Causal-Graph-Node,Node Value,Employer organization,None,None
+123,2022-12-20 14:50:04.113639,608aa72c95a49d6f70deb05e,0,None,Clicked-on-Causal-Graph-Node,Node Value,Employer organization,None,None
+124,2022-12-20 14:50:07.805325,608aa72c95a49d6f70deb05e,0,None,Clicked-on-Causal-Graph-Node,Node Value,Occupation Type,None,None
+125,2022-12-20 14:50:07.807085,608aa72c95a49d6f70deb05e,0,None,Clicked-on-Causal-Graph-Node,Node Value,Occupation Type,None,None
+126,2022-12-20 14:50:07.808779,608aa72c95a49d6f70deb05e,0,None,Clicked-on-Causal-Graph-Node,Node Value,Occupation Type,None,None
+127,2022-12-20 14:50:07.810661,608aa72c95a49d6f70deb05e,0,None,Clicked-on-Causal-Graph-Node,Node Value,Occupation Type,None,None
+128,2022-12-20 14:50:07.812772,608aa72c95a49d6f70deb05e,0,None,Clicked-on-Causal-Graph-Node,Node Value,Occupation Type,None,None
+129,2022-12-20 14:50:20.675906,608aa72c95a49d6f70deb05e,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '17', 'risk_rate': '94'}",None,None
+130,2022-12-20 14:50:23.577030,608aa72c95a49d6f70deb05e,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '11', 'risk_rate': '100'}",None,None
+131,2022-12-20 14:50:25.759344,608aa72c95a49d6f70deb05e,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '20', 'risk_rate': '75'}",None,None
+132,2022-12-20 14:50:43.117578,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+133,2022-12-20 14:50:44.025903,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+134,2022-12-20 14:50:48.475699,608aa72c95a49d6f70deb05e,100826,None,select_applications,None,100826,None,None
+135,2022-12-20 14:51:01.873291,608aa72c95a49d6f70deb05e,101401,None,select_applications,None,101401,None,None
+136,2022-12-20 14:51:06.557116,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+137,2022-12-20 14:51:11.461244,608aa72c95a49d6f70deb05e,103980,None,select_applications,None,103980,None,None
+138,2022-12-20 14:51:32.498439,608aa72c95a49d6f70deb05e,103980,None,select_applications,None,103980,None,None
+139,2022-12-20 14:51:32.497377,608aa72c95a49d6f70deb05e,103980,None,select_applications,None,103980,None,None
+140,2022-12-20 14:51:32.502262,608aa72c95a49d6f70deb05e,103980,None,select_reject_application,fair,"[{'attribute': '104466_Years in current employment', 'value': '0.033'}, {'attribute': '100038_Number of children', 'value': '0.034'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '106647_Has Phone', 'value': '0.036'}, {'attribute': '106647_Years in current employment', 'value': '0.047'}, {'attribute': '106647_Has email', 'value': '0'}, {'attribute': '100038_Gender', 'value': '0'}, {'attribute': '100038_Application Hour', 'value': '0'}, {'attribute': '106647_Housing situation', 'value': '0.052'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Age', 'value': '0.043'}, {'attribute': '106647_Years since changing phone', 'value': '0'}, {'attribute': '100038_Owns Property', 'value': '0.06'}, {'attribute': '100038_Owns Car', 'value': '0'}, {'attribute': '106647_Application Hour', 'value': '0'}, {'attribute': '100038_Years in current employment', 'value': '0.048'}, {'attribute': '100038_Age', 'value': '0.042'}, {'attribute': '100038_Income type', 'value': '0.06'}, {'attribute': '106647_Highest education level', 'value': '0.06'}, {'attribute': '104466_Gender', 'value': '0'}, {'attribute': '102298_Gender', 'value': '0'}, {'attribute': '104466_Age', 'value': '0.043'}, {'attribute': '102298_Owns Car', 'value': '0'}, {'attribute': '106647_Number of children', 'value': '0.05'}, {'attribute': '106647_Has Mobile', 'value': '0.029'}, {'attribute': '106647_Application Day', 'value': '0'}, {'attribute': '106647_Occupation Type', 'value': '0.037'}, {'attribute': '106647_Income type', 'value': '0.045'}, {'attribute': '100038_Application Day', 'value': '0'}, {'attribute': '106647_Years since changing  identity document', 'value': '0'}, {'attribute': '104466_Owns Car', 'value': '0'}]",0,0
+141,2022-12-20 14:51:33.353105,608aa72c95a49d6f70deb05e,103980,None,select_applications,None,103980,None,None
+142,2022-12-20 14:51:36.378641,608aa72c95a49d6f70deb05e,106401,None,select_applications,None,106401,None,None
+143,2022-12-20 14:51:37.442553,608aa72c95a49d6f70deb05e,106401,None,select_applications,None,106401,None,None
+144,2022-12-20 14:51:38.242352,608aa72c95a49d6f70deb05e,106401,None,select_applications,None,106401,None,None
+145,2022-12-20 14:51:38.722268,608aa72c95a49d6f70deb05e,106647,None,select_applications,None,106647,None,None
+146,2022-12-20 14:51:41.370448,608aa72c95a49d6f70deb05e,103570,None,select_applications,None,103570,None,None
+147,2022-12-20 14:51:43.991386,608aa72c95a49d6f70deb05e,105067,None,select_applications,None,105067,None,None
+148,2022-12-20 14:51:46.537661,608aa72c95a49d6f70deb05e,104398,None,select_applications,None,104398,None,None
+149,2022-12-20 14:51:48.591089,608aa72c95a49d6f70deb05e,104398,None,select_applications,None,104398,None,None
+150,2022-12-20 14:51:48.863426,608aa72c95a49d6f70deb05e,104398,None,select_applications,None,104398,None,None
+151,2022-12-20 14:52:07.075781,608aa72c95a49d6f70deb05e,106261,None,select_applications,None,106261,None,None
+152,2022-12-20 14:52:15.781815,608aa72c95a49d6f70deb05e,106261,None,select_applications,None,106261,None,None
+153,2022-12-20 14:52:15.786538,608aa72c95a49d6f70deb05e,106261,None,select_reject_application,unfair,"[{'attribute': '104466_Years in current employment', 'value': '0.033'}, {'attribute': '100038_Number of children', 'value': '0.034'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '106647_Has Phone', 'value': '0.036'}, {'attribute': '106647_Years in current employment', 'value': '0.047'}, {'attribute': '106647_Has email', 'value': '0'}, {'attribute': '100038_Gender', 'value': '0'}, {'attribute': '100038_Application Hour', 'value': '0'}, {'attribute': '106647_Housing situation', 'value': '0.052'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Age', 'value': '0.043'}, {'attribute': '106647_Years since changing phone', 'value': '0'}, {'attribute': '100038_Owns Property', 'value': '0.06'}, {'attribute': '100038_Owns Car', 'value': '0'}, {'attribute': '106647_Application Hour', 'value': '0'}, {'attribute': '100038_Years in current employment', 'value': '0.048'}, {'attribute': '100038_Age', 'value': '0.042'}, {'attribute': '100038_Income type', 'value': '0.06'}, {'attribute': '106647_Highest education level', 'value': '0.06'}, {'attribute': '104466_Gender', 'value': '0'}, {'attribute': '102298_Gender', 'value': '0'}, {'attribute': '104466_Age', 'value': '0.043'}, {'attribute': '102298_Owns Car', 'value': '0'}, {'attribute': '106647_Number of children', 'value': '0.05'}, {'attribute': '106647_Has Mobile', 'value': '0.029'}, {'attribute': '106647_Application Day', 'value': '0'}, {'attribute': '106647_Occupation Type', 'value': '0.037'}, {'attribute': '106647_Income type', 'value': '0.045'}, {'attribute': '100038_Application Day', 'value': '0'}, {'attribute': '106647_Years since changing  identity document', 'value': '0'}, {'attribute': '104466_Owns Car', 'value': '0'}]",0,0
+154,2022-12-20 14:52:16.772708,608aa72c95a49d6f70deb05e,106261,None,select_applications,None,106261,None,None
+155,2022-12-20 14:52:20.401623,608aa72c95a49d6f70deb05e,100057,None,select_applications,None,100057,None,None
+156,2022-12-20 14:52:23.153709,608aa72c95a49d6f70deb05e,100057,None,select_applications,None,100057,None,None
+157,2022-12-20 14:52:30.468705,608aa72c95a49d6f70deb05e,100057,None,select_applications,None,100057,None,None
+158,2022-12-20 14:52:30.471168,608aa72c95a49d6f70deb05e,100057,None,select_applications,None,100057,None,None
+159,2022-12-20 14:52:30.472476,608aa72c95a49d6f70deb05e,100057,None,select_reject_application,fair,"[{'attribute': '104466_Years in current employment', 'value': '0.033'}, {'attribute': '100038_Number of children', 'value': '0.034'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '106647_Has Phone', 'value': '0.036'}, {'attribute': '106647_Years in current employment', 'value': '0.047'}, {'attribute': '106647_Has email', 'value': '0'}, {'attribute': '100038_Gender', 'value': '0'}, {'attribute': '100038_Application Hour', 'value': '0'}, {'attribute': '106647_Housing situation', 'value': '0.052'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Age', 'value': '0.043'}, {'attribute': '106647_Years since changing phone', 'value': '0'}, {'attribute': '100038_Owns Property', 'value': '0.06'}, {'attribute': '100038_Owns Car', 'value': '0'}, {'attribute': '106647_Application Hour', 'value': '0'}, {'attribute': '100038_Years in current employment', 'value': '0.048'}, {'attribute': '100038_Age', 'value': '0.042'}, {'attribute': '100038_Income type', 'value': '0.06'}, {'attribute': '106647_Highest education level', 'value': '0.06'}, {'attribute': '104466_Gender', 'value': '0'}, {'attribute': '102298_Gender', 'value': '0'}, {'attribute': '104466_Age', 'value': '0.043'}, {'attribute': '102298_Owns Car', 'value': '0'}, {'attribute': '106647_Number of children', 'value': '0.05'}, {'attribute': '106647_Has Mobile', 'value': '0.029'}, {'attribute': '106647_Application Day', 'value': '0'}, {'attribute': '106647_Occupation Type', 'value': '0.037'}, {'attribute': '106647_Income type', 'value': '0.045'}, {'attribute': '100038_Application Day', 'value': '0'}, {'attribute': '106647_Years since changing  identity document', 'value': '0'}, {'attribute': '104466_Owns Car', 'value': '0'}]",0,0
+160,2022-12-20 14:52:31.704924,608aa72c95a49d6f70deb05e,100057,None,select_applications,None,100057,None,None
+161,2022-12-20 14:52:33.276397,608aa72c95a49d6f70deb05e,100090,None,select_applications,None,100090,None,None
+162,2022-12-20 14:52:39.027398,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+163,2022-12-20 14:52:39.320185,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+164,2022-12-20 14:52:39.471704,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+165,2022-12-20 14:52:39.624234,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+166,2022-12-20 14:52:39.789602,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+167,2022-12-20 14:52:39.965591,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+168,2022-12-20 14:52:40.746044,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+169,2022-12-20 14:52:44.057187,608aa72c95a49d6f70deb05e,0,None,apply_refine_search,Contact city in Registration city,,,
+170,2022-12-20 14:52:49.238529,608aa72c95a49d6f70deb05e,0,None,apply_refine_search,,,,
+171,2022-12-20 14:52:53.962156,608aa72c95a49d6f70deb05e,0,None,apply_refine_search,sdf,,,
+172,2022-12-20 14:53:09.157124,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+173,2022-12-20 14:53:11.943032,608aa72c95a49d6f70deb05e,0,None,Applications_Prediction_Confidence,None,ascend,,
+174,2022-12-20 14:53:17.254473,608aa72c95a49d6f70deb05e,101149,None,select_applications,None,101149,None,None
+175,2022-12-20 14:53:27.764880,608aa72c95a49d6f70deb05e,101149,None,select_applications,None,101149,None,None
+176,2022-12-20 14:53:29.493540,608aa72c95a49d6f70deb05e,105266,None,select_applications,None,105266,None,None
+177,2022-12-20 14:53:31.196815,608aa72c95a49d6f70deb05e,105266,None,select_applications,None,105266,None,None
+178,2022-12-20 14:53:37.605147,608aa72c95a49d6f70deb05e,105266,None,select_reject_application,unfair,"[{'attribute': '104466_Years in current employment', 'value': '0.033'}, {'attribute': '100038_Number of children', 'value': '0.034'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '106647_Has Phone', 'value': '0.036'}, {'attribute': '106647_Years in current employment', 'value': '0.047'}, {'attribute': '106647_Has email', 'value': '0'}, {'attribute': '100038_Gender', 'value': '0'}, {'attribute': '100038_Application Hour', 'value': '0'}, {'attribute': '106647_Housing situation', 'value': '0.052'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Age', 'value': '0.043'}, {'attribute': '106647_Years since changing phone', 'value': '0'}, {'attribute': '100038_Owns Property', 'value': '0.06'}, {'attribute': '100038_Owns Car', 'value': '0'}, {'attribute': '106647_Application Hour', 'value': '0'}, {'attribute': '100038_Years in current employment', 'value': '0.048'}, {'attribute': '100038_Age', 'value': '0.042'}, {'attribute': '100038_Income type', 'value': '0.06'}, {'attribute': '106647_Highest education level', 'value': '0.06'}, {'attribute': '104466_Gender', 'value': '0'}, {'attribute': '102298_Gender', 'value': '0'}, {'attribute': '104466_Age', 'value': '0.043'}, {'attribute': '102298_Owns Car', 'value': '0'}, {'attribute': '106647_Number of children', 'value': '0.05'}, {'attribute': '106647_Has Mobile', 'value': '0.029'}, {'attribute': '106647_Application Day', 'value': '0'}, {'attribute': '106647_Occupation Type', 'value': '0.037'}, {'attribute': '106647_Income type', 'value': '0.045'}, {'attribute': '100038_Application Day', 'value': '0'}, {'attribute': '106647_Years since changing  identity document', 'value': '0'}, {'attribute': '104466_Owns Car', 'value': '0'}]",0,0
+179,2022-12-20 14:53:37.607891,608aa72c95a49d6f70deb05e,105266,None,select_applications,None,105266,None,None
+180,2022-12-20 14:53:38.715679,608aa72c95a49d6f70deb05e,105266,None,select_applications,None,105266,None,None

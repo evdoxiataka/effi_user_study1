@@ -1,0 +1,140 @@
+serial number,timestamp,ID,App ID,Pattern,Function,Attribute,Value,Lower bound,Upper bound
+1,2022-12-20 14:57:27.882383,6088a7e22d5b98ef3f813a22,,,Login,,,,
+2,2022-12-20 15:06:21.942661,6088a7e22d5b98ef3f813a22,0,None,apply_refine_search,Age,,,
+3,2022-12-20 15:06:36.193680,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+4,2022-12-20 15:07:02.020264,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+5,2022-12-20 15:07:03.003303,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+6,2022-12-20 15:07:21.565694,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+7,2022-12-20 15:07:29.051032,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+8,2022-12-20 15:08:08.295013,6088a7e22d5b98ef3f813a22,0,None,apply_refine_search,Gender,,,
+9,2022-12-20 15:08:12.116869,6088a7e22d5b98ef3f813a22,101107,None,select_applications,None,101107,None,None
+10,2022-12-20 15:08:18.714478,6088a7e22d5b98ef3f813a22,101107,None,select_applications,None,101107,None,None
+11,2022-12-20 15:08:22.711863,6088a7e22d5b98ef3f813a22,101107,None,select_applications,None,101107,None,None
+12,2022-12-20 15:08:27.826901,6088a7e22d5b98ef3f813a22,101107,None,select_applications,None,101107,None,None
+13,2022-12-20 15:08:27.857119,6088a7e22d5b98ef3f813a22,101107,None,select_applications,None,101107,None,None
+14,2022-12-20 15:08:28.078412,6088a7e22d5b98ef3f813a22,101107,None,select_reject_application,unfair,"[{'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '106647_Gender', 'value': '0'}]",0,0
+15,2022-12-20 15:08:32.265251,6088a7e22d5b98ef3f813a22,101107,None,select_applications,None,101107,None,None
+16,2022-12-20 15:08:44.554235,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+17,2022-12-20 15:08:53.555535,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+18,2022-12-20 15:08:55.395753,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+19,2022-12-20 15:08:58.119224,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+20,2022-12-20 15:08:59.987424,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+21,2022-12-20 15:09:01.691106,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+22,2022-12-20 15:09:02.851894,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+23,2022-12-20 15:09:02.850520,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+24,2022-12-20 15:09:02.854376,6088a7e22d5b98ef3f813a22,106647,None,select_reject_application,unfair,"[{'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}]",0,0
+25,2022-12-20 15:09:05.530479,6088a7e22d5b98ef3f813a22,106647,None,select_applications,None,106647,None,None
+26,2022-12-20 15:09:58.191190,6088a7e22d5b98ef3f813a22,103046,None,select_applications,None,103046,None,None
+27,2022-12-20 15:10:02.710705,6088a7e22d5b98ef3f813a22,103046,None,select_applications,None,103046,None,None
+28,2022-12-20 15:10:04.998808,6088a7e22d5b98ef3f813a22,103046,None,select_applications,None,103046,None,None
+29,2022-12-20 15:10:11.139331,6088a7e22d5b98ef3f813a22,103046,None,select_reject_application,unfair,"[{'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}]",0,0
+30,2022-12-20 15:10:11.144529,6088a7e22d5b98ef3f813a22,103046,None,select_applications,None,103046,None,None
+31,2022-12-20 15:10:11.152516,6088a7e22d5b98ef3f813a22,103046,None,select_applications,None,103046,None,None
+32,2022-12-20 15:10:22.083436,6088a7e22d5b98ef3f813a22,106401,None,select_applications,None,106401,None,None
+33,2022-12-20 15:10:48.270963,6088a7e22d5b98ef3f813a22,106401,None,select_applications,None,106401,None,None
+34,2022-12-20 15:10:48.273279,6088a7e22d5b98ef3f813a22,106401,None,select_reject_application,fair,"[{'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}]",0,0
+35,2022-12-20 15:10:48.294098,6088a7e22d5b98ef3f813a22,106401,None,select_applications,None,106401,None,None
+36,2022-12-20 15:10:50.056645,6088a7e22d5b98ef3f813a22,106401,None,select_applications,None,106401,None,None
+37,2022-12-20 15:11:15.050229,6088a7e22d5b98ef3f813a22,106261,None,select_applications,None,106261,None,None
+38,2022-12-20 15:11:24.269513,6088a7e22d5b98ef3f813a22,106261,None,select_applications,None,106261,None,None
+39,2022-12-20 15:11:24.271992,6088a7e22d5b98ef3f813a22,106261,None,select_reject_application,fair,"[{'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}]",0,0
+40,2022-12-20 15:11:24.267643,6088a7e22d5b98ef3f813a22,106261,None,select_applications,None,106261,None,None
+41,2022-12-20 15:11:26.420691,6088a7e22d5b98ef3f813a22,106261,None,select_applications,None,106261,None,None
+42,2022-12-20 15:11:55.348722,6088a7e22d5b98ef3f813a22,0,None,apply_refine_search,Owns Car,No,,
+43,2022-12-20 15:11:56.676799,6088a7e22d5b98ef3f813a22,0,None,apply_refine_search,Owns Car,No,,
+44,2022-12-20 15:12:23.680856,6088a7e22d5b98ef3f813a22,100384,None,select_applications,None,100384,None,None
+45,2022-12-20 15:12:30.424236,6088a7e22d5b98ef3f813a22,100384,None,select_applications,None,100384,None,None
+46,2022-12-20 15:12:41.073903,6088a7e22d5b98ef3f813a22,100384,None,select_applications,None,100384,None,None
+47,2022-12-20 15:12:43.901690,6088a7e22d5b98ef3f813a22,100384,None,select_applications,None,100384,None,None
+48,2022-12-20 15:12:43.926912,6088a7e22d5b98ef3f813a22,100384,None,select_applications,None,100384,None,None
+49,2022-12-20 15:12:44.150792,6088a7e22d5b98ef3f813a22,100384,None,select_reject_application,unfair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}]",0,0
+50,2022-12-20 15:12:46.275980,6088a7e22d5b98ef3f813a22,100384,None,select_applications,None,100384,None,None
+51,2022-12-20 15:13:02.779767,6088a7e22d5b98ef3f813a22,100001,None,select_applications,None,100001,None,None
+52,2022-12-20 15:13:04.657734,6088a7e22d5b98ef3f813a22,100001,None,select_applications,None,100001,None,None
+53,2022-12-20 15:13:04.659133,6088a7e22d5b98ef3f813a22,100001,None,select_applications,None,100001,None,None
+54,2022-12-20 15:13:04.671605,6088a7e22d5b98ef3f813a22,100001,None,select_reject_application,fair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}]",0,0
+55,2022-12-20 15:13:07.627642,6088a7e22d5b98ef3f813a22,100001,None,select_applications,None,100001,None,None
+56,2022-12-20 15:13:11.442026,6088a7e22d5b98ef3f813a22,100005,None,select_applications,None,100005,None,None
+57,2022-12-20 15:13:13.322582,6088a7e22d5b98ef3f813a22,100005,None,select_applications,None,100005,None,None
+58,2022-12-20 15:13:13.325086,6088a7e22d5b98ef3f813a22,100005,None,select_applications,None,100005,None,None
+59,2022-12-20 15:13:13.327581,6088a7e22d5b98ef3f813a22,100005,None,select_reject_application,fair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}]",0,0
+60,2022-12-20 15:13:15.250886,6088a7e22d5b98ef3f813a22,100005,None,select_applications,None,100005,None,None
+61,2022-12-20 15:13:21.546260,6088a7e22d5b98ef3f813a22,100013,None,select_applications,None,100013,None,None
+62,2022-12-20 15:13:26.018164,6088a7e22d5b98ef3f813a22,100013,None,select_applications,None,100013,None,None
+63,2022-12-20 15:13:27.299719,6088a7e22d5b98ef3f813a22,100013,None,select_applications,None,100013,None,None
+64,2022-12-20 15:13:28.106617,6088a7e22d5b98ef3f813a22,100013,None,select_applications,None,100013,None,None
+65,2022-12-20 15:13:28.108853,6088a7e22d5b98ef3f813a22,100013,None,select_applications,None,100013,None,None
+66,2022-12-20 15:13:28.111263,6088a7e22d5b98ef3f813a22,100013,None,select_reject_application,fair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+67,2022-12-20 15:13:29.726850,6088a7e22d5b98ef3f813a22,100013,None,select_applications,None,100013,None,None
+68,2022-12-20 15:13:35.617426,6088a7e22d5b98ef3f813a22,100028,None,select_applications,None,100028,None,None
+69,2022-12-20 15:13:37.410374,6088a7e22d5b98ef3f813a22,100028,None,select_applications,None,100028,None,None
+70,2022-12-20 15:13:37.761398,6088a7e22d5b98ef3f813a22,100028,None,select_applications,None,100028,None,None
+71,2022-12-20 15:13:37.792726,6088a7e22d5b98ef3f813a22,100028,None,select_reject_application,fair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+72,2022-12-20 15:13:40.112612,6088a7e22d5b98ef3f813a22,100028,None,select_applications,None,100028,None,None
+73,2022-12-20 15:14:50.479429,6088a7e22d5b98ef3f813a22,100013,None,select_applications,None,100013,None,None
+74,2022-12-20 15:14:51.317135,6088a7e22d5b98ef3f813a22,100001,None,select_applications,None,100001,None,None
+75,2022-12-20 15:14:56.867713,6088a7e22d5b98ef3f813a22,100001,None,select_applications,None,100001,None,None
+76,2022-12-20 15:15:00.813741,6088a7e22d5b98ef3f813a22,100038,None,select_applications,None,100038,None,None
+77,2022-12-20 15:15:02.227764,6088a7e22d5b98ef3f813a22,100038,None,select_applications,None,100038,None,None
+78,2022-12-20 15:15:02.233440,6088a7e22d5b98ef3f813a22,100038,None,select_reject_application,fair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+79,2022-12-20 15:15:02.258338,6088a7e22d5b98ef3f813a22,100038,None,select_applications,None,100038,None,None
+80,2022-12-20 15:15:04.273766,6088a7e22d5b98ef3f813a22,100038,None,select_applications,None,100038,None,None
+81,2022-12-20 15:16:09.044308,6088a7e22d5b98ef3f813a22,104230,None,select_applications,None,104230,None,None
+82,2022-12-20 15:16:12.927376,6088a7e22d5b98ef3f813a22,104230,None,select_applications,None,104230,None,None
+83,2022-12-20 15:16:15.273494,6088a7e22d5b98ef3f813a22,104230,None,select_reject_application,unfair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+84,2022-12-20 15:16:15.271578,6088a7e22d5b98ef3f813a22,104230,None,select_applications,None,104230,None,None
+85,2022-12-20 15:16:15.294826,6088a7e22d5b98ef3f813a22,104230,None,select_applications,None,104230,None,None
+86,2022-12-20 15:16:17.403281,6088a7e22d5b98ef3f813a22,104230,None,select_applications,None,104230,None,None
+87,2022-12-20 15:16:25.127029,6088a7e22d5b98ef3f813a22,102854,None,select_applications,None,102854,None,None
+88,2022-12-20 15:16:26.380553,6088a7e22d5b98ef3f813a22,102854,None,select_applications,None,102854,None,None
+89,2022-12-20 15:16:26.413981,6088a7e22d5b98ef3f813a22,102854,None,select_applications,None,102854,None,None
+90,2022-12-20 15:16:26.627149,6088a7e22d5b98ef3f813a22,102854,None,select_reject_application,unfair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+91,2022-12-20 15:16:27.867231,6088a7e22d5b98ef3f813a22,102854,None,select_applications,None,102854,None,None
+92,2022-12-20 15:17:51.378737,6088a7e22d5b98ef3f813a22,103516,None,select_applications,None,103516,None,None
+93,2022-12-20 15:17:52.784030,6088a7e22d5b98ef3f813a22,103516,None,select_applications,None,103516,None,None
+94,2022-12-20 15:17:52.787075,6088a7e22d5b98ef3f813a22,103516,None,select_applications,None,103516,None,None
+95,2022-12-20 15:17:52.812469,6088a7e22d5b98ef3f813a22,103516,None,select_reject_application,unfair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+96,2022-12-20 15:17:54.395992,6088a7e22d5b98ef3f813a22,103516,None,select_applications,None,103516,None,None
+97,2022-12-20 15:18:05.827325,6088a7e22d5b98ef3f813a22,104230,None,select_applications,None,104230,None,None
+98,2022-12-20 15:18:06.137069,6088a7e22d5b98ef3f813a22,104230,None,select_applications,None,104230,None,None
+99,2022-12-20 15:18:07.423624,6088a7e22d5b98ef3f813a22,104230,None,select_applications,None,104230,None,None
+100,2022-12-20 15:18:07.431738,6088a7e22d5b98ef3f813a22,104230,None,select_reject_application,fair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+101,2022-12-20 15:18:07.456783,6088a7e22d5b98ef3f813a22,104230,None,select_applications,None,104230,None,None
+102,2022-12-20 15:18:09.139023,6088a7e22d5b98ef3f813a22,104230,None,select_applications,None,104230,None,None
+103,2022-12-20 15:18:36.939152,6088a7e22d5b98ef3f813a22,0,None,apply_refine_search,Owns Property,No,,
+104,2022-12-20 15:18:39.242559,6088a7e22d5b98ef3f813a22,0,None,apply_refine_search,Owns Property,No,,
+105,2022-12-20 15:18:39.530268,6088a7e22d5b98ef3f813a22,0,None,apply_refine_search,Owns Property,No,,
+106,2022-12-20 15:18:39.782936,6088a7e22d5b98ef3f813a22,0,None,apply_refine_search,Owns Property,No,,
+107,2022-12-20 15:18:45.744102,6088a7e22d5b98ef3f813a22,100038,None,select_applications,None,100038,None,None
+108,2022-12-20 15:18:47.152136,6088a7e22d5b98ef3f813a22,100038,None,select_applications,None,100038,None,None
+109,2022-12-20 15:18:47.154897,6088a7e22d5b98ef3f813a22,100038,None,select_reject_application,unfair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+110,2022-12-20 15:18:48.549346,6088a7e22d5b98ef3f813a22,100038,None,select_applications,None,100038,None,None
+111,2022-12-20 15:19:01.874490,6088a7e22d5b98ef3f813a22,0,None,apply_refine_search,Has Work Phone,No,,
+112,2022-12-20 15:19:04.541459,6088a7e22d5b98ef3f813a22,0,None,apply_refine_search,Has Work Phone,No,,
+113,2022-12-20 15:19:19.430152,6088a7e22d5b98ef3f813a22,100170,None,select_applications,None,100170,None,None
+114,2022-12-20 15:19:21.376334,6088a7e22d5b98ef3f813a22,100170,None,select_reject_application,unfair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+115,2022-12-20 15:19:21.372157,6088a7e22d5b98ef3f813a22,100170,None,select_applications,None,100170,None,None
+116,2022-12-20 15:19:21.398923,6088a7e22d5b98ef3f813a22,100170,None,select_applications,None,100170,None,None
+117,2022-12-20 15:19:26.193317,6088a7e22d5b98ef3f813a22,100170,None,select_applications,None,100170,None,None
+118,2022-12-20 15:19:26.199188,6088a7e22d5b98ef3f813a22,100170,None,select_reject_application,fair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+119,2022-12-20 15:19:26.225098,6088a7e22d5b98ef3f813a22,100170,None,select_applications,None,100170,None,None
+120,2022-12-20 15:19:41.793525,6088a7e22d5b98ef3f813a22,100170,None,select_applications,None,100170,None,None
+121,2022-12-20 15:19:41.797414,6088a7e22d5b98ef3f813a22,100170,None,select_reject_application,unfair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+122,2022-12-20 15:19:43.248204,6088a7e22d5b98ef3f813a22,100170,None,select_applications,None,100170,None,None
+123,2022-12-20 15:21:41.026332,6088a7e22d5b98ef3f813a22,106258,None,select_applications,None,106258,None,None
+124,2022-12-20 15:21:42.571894,6088a7e22d5b98ef3f813a22,106258,None,select_applications,None,106258,None,None
+125,2022-12-20 15:21:42.612406,6088a7e22d5b98ef3f813a22,106258,None,select_applications,None,106258,None,None
+126,2022-12-20 15:21:42.615969,6088a7e22d5b98ef3f813a22,106258,None,select_reject_application,fair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+127,2022-12-20 15:21:44.199879,6088a7e22d5b98ef3f813a22,106258,None,select_applications,None,106258,None,None
+128,2022-12-20 15:22:07.593330,6088a7e22d5b98ef3f813a22,104877,None,select_applications,None,104877,None,None
+129,2022-12-20 15:22:09.125658,6088a7e22d5b98ef3f813a22,104877,None,select_applications,None,104877,None,None
+130,2022-12-20 15:22:09.574429,6088a7e22d5b98ef3f813a22,104877,None,select_applications,None,104877,None,None
+131,2022-12-20 15:22:09.601925,6088a7e22d5b98ef3f813a22,104877,None,select_applications,None,104877,None,None
+132,2022-12-20 15:22:09.819372,6088a7e22d5b98ef3f813a22,104877,None,select_reject_application,fair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+133,2022-12-20 15:22:11.329719,6088a7e22d5b98ef3f813a22,104877,None,select_applications,None,104877,None,None
+134,2022-12-20 15:22:32.286118,6088a7e22d5b98ef3f813a22,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '57'}",None,None
+135,2022-12-20 15:22:39.013772,6088a7e22d5b98ef3f813a22,100001,None,similar_application,,102052,,
+136,2022-12-20 15:22:59.922268,6088a7e22d5b98ef3f813a22,100074,None,select_applications,None,100074,None,None
+137,2022-12-20 15:23:01.481254,6088a7e22d5b98ef3f813a22,100074,None,select_reject_application,fair,"[{'attribute': '103046_Gender', 'value': '0'}, {'attribute': '104230_Gender', 'value': '0.001'}, {'attribute': '106647_Gender', 'value': '0'}, {'attribute': '106647_Owns Car', 'value': '0'}, {'attribute': '103046_Owns Car', 'value': '0'}, {'attribute': '106647_Years in current employment', 'value': '0.038'}, {'attribute': '100384_Gender', 'value': '0'}, {'attribute': '100013_Gender', 'value': '0'}]",0,0
+138,2022-12-20 15:23:01.509457,6088a7e22d5b98ef3f813a22,100074,None,select_applications,None,100074,None,None
+139,2022-12-20 15:23:03.433009,6088a7e22d5b98ef3f813a22,100074,None,select_applications,None,100074,None,None

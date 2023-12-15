@@ -1,0 +1,134 @@
+serial number,timestamp,ID,App ID,Pattern,Function,Attribute,Value,Lower bound,Upper bound
+1,2022-12-20 14:35:06.283889,60e0e480c45d13e3fc1aae6b,,,Login,,,,
+2,2022-12-20 14:52:45.894024,60e0e480c45d13e3fc1aae6b,106647,None,select_applications,None,106647,None,None
+3,2022-12-20 14:53:00.450474,60e0e480c45d13e3fc1aae6b,106647,None,select_applications,None,106647,None,None
+4,2022-12-20 14:53:00.486544,60e0e480c45d13e3fc1aae6b,106647,None,select_reject_application,unfair,[],0,0
+5,2022-12-20 14:53:02.582831,60e0e480c45d13e3fc1aae6b,106647,None,select_applications,None,106647,None,None
+6,2022-12-20 14:53:18.449890,60e0e480c45d13e3fc1aae6b,0,None,Clicked-on-Causal-Graph-Node,Node Value,Loan Credit amount ,None,None
+7,2022-12-20 14:53:46.307307,60e0e480c45d13e3fc1aae6b,0,None,Clicked-on-Causal-Graph-Node,Node Value,Goods Price,None,None
+8,2022-12-20 14:53:46.309980,60e0e480c45d13e3fc1aae6b,0,None,Clicked-on-Causal-Graph-Node,Node Value,Goods Price,None,None
+9,2022-12-20 14:53:46.317794,60e0e480c45d13e3fc1aae6b,0,None,Clicked-on-Causal-Graph-Node,Node Value,Goods Price,None,None
+10,2022-12-20 14:54:11.589844,60e0e480c45d13e3fc1aae6b,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '24', 'risk_rate': '67'}",None,None
+11,2022-12-20 14:54:17.428945,60e0e480c45d13e3fc1aae6b,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '13', 'risk_rate': '62'}",None,None
+12,2022-12-20 14:54:19.830828,60e0e480c45d13e3fc1aae6b,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '42', 'risk_rate': '60'}",None,None
+13,2022-12-20 14:54:32.337238,60e0e480c45d13e3fc1aae6b,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '14', 'risk_rate': '50'}",None,None
+14,2022-12-20 14:54:51.973034,60e0e480c45d13e3fc1aae6b,100001,None,similar_application,,105041,,
+15,2022-12-20 14:55:43.537195,60e0e480c45d13e3fc1aae6b,103572,None,select_applications,None,103572,None,None
+16,2022-12-20 14:55:48.562269,60e0e480c45d13e3fc1aae6b,103572,None,select_applications,None,103572,None,None
+17,2022-12-20 14:55:50.339030,60e0e480c45d13e3fc1aae6b,103572,None,select_applications,None,103572,None,None
+18,2022-12-20 14:56:10.502963,60e0e480c45d13e3fc1aae6b,103572,None,select_applications,None,103572,None,None
+19,2022-12-20 14:56:10.551393,60e0e480c45d13e3fc1aae6b,103572,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+20,2022-12-20 14:56:13.086576,60e0e480c45d13e3fc1aae6b,103572,None,select_applications,None,103572,None,None
+21,2022-12-20 14:56:33.109323,60e0e480c45d13e3fc1aae6b,0,None,apply_refine_search,Family status,,,
+22,2022-12-20 14:56:39.011461,60e0e480c45d13e3fc1aae6b,106401,None,select_applications,None,106401,None,None
+23,2022-12-20 14:56:53.826084,60e0e480c45d13e3fc1aae6b,106401,None,select_applications,None,106401,None,None
+24,2022-12-20 14:56:53.855400,60e0e480c45d13e3fc1aae6b,106401,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+25,2022-12-20 14:56:55.310229,60e0e480c45d13e3fc1aae6b,106401,None,select_applications,None,106401,None,None
+26,2022-12-20 14:57:52.657915,60e0e480c45d13e3fc1aae6b,0,None,Clicked-on-Causal-Graph-Node,Node Value,Years since changing registration,None,None
+27,2022-12-20 14:58:15.041651,60e0e480c45d13e3fc1aae6b,0,None,Click on Feature Combination Button,None,"{'attribute': 'Installments', 'value': 'Fixed', 'total_count': '20', 'risk_rate': '30'}",None,None
+28,2022-12-20 14:58:38.821849,60e0e480c45d13e3fc1aae6b,106488,None,select_applications,None,106488,None,None
+29,2022-12-20 14:58:50.640461,60e0e480c45d13e3fc1aae6b,106488,None,select_applications,None,106488,None,None
+30,2022-12-20 14:58:50.663972,60e0e480c45d13e3fc1aae6b,106488,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+31,2022-12-20 14:58:52.411341,60e0e480c45d13e3fc1aae6b,106488,None,select_applications,None,106488,None,None
+32,2022-12-20 14:59:24.324833,60e0e480c45d13e3fc1aae6b,101367,None,select_applications,None,101367,None,None
+33,2022-12-20 14:59:39.405903,60e0e480c45d13e3fc1aae6b,101367,None,select_applications,None,101367,None,None
+34,2022-12-20 14:59:39.428970,60e0e480c45d13e3fc1aae6b,101367,None,select_applications,None,101367,None,None
+35,2022-12-20 14:59:39.433288,60e0e480c45d13e3fc1aae6b,101367,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+36,2022-12-20 14:59:40.808926,60e0e480c45d13e3fc1aae6b,101367,None,select_applications,None,101367,None,None
+37,2022-12-20 14:59:49.564185,60e0e480c45d13e3fc1aae6b,105231,None,select_applications,None,105231,None,None
+38,2022-12-20 15:00:03.151525,60e0e480c45d13e3fc1aae6b,105231,None,select_applications,None,105231,None,None
+39,2022-12-20 15:00:03.174352,60e0e480c45d13e3fc1aae6b,105231,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+40,2022-12-20 15:00:05.734797,60e0e480c45d13e3fc1aae6b,105231,None,select_applications,None,105231,None,None
+41,2022-12-20 15:00:24.720406,60e0e480c45d13e3fc1aae6b,0,None,apply_refine_search,Years in current employment,,,
+42,2022-12-20 15:00:35.908882,60e0e480c45d13e3fc1aae6b,106225,None,select_applications,None,106225,None,None
+43,2022-12-20 15:00:44.740858,60e0e480c45d13e3fc1aae6b,106225,None,select_applications,None,106225,None,None
+44,2022-12-20 15:00:44.751312,60e0e480c45d13e3fc1aae6b,106225,None,select_reject_application,unfair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+45,2022-12-20 15:00:46.297749,60e0e480c45d13e3fc1aae6b,106225,None,select_applications,None,106225,None,None
+46,2022-12-20 15:01:12.470614,60e0e480c45d13e3fc1aae6b,100005,None,select_applications,None,100005,None,None
+47,2022-12-20 15:01:21.900027,60e0e480c45d13e3fc1aae6b,100005,None,select_applications,None,100005,None,None
+48,2022-12-20 15:01:21.926839,60e0e480c45d13e3fc1aae6b,100005,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+49,2022-12-20 15:01:23.743666,60e0e480c45d13e3fc1aae6b,100005,None,select_applications,None,100005,None,None
+50,2022-12-20 15:01:50.125521,60e0e480c45d13e3fc1aae6b,100038,None,select_applications,None,100038,None,None
+51,2022-12-20 15:01:59.384064,60e0e480c45d13e3fc1aae6b,100038,None,select_applications,None,100038,None,None
+52,2022-12-20 15:01:59.411537,60e0e480c45d13e3fc1aae6b,100038,None,select_reject_application,unfair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+53,2022-12-20 15:02:00.972213,60e0e480c45d13e3fc1aae6b,100038,None,select_applications,None,100038,None,None
+54,2022-12-20 15:02:16.990152,60e0e480c45d13e3fc1aae6b,100091,None,select_applications,None,100091,None,None
+55,2022-12-20 15:02:26.826241,60e0e480c45d13e3fc1aae6b,100091,None,select_applications,None,100091,None,None
+56,2022-12-20 15:02:27.160112,60e0e480c45d13e3fc1aae6b,100091,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+57,2022-12-20 15:02:29.057414,60e0e480c45d13e3fc1aae6b,100091,None,select_applications,None,100091,None,None
+58,2022-12-20 15:02:38.963264,60e0e480c45d13e3fc1aae6b,100128,None,select_applications,None,100128,None,None
+59,2022-12-20 15:02:49.314094,60e0e480c45d13e3fc1aae6b,100128,None,select_applications,None,100128,None,None
+60,2022-12-20 15:02:49.333507,60e0e480c45d13e3fc1aae6b,100128,None,select_reject_application,unfair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+61,2022-12-20 15:02:51.005712,60e0e480c45d13e3fc1aae6b,100128,None,select_applications,None,100128,None,None
+62,2022-12-20 15:03:08.763197,60e0e480c45d13e3fc1aae6b,0,None,apply_refine_search,Years in current employment,10-20,,
+63,2022-12-20 15:03:10.924220,60e0e480c45d13e3fc1aae6b,0,None,apply_refine_search,Years in current employment,10-20,,
+64,2022-12-20 15:03:14.786922,60e0e480c45d13e3fc1aae6b,100013,None,select_applications,None,100013,None,None
+65,2022-12-20 15:03:22.234245,60e0e480c45d13e3fc1aae6b,100013,None,select_applications,None,100013,None,None
+66,2022-12-20 15:03:22.238710,60e0e480c45d13e3fc1aae6b,100013,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+67,2022-12-20 15:03:22.250555,60e0e480c45d13e3fc1aae6b,100013,None,select_applications,None,100013,None,None
+68,2022-12-20 15:03:25.767880,60e0e480c45d13e3fc1aae6b,100013,None,select_applications,None,100013,None,None
+69,2022-12-20 15:03:34.972759,60e0e480c45d13e3fc1aae6b,0,None,apply_refine_search,Years in current employment,,,
+70,2022-12-20 15:03:56.245337,60e0e480c45d13e3fc1aae6b,100001,None,select_applications,None,100001,None,None
+71,2022-12-20 15:04:00.727721,60e0e480c45d13e3fc1aae6b,100001,None,select_applications,None,100001,None,None
+72,2022-12-20 15:04:00.766489,60e0e480c45d13e3fc1aae6b,100001,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+73,2022-12-20 15:04:01.809183,60e0e480c45d13e3fc1aae6b,100001,None,select_applications,None,100001,None,None
+74,2022-12-20 15:04:21.937571,60e0e480c45d13e3fc1aae6b,100001,None,similar_application,,106277,,
+75,2022-12-20 15:05:02.057327,60e0e480c45d13e3fc1aae6b,0,None,apply_refine_search,Accompanied while applying,"Spouse, partner",,
+76,2022-12-20 15:05:19.449776,60e0e480c45d13e3fc1aae6b,104685,None,select_applications,None,104685,None,None
+77,2022-12-20 15:05:27.539005,60e0e480c45d13e3fc1aae6b,104685,None,select_applications,None,104685,None,None
+78,2022-12-20 15:05:27.547350,60e0e480c45d13e3fc1aae6b,104685,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+79,2022-12-20 15:05:29.786712,60e0e480c45d13e3fc1aae6b,104685,None,select_applications,None,104685,None,None
+80,2022-12-20 15:05:41.775405,60e0e480c45d13e3fc1aae6b,100171,None,select_applications,None,100171,None,None
+81,2022-12-20 15:05:49.369981,60e0e480c45d13e3fc1aae6b,100171,None,select_reject_application,unfair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+82,2022-12-20 15:05:49.384953,60e0e480c45d13e3fc1aae6b,100171,None,select_applications,None,100171,None,None
+83,2022-12-20 15:05:52.554230,60e0e480c45d13e3fc1aae6b,100171,None,select_applications,None,100171,None,None
+84,2022-12-20 15:06:07.794955,60e0e480c45d13e3fc1aae6b,100172,None,select_applications,None,100172,None,None
+85,2022-12-20 15:06:25.322062,60e0e480c45d13e3fc1aae6b,100172,None,select_applications,None,100172,None,None
+86,2022-12-20 15:06:25.325497,60e0e480c45d13e3fc1aae6b,100172,None,select_applications,None,100172,None,None
+87,2022-12-20 15:06:25.363394,60e0e480c45d13e3fc1aae6b,100172,None,select_reject_application,unfair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+88,2022-12-20 15:06:26.714078,60e0e480c45d13e3fc1aae6b,100172,None,select_applications,None,100172,None,None
+89,2022-12-20 15:06:47.077126,60e0e480c45d13e3fc1aae6b,100311,None,select_applications,None,100311,None,None
+90,2022-12-20 15:06:54.460388,60e0e480c45d13e3fc1aae6b,100311,None,select_applications,None,100311,None,None
+91,2022-12-20 15:06:54.886548,60e0e480c45d13e3fc1aae6b,100311,None,select_reject_application,unfair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+92,2022-12-20 15:06:57.278553,60e0e480c45d13e3fc1aae6b,100311,None,select_applications,None,100311,None,None
+93,2022-12-20 15:07:26.491901,60e0e480c45d13e3fc1aae6b,102099,None,select_applications,None,102099,None,None
+94,2022-12-20 15:07:33.601214,60e0e480c45d13e3fc1aae6b,102099,None,select_applications,None,102099,None,None
+95,2022-12-20 15:07:33.603459,60e0e480c45d13e3fc1aae6b,102099,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+96,2022-12-20 15:07:39.788743,60e0e480c45d13e3fc1aae6b,102099,None,select_applications,None,102099,None,None
+97,2022-12-20 15:08:33.768861,60e0e480c45d13e3fc1aae6b,100278,None,select_applications,None,100278,None,None
+98,2022-12-20 15:08:41.277982,60e0e480c45d13e3fc1aae6b,100278,None,select_applications,None,100278,None,None
+99,2022-12-20 15:08:42.078510,60e0e480c45d13e3fc1aae6b,100278,None,select_applications,None,100278,None,None
+100,2022-12-20 15:08:42.197708,60e0e480c45d13e3fc1aae6b,100278,None,select_reject_application,unfair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+101,2022-12-20 15:08:44.278222,60e0e480c45d13e3fc1aae6b,100278,None,select_applications,None,100278,None,None
+102,2022-12-20 15:09:18.672242,60e0e480c45d13e3fc1aae6b,100169,None,select_applications,None,100169,None,None
+103,2022-12-20 15:09:38.533302,60e0e480c45d13e3fc1aae6b,100169,None,select_applications,None,100169,None,None
+104,2022-12-20 15:09:38.542797,60e0e480c45d13e3fc1aae6b,100169,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+105,2022-12-20 15:09:40.692727,60e0e480c45d13e3fc1aae6b,100169,None,select_applications,None,100169,None,None
+106,2022-12-20 15:09:52.535423,60e0e480c45d13e3fc1aae6b,100446,None,select_applications,None,100446,None,None
+107,2022-12-20 15:09:56.192401,60e0e480c45d13e3fc1aae6b,100446,None,select_applications,None,100446,None,None
+108,2022-12-20 15:09:56.201502,60e0e480c45d13e3fc1aae6b,100446,None,select_applications,None,100446,None,None
+109,2022-12-20 15:09:56.491924,60e0e480c45d13e3fc1aae6b,100446,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+110,2022-12-20 15:09:59.967705,60e0e480c45d13e3fc1aae6b,100446,None,select_applications,None,100446,None,None
+111,2022-12-20 15:10:20.675438,60e0e480c45d13e3fc1aae6b,102772,None,select_applications,None,102772,None,None
+112,2022-12-20 15:10:27.924194,60e0e480c45d13e3fc1aae6b,102772,None,select_applications,None,102772,None,None
+113,2022-12-20 15:10:27.932275,60e0e480c45d13e3fc1aae6b,102772,None,select_applications,None,102772,None,None
+114,2022-12-20 15:10:28.455769,60e0e480c45d13e3fc1aae6b,102772,None,select_reject_application,unfair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+115,2022-12-20 15:10:29.895466,60e0e480c45d13e3fc1aae6b,102772,None,select_applications,None,102772,None,None
+116,2022-12-20 15:10:42.366534,60e0e480c45d13e3fc1aae6b,102887,None,select_applications,None,102887,None,None
+117,2022-12-20 15:10:48.916466,60e0e480c45d13e3fc1aae6b,102887,None,select_applications,None,102887,None,None
+118,2022-12-20 15:10:48.922132,60e0e480c45d13e3fc1aae6b,102887,None,select_applications,None,102887,None,None
+119,2022-12-20 15:10:48.941897,60e0e480c45d13e3fc1aae6b,102887,None,select_reject_application,unfair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+120,2022-12-20 15:10:50.648999,60e0e480c45d13e3fc1aae6b,102887,None,select_applications,None,102887,None,None
+121,2022-12-20 15:11:01.655602,60e0e480c45d13e3fc1aae6b,101363,None,select_applications,None,101363,None,None
+122,2022-12-20 15:11:08.046668,60e0e480c45d13e3fc1aae6b,101363,None,select_applications,None,101363,None,None
+123,2022-12-20 15:11:08.852702,60e0e480c45d13e3fc1aae6b,101363,None,select_reject_application,unfair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+124,2022-12-20 15:11:10.041299,60e0e480c45d13e3fc1aae6b,101363,None,select_applications,None,101363,None,None
+125,2022-12-20 15:11:19.893451,60e0e480c45d13e3fc1aae6b,100770,None,select_applications,None,100770,None,None
+126,2022-12-20 15:11:29.479867,60e0e480c45d13e3fc1aae6b,100770,None,select_applications,None,100770,None,None
+127,2022-12-20 15:11:29.503131,60e0e480c45d13e3fc1aae6b,100770,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+128,2022-12-20 15:11:31.493719,60e0e480c45d13e3fc1aae6b,100770,None,select_applications,None,100770,None,None
+129,2022-12-20 15:11:31.915829,60e0e480c45d13e3fc1aae6b,100770,None,select_applications,None,100770,None,None
+130,2022-12-20 15:11:39.709081,60e0e480c45d13e3fc1aae6b,100028,None,select_applications,None,100028,None,None
+131,2022-12-20 15:11:47.616720,60e0e480c45d13e3fc1aae6b,100028,None,select_applications,None,100028,None,None
+132,2022-12-20 15:11:47.618719,60e0e480c45d13e3fc1aae6b,100028,None,select_reject_application,fair,"[{'attribute': '103572_Highest education level', 'value': '0.05'}]",0,0
+133,2022-12-20 15:11:54.427919,60e0e480c45d13e3fc1aae6b,100028,None,select_applications,None,100028,None,None

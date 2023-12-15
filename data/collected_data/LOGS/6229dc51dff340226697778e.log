@@ -1,0 +1,12 @@
+106647
+unfair
+[]
+106401
+unfair
+[{'attribute': '106647_Highest education level', 'value': '0.046'}, {'attribute': '106647_Owns Car', 'value': '0.041'}]
+100038
+unfair
+[{'attribute': '106647_Highest education level', 'value': '0.046'}, {'attribute': '100038_Owns Car', 'value': '0.054'}, {'attribute': '106647_Owns Car', 'value': '0.041'}]
+100091
+unfair
+[{'attribute': '100038_Highest education level', 'value': '0.051'}, {'attribute': '101008_Loan Credit amount ', 'value': '0.02'}, {'attribute': '106647_Owns Car', 'value': '0.041'}, {'attribute': '100038_Age', 'value': '0.044'}, {'attribute': '101008_Owns Car', 'value': '0.037'}, {'attribute': '100038_Income type', 'value': '0.021'}, {'attribute': '100091_Owns Car', 'value': '0.035'}, {'attribute': '106647_Highest education level', 'value': '0.046'}, {'attribute': '100038_Owns Car', 'value': '0.042'}]

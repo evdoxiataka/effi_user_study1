@@ -54,4 +54,5 @@ This contains the code for the Analysis. The following notebooks should be run i
 
 1. **FeedbackIntegration_Training.ipynb**: This notebook contains the code for integrating participants' feedback, retraining the AI Model, and evaluating fairness and accuracy before and after the integration of feedback.  
 2. **FeedbackIntegration_Analysis.ipynb**: This notebook contains the code for analysing the results from the integration of participants' feedback.
+3. **biasMitigation_vs_HumanFeedback.ipynb**: This notebook contains the code for calculating fairness of the model afer applying a bias mitigation algorithm (aif360 reweighing (label massaging) preprocessing).
 

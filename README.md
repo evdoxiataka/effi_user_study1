@@ -1,5 +1,5 @@
-# Exploring the Impact of Lay User Feedback for Improving AI Fairness
-This repository constitutes a supplementary material for the paper "Exploring the Impact of Lay User Feedback for Improving AI Fairness" submitted to FAccT-24.
+# Using Lay User Feedback for Improving Fairness in AI Decision-Making
+This repository constitutes a supplementary material for the paper "Using Lay User Feedback for Improving Fairness in AI Decision-Making" submitted to FAccT-24.
 
 It contains the:
 

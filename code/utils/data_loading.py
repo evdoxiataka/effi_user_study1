@@ -101,7 +101,15 @@ def update_clear_value(cl_value, el):
     else:
         cl_value.append(el)
     return cl_value
-    
+## TEST ###
+# pid = '6120211d8e1eab16fcb7ad69'## example of consecutive same app where same feature weight changes 
+# pid = '6120211d8e1eab16fcb7ad69'
+# p_id = '5e465ab4c07877130185c306'## case 3: 3 consecutive times same app
+# pid = "5ebed23204aa470f9e1299bb"## case 1
+# pid = '5f02fbee212873485f6ce5b8'## general debug
+# pid = '5f256074297aac1d8ef7382d'## general debug
+# pid = '60dc5726c777d9a0e550d1ca'## case 1 idx 497-498
+# pid = '60e3303c9f5ea2fc726d58d8'## case 1 -6 -7 you need to update apps_ids_idx when new row is added with previous label feedback
 def get_all_participants_feedback(logs_df):
     """
         logs_df: Pandas DataFrame produced by the method get_all_participants_logs

@@ -32,8 +32,8 @@ The collected data from the user study and some code for cleaning them can be fo
 
 ### processed_data
 Various files containing processed data and some code for cleaning them can be found here.
-- **CollectedData_Cleaning.ipynb**: code for cleaning users' feedback (remove duplicates and blank columns)
-- **Feedback_final.csv**: contains all participants' feedback after cleaning
+- **feedback.ipynb**: code to retrieve participants feedback from logs, clean and preprocess it, and create statistics about participants' interactions with the UI
+- **demographics.ipynb**: code to create statistics about participants' demographics available through Prolific.
 
 ### results
 Any file resulting from the analysis of collected data organized subfolders based on the approach of integrating feedback and retraining the model can be found here.
@@ -56,3 +56,5 @@ This contains the code for the Analysis. The following notebooks should be run i
 2. **FeedbackIntegration_Analysis.ipynb**: This notebook contains the code for analysing the results from the integration of participants' feedback.
 3. **biasMitigation_vs_HumanFeedback.ipynb**: This notebook contains the code for calculating fairness of the model afer applying a bias mitigation algorithm (aif360 reweighing (label massaging) preprocessing).
 
+### utils
+Various files with python code used for the training and analysis.

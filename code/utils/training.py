@@ -59,11 +59,10 @@ def train_and_evaluate_model(X_train_original, y_train_original,
         model.fit(X_train_original, y_train_original, sample_weight=classes_weights, feature_weights = feature_weights)
     ## accuracy
     # X_test = X_test_original.loc[:, X_test_original.columns != 'SK_ID_CURR']
-    y_pred = model.predict(X_test)
+    y_pred = model.predict(X_test_original)
     predictions = [round(value) for value in y_pred]
     acc = accuracy_score(y_test_original, predictions)* 100.0
     i_dict_acc = {'participant_id':[p_id],'iteration':[iteration],'fs':[fs], 'accuracy':[acc]}
-    # accuracy.append(pd.DataFrame(i_dict_acc))
     
     ##add predictions to original test set 
     train_df_test_bin_ = train_df_test_bin.copy()   
@@ -74,14 +73,14 @@ def train_and_evaluate_model(X_train_original, y_train_original,
     i_dict_group['fs'] = [fs]*len(i_dict_group['Feature'])
     i_dict_group['iteration'] = [iteration]*len(i_dict_group['Feature'])
     i_dict_group['participant_id'] = [p_id]*len(i_dict_group['Feature'])
-    # group_fairness_metrics.append(pd.DataFrame(i_dict_group))
+
     ##
     X_without_sensitive_attr = X_test_original.drop(columns = ["CODE_GENDER_LE","AGE",'NAME_FAMILY_STATUS_LE'],inplace = False)
     consistency_10 = consistency_score_(X_without_sensitive_attr, predictions, 10)
     consistency_100 = consistency_score_(X_without_sensitive_attr, predictions, 100)
     theil_index = theil_index_(train_df_test_bin_, 1)
     i_dict_indv = {'participant_id':[p_id],'iteration':[iteration],'fs':[fs], 'consistency_10':[consistency_10], 'consistency_100':[consistency_100], 'theil_index':[theil_index]}
-    # indiv_fairness_metrics.append(pd.DataFrame(i_dict_indv))
+    
     return pd.DataFrame(i_dict_acc), pd.DataFrame(i_dict_group), pd.DataFrame(i_dict_indv)
 
 def oneoff_training_evaluation(X_train_original, y_train_original,
@@ -120,7 +119,7 @@ def oneoff_training_evaluation(X_train_original, y_train_original,
     feature_weights = np.array([])
     for j, p_id in enumerate(feedback_df['ID'].unique()):
         print('participant',j)
-        feedbackInstances_j = feedback_df[feedback_df['ID']== p_id].sort_values(by=['timestamp'])            
+        feedbackInstances_j = feedback_df[feedback_df['ID']== p_id]##.sort_values(by=['timestamp']) - instances should be presented in increasing timestamp         
         for k, idx in enumerate(feedbackInstances_j.index):
             ## get application data
             app_id = feedback_df['App ID'].loc[idx]        
@@ -160,7 +159,7 @@ def oneoff_training_evaluation(X_train_original, y_train_original,
     acc_row, group_row, indv_row = train_and_evaluate_model(X_train, y_train, X_test, y_test, 
                                                             X_test_bin, feature_weights,
                                                             sensitive_attrs,
-                                                            count+1, fs, count, p_id)
+                                                            count, fs, count, None)
     accuracy.append(acc_row)
     group_fairness_metrics.append(group_row)
     indiv_fairness_metrics.append(indv_row)
@@ -206,7 +205,7 @@ def iml_training_evaluation(X_train_original, y_train_original,
     group_fairness_metrics = []
     indiv_fairness_metrics = []
                                
-    ## train and evaluate model before integrating feedback
+    ## BEFORE INTEGRATING FEEDBACK
     X_train = X_train_original.copy()
     y_train = y_train_original.copy()
     X_test = X_test_original.copy()
@@ -219,7 +218,8 @@ def iml_training_evaluation(X_train_original, y_train_original,
     accuracy.append(acc_row)
     group_fairness_metrics.append(group_row)
     indiv_fairness_metrics.append(indv_row)
-    ## iterate over participants    
+    
+    ## INTEGRATE FEEDBACK    
     for j, p_id in enumerate(feedback_df['ID'].unique()):
         print('participant',j)
         X_train = X_train_original.copy()
@@ -262,7 +262,7 @@ def iml_training_evaluation(X_train_original, y_train_original,
             acc_row, group_row, indv_row = train_and_evaluate_model(X_train, y_train, X_test, y_test, 
                                                                     X_test_bin, feature_weights,
                                                                     sensitive_attrs,
-                                                                    count+1, fs, count, p_id)
+                                                                    count, fs, count-1, p_id)
             accuracy.append(acc_row)
             group_fairness_metrics.append(group_row)
             indiv_fairness_metrics.append(indv_row)

@@ -432,73 +432,67 @@ def add_cma_data(df_group, group_fair, df_indiv, indiv_fair, df_acc, sensitive_a
             ## GROUP FAIRNESS
             for i,sens_attr in enumerate(sensitive_attrs):           
                 for j,gf in enumerate(group_fair):
-                    for k,fs_i in enumerate(fs):
-                        cma = df_group.loc[(df_group['participant_id']==p_id) & (df_group['Feature']==sens_attr) & (df_group['fs']==fs_i),[gf]].expanding().mean()[gf].tolist()
-                        df_group.loc[(df_group['participant_id']==p_id) & (df_group['Feature']==sens_attr) & (df_group['fs']==fs_i),['CMA_'+gf]] = cma
+                    # for k,fs_i in enumerate(fs):
+                    cma = df_group.loc[(df_group['participant_id']==p_id) & (df_group['Feature']==sens_attr) & (df_group['fs']==fs),[gf]].expanding().mean()[gf].tolist()
+                    df_group.loc[(df_group['participant_id']==p_id) & (df_group['Feature']==sens_attr) & (df_group['fs']==fs),['CMA_'+gf]] = cma
             ## INDIVIDUAL FAIRNESS
             for i,idf in enumerate(indiv_fair):
-                for k,fs_i in enumerate(fs):
-                    cma = df_indiv.loc[(df_indiv['participant_id']==p_id) & (df_indiv['fs']==fs_i),[idf]].expanding().mean()[idf].tolist()
-                    df_indiv.loc[(df_indiv['participant_id']==p_id) & (df_indiv['fs']==fs_i),['CMA_'+idf]] = cma
+                cma = df_indiv.loc[(df_indiv['participant_id']==p_id) & (df_indiv['fs']==fs),[idf]].expanding().mean()[idf].tolist()
+                df_indiv.loc[(df_indiv['participant_id']==p_id) & (df_indiv['fs']==fs),['CMA_'+idf]] = cma
             ## ACCURACY
-            for k,fs_i in enumerate(fs):
-                cma = df_acc.loc[(df_acc['participant_id']==p_id) & (df_acc['fs']==fs_i),['accuracy']].expanding().mean()['accuracy'].tolist()
-                df_acc.loc[(df_acc['participant_id']==p_id) & (df_acc['fs']==fs_i),['CMA_accuracy']] = cma
+            cma = df_acc.loc[(df_acc['participant_id']==p_id) & (df_acc['fs']==fs),['accuracy']].expanding().mean()['accuracy'].tolist()
+            df_acc.loc[(df_acc['participant_id']==p_id) & (df_acc['fs']==fs),['CMA_accuracy']] = cma
 
 def get_percentage_change_oneoff(df_group, group_fair, df_indiv, indiv_fair, df_acc, sensitive_attrs, fs):
     perc_change_dict = {} ## percentage change (value-baseline)/baseline*100
-    for p,p_id in enumerate(df_group['participant_id'].unique()):     
-        if isinstance(p_id, str):
-            ## GROUP FAIRNESS
-            df_p = df_group[df_group['participant_id']==p_id]
-            for i,sens_attr in enumerate(sensitive_attrs):          
-                for j,gf in enumerate(group_fair):
-                    for k,fs_i in enumerate(fs):
-                        ## get baseline value
-                        df_p_null = df_group[df_group['participant_id'].isnull()]  
-                        df = df_p_null[df_p_null['Feature']==sens_attr]
-                        df = df[df['fs']==fs_i] 
-                        baseline = df[gf].tolist()[0]
-                        ## get diff from baseline
-                        df = df_p[df_p['Feature']==sens_attr]
-                        df = df[df['fs']==fs_i]
-                        # av_diff_vec.append(((df[gf].tolist()[0]-baseline)/baseline)*100)
-                        perc_change_dict[sens_attr+'_'+gf] = ((df[gf].tolist()[0]-baseline)/abs(baseline))*100
-            ## INDIVIDUAL FAIRNESS
-            df_p = df_indiv[df_indiv['participant_id']==p_id]
-            for i,idf in enumerate(indiv_fair):
-                for k,fs_i in enumerate(fs):
-                    ## get baseline value
-                    df_p_null = df_indiv[df_indiv['participant_id'].isnull()]
-                    df = df_p_null[df_p_null['fs']==fs_i]                
-                    baseline = df[idf].tolist()[0]
-                    ## get diff from baseline
-                    df = df_p[df_p['fs']==fs_i]
-                    # av_diff_vec.append(((df[idf].tolist()[0]-baseline)/baseline)*100)
-                    perc_change_dict[idf] = ((df[idf].tolist()[0]-baseline)/abs(baseline))*100
-            ## ACCURACT
-            df_p = df_acc[df_indiv['participant_id']==p_id]
-            for k,fs_i in enumerate(fs):
-                ## get baseline value
-                df_p_null = df_acc[df_acc['participant_id'].isnull()]
-                df = df_p_null[df_p_null['fs']==fs_i]                
-                baseline = df['accuracy'].tolist()[0]
-                ## get diff from baseline
-                df = df_p[df_p['fs']==fs_i]
-                # av_diff_vec.append(((df['accuracy'].tolist()[0]-baseline)/baseline)*100)
-                perc_change_dict['accuracy'] = ((df['accuracy'].tolist()[0]-baseline)/abs(baseline))*100
+    ## GROUP FAIRNESS
+    for i,sens_attr in enumerate(sensitive_attrs):          
+        for j,gf in enumerate(group_fair):
+            ## get baseline value
+            df_p_null = df_group[df_group['iteration']==0]  
+            df = df_p_null[df_p_null['Feature']==sens_attr]
+            df = df[df['fs']==fs] 
+            baseline = df[gf].tolist()[0]
+            ## get diff from baseline
+            df_i_non0 = df_group[df_group['iteration']!=0]
+            df = df_i_non0[df_i_non0['Feature']==sens_attr]
+            df = df[df['fs']==fs]
+            if baseline:
+                perc_change_dict[sens_attr+'_'+gf] = ((df[gf].tolist()[0]-baseline)/abs(baseline))*100
+            else:
+                perc_change_dict[sens_attr+'_'+gf] = np.inf
+    ## INDIVIDUAL FAIRNESS
+    for i,idf in enumerate(indiv_fair):
+        ## get baseline value
+        df = df_indiv[df_indiv['iteration']==0]               
+        baseline = df[idf].tolist()[0]
+        ## get diff from baseline
+        df = df_indiv[df_indiv['iteration']!=0]
+        if baseline:
+            perc_change_dict[idf] = ((df[idf].tolist()[0]-baseline)/abs(baseline))*100
+        else:
+            perc_change_dict[idf] = np.inf
+    ## ACCURACT
+    ## get baseline value
+    df_i_0 = df_acc[df_acc['iteration']==0]
+    df = df_i_0[df_i_0['fs']==fs]                
+    baseline = df['accuracy'].tolist()[0]
+    ## get diff from baseline
+    df_i_non0 = df_acc[df_acc['iteration']!=0]
+    df = df_i_non0[df_i_non0['fs']==fs]
+    # av_diff_vec.append(((df['accuracy'].tolist()[0]-baseline)/baseline)*100)
+    if baseline:
+        perc_change_dict['accuracy'] = ((df['accuracy'].tolist()[0]-baseline)/abs(baseline))*100
+    else:
+        perc_change_dict['accuracy'] = np.inf
     return pd.DataFrame([perc_change_dict])
 
 def get_percentage_change_IML(df_group, group_fair, df_indiv, indiv_fair, sensitive_attrs, fs):
-    # av_diff_vecs = [] ## Average of Differences from Baseline Values
-    # cma_av_diff_vecs = [] ## Average of Differences of Cumulative Moving Average lines from Baseline Values
     perc_change_dict = {} ## percentage change (value-baseline)/baseline*100
     cma_perc_change_dict = {} 
     p_ids = []
     for p,p_id in enumerate(df_group['participant_id'].unique()):     
         if isinstance(p_id, str): 
-            # av_diff_vec = []
-            # cma_av_diff_vec = []
             p_ids.append(p_id)
             ## GROUP FAIRNESS
             df_p = df_group[df_group['participant_id']==p_id]
@@ -506,51 +500,51 @@ def get_percentage_change_IML(df_group, group_fair, df_indiv, indiv_fair, sensit
                 for j,gf in enumerate(group_fair):
                     diff = []
                     cma_diff = []
-                    for k,fs_i in enumerate(fs):
-                        ## get baseline value
-                        df_p_null = df_group[df_group['participant_id'].isnull()]  
-                        df = df_p_null[df_p_null['Feature']==sens_attr]
-                        df = df[df['fs']==fs_i] 
-                        baseline = df[gf].tolist()[0]
-                        ## get diff from baseline
-                        df = df_p[df_p['Feature']==sens_attr]
-                        df = df[df['fs']==fs_i]
-                        diff.extend([df[gf].tolist()[-1]-baseline])
-                        ## get diff of last iteration in CMA from baseline
-                        cma_diff.extend([df['CMA_'+gf].tolist()[-1]-baseline])
+                    ## get baseline value
+                    df_p_null = df_group[df_group['participant_id'].isnull()]  
+                    df = df_p_null[df_p_null['Feature']==sens_attr]
+                    df = df[df['fs']==fs] 
+                    baseline = df[gf].tolist()[0]
+                    ## get diff from baseline
+                    df = df_p[df_p['Feature']==sens_attr]
+                    df = df[df['fs']==fs]
+                    diff.extend([df[gf].tolist()[-1]-baseline])
+                    ## get diff of last iteration in CMA from baseline
+                    cma_diff.extend([df['CMA_'+gf].tolist()[-1]-baseline])
                     ###
-                    # av_diff_vec.append(np.array(av_diff).mean())
-                    # cma_av_diff_vec.append(np.array(cma_av_diff).mean())
                     if sens_attr+'_'+gf not in perc_change_dict:
                         perc_change_dict[sens_attr+'_'+gf] = []
                         cma_perc_change_dict[sens_attr+'_'+gf] = []
-                    perc_change_dict[sens_attr+'_'+gf].append((diff[0]/abs(baseline))*100)
-                    cma_perc_change_dict[sens_attr+'_'+gf].append((cma_diff[0]/abs(baseline))*100)
+                    if baseline:
+                        perc_change_dict[sens_attr+'_'+gf].append((diff[0]/abs(baseline))*100)
+                        cma_perc_change_dict[sens_attr+'_'+gf].append((cma_diff[0]/abs(baseline))*100)
+                    else:
+                        perc_change_dict[sens_attr+'_'+gf].append(np.inf)
+                        cma_perc_change_dict[sens_attr+'_'+gf].append(np.inf)
             ## INDIVIDUAL FAIRNESS
             df_p = df_indiv[df_indiv['participant_id']==p_id]
             for i,idf in enumerate(indiv_fair):
                 diff = []
                 cma_diff = []
-                for k,fs_i in enumerate(fs):
-                    ## get baseline value
-                    df_p_null = df_indiv[df_indiv['participant_id'].isnull()]
-                    df = df_p_null[df_p_null['fs']==fs_i]                
-                    baseline = df[idf].tolist()[0]
-                    ## get diff from baseline
-                    df = df_p[df_p['fs']==fs_i]
-                    diff.extend([df[idf].tolist()[-1]-baseline])
-                    ## get diff of CMA from baseline
-                    cma_diff.extend([df['CMA_'+idf].tolist()[-1]-baseline])
-                    ###
-                    # av_diff_vec.append(np.array(av_diff).mean())
-                    # cma_av_diff_vec.append(np.array(cma_av_diff).mean())                
+                ## get baseline value
+                df_p_null = df_indiv[df_indiv['participant_id'].isnull()]
+                df = df_p_null[df_p_null['fs']==fs]                
+                baseline = df[idf].tolist()[0]
+                ## get diff from baseline
+                df = df_p[df_p['fs']==fs]
+                diff.extend([df[idf].tolist()[-1]-baseline])
+                ## get diff of CMA from baseline
+                cma_diff.extend([df['CMA_'+idf].tolist()[-1]-baseline])
+                ###                                  
                 if idf not in perc_change_dict:
                     perc_change_dict[idf] = []
                     cma_perc_change_dict[idf] = []
-                perc_change_dict[idf].append((diff[0]/abs(baseline))*100)
-                cma_perc_change_dict[idf].append((cma_diff[0]/abs(baseline))*100)
-            # av_diff_vecs.append(av_diff_vec)
-            # cma_av_diff_vecs.append(cma_av_diff_vec)
+                if baseline:
+                    perc_change_dict[idf].append((diff[0]/abs(baseline))*100)
+                    cma_perc_change_dict[idf].append((cma_diff[0]/abs(baseline))*100)
+                else:
+                    perc_change_dict[idf].append(np.inf)
+                    cma_perc_change_dict[idf].append(np.inf)
     perc_change_dict['participant_id'] = p_ids
     cma_perc_change_dict['participant_id'] = p_ids
     return pd.DataFrame(perc_change_dict), pd.DataFrame(cma_perc_change_dict)

@@ -10,6 +10,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.utils import class_weight
 
+group_fair = ['DemographicParityRatio','ConditionalDemographicDisparity','EqualOpportunityDifference','AverageOddsDifference','PredictiveParity']
+indiv_fair = ['consistency_10','consistency_100','theil_index']
+
 def reweighing(y_train, n_feed, fs):
     """
     y_train: array/list/pd.Series of labels
@@ -85,10 +88,10 @@ def train_and_evaluate_model(X_train_original, y_train_original,
 
 def oneoff_training_evaluation(X_train_original, y_train_original,
                             X_test_original, y_test_original,
-                            train_df_test_bin, test_df, applications_df,
+                            train_df_test_bin, test_df,
                             sensitive_attrs, fs, feedback_df,
                            onlyUnfair, useFeatureWeights, 
-                               method_indicative_fileName_exte, folder):
+                               path, method_indicative_fileName_exte):
     """
         onlyUnfair: Boolean if True take only 'unfair' labelled instances
         method_indicative_fileName_exte: Str
@@ -125,7 +128,7 @@ def oneoff_training_evaluation(X_train_original, y_train_original,
             app_id = feedback_df['App ID'].loc[idx]        
             test_df_app_id = test_df[test_df['SK_ID_CURR'] == app_id].loc[:,test_df.columns!='SK_ID_CURR']
             ## get predicted label
-            pred_label = applications_df[applications_df["Application_id"] == app_id]["Predicted_decision"].tolist()[0]
+            pred_label = feedback_df['PredictedDecision'].loc[idx]
             if pred_label == 'Accepted':
                 pred_label = 1
             elif pred_label == 'Rejected':
@@ -150,6 +153,8 @@ def oneoff_training_evaluation(X_train_original, y_train_original,
                     feature_weights = np.array(feedback_df['Value'].loc[idx])                    
             ##
             count = count + 1
+            if count == 1:
+                return
             X_train = pd.concat([X_train, test_df_app_id], ignore_index=True)
             y_train = pd.concat([y_train, pd.DataFrame({'TARGET':[pred_label]})], ignore_index=True)
     ## retrain after integrating all feedback
@@ -187,15 +192,16 @@ def oneoff_training_evaluation(X_train_original, y_train_original,
         else:
             df_acc = i_df_acc
     ## save as csv
-    df_group.to_csv(folder+"group_fairness_"+method_indicative_fileName_exte+".csv", index=False)
-    df_indiv.to_csv(folder+"individual_fairness_"+method_indicative_fileName_exte+".csv", index=False)
-    df_acc.to_csv(folder+"accuracy_"+method_indicative_fileName_exte+".csv", index=False)
+    df_group.to_csv(path+"group_fairness_"+method_indicative_fileName_exte+".csv", index=False)
+    df_indiv.to_csv(path+"individual_fairness_"+method_indicative_fileName_exte+".csv", index=False)
+    df_acc.to_csv(path+"accuracy_"+method_indicative_fileName_exte+".csv", index=False)
                                
 def iml_training_evaluation(X_train_original, y_train_original,
                             X_test_original, y_test_original, 
-                            train_df_test_bin, test_df, applications_df,
+                            train_df_test_bin, test_df,
                             sensitive_attrs, fs, feedback_df,
-                           onlyUnfair, useFeatureWeights, method_indicative_fileName_exte, folder):
+                           onlyUnfair, useFeatureWeights, 
+                           path, method_indicative_fileName_exte):
     """
         onlyUnfair: Boolean if True take only 'unfair' labelled instances
         useFeatureWeights: Boolean if True set feature weights from feedback
@@ -234,7 +240,7 @@ def iml_training_evaluation(X_train_original, y_train_original,
             app_id = feedback_df['App ID'].loc[idx]        
             test_df_app_id = test_df[test_df['SK_ID_CURR'] == app_id].loc[:,test_df.columns!='SK_ID_CURR']
             ## get predicted label
-            pred_label = applications_df[applications_df["Application_id"] == app_id]["Predicted_decision"].tolist()[0]
+            pred_label = feedback_df['PredictedDecision'].loc[idx]
             if pred_label == 'Accepted':
                 pred_label = 1
             elif pred_label == 'Rejected':
@@ -289,11 +295,11 @@ def iml_training_evaluation(X_train_original, y_train_original,
         else:
             df_acc = i_df_acc
     ## save as csv
-    df_group.to_csv(folder+"group_fairness_"+method_indicative_fileName_exte+".csv", index=False)
-    df_indiv.to_csv(folder+"individual_fairness_"+method_indicative_fileName_exte+".csv", index=False)
-    df_acc.to_csv(folder+"accuracy_"+method_indicative_fileName_exte+".csv", index=False)
+    df_group.to_csv(path+"group_fairness_"+method_indicative_fileName_exte+".csv", index=False)
+    df_indiv.to_csv(path+"individual_fairness_"+method_indicative_fileName_exte+".csv", index=False)
+    df_acc.to_csv(path+"accuracy_"+method_indicative_fileName_exte+".csv", index=False)
     ## add cumulative moving average lines data
     add_cma_data(df_group, group_fair, df_indiv, indiv_fair, df_acc, sensitive_attrs, fs)
-    df_group.to_csv(folder+"group_fairness_"+method_indicative_fileName_exte+"_with_cma.csv", index=False)
-    df_indiv.to_csv(folder+"individual_fairness_"+method_indicative_fileName_exte+"_with_cma.csv", index=False)
-    df_acc.to_csv(folder+"accuracy_"+method_indicative_fileName_exte+"_with_cma.csv", index=False)
+    df_group.to_csv(path+"group_fairness_"+method_indicative_fileName_exte+"_with_cma.csv", index=False)
+    df_indiv.to_csv(path+"individual_fairness_"+method_indicative_fileName_exte+"_with_cma.csv", index=False)
+    df_acc.to_csv(path+"accuracy_"+method_indicative_fileName_exte+"_with_cma.csv", index=False)

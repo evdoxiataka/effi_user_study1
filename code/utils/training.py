@@ -153,8 +153,6 @@ def oneoff_training_evaluation(X_train_original, y_train_original,
                     feature_weights = np.array(feedback_df['Value'].loc[idx])                    
             ##
             count = count + 1
-            if count == 1:
-                return
             X_train = pd.concat([X_train, test_df_app_id], ignore_index=True)
             y_train = pd.concat([y_train, pd.DataFrame({'TARGET':[pred_label]})], ignore_index=True)
     ## retrain after integrating all feedback

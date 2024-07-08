@@ -16,7 +16,10 @@ def get_x_axis_lim(df_group, group_fair, sensitive_attrs, fs):
                     feed_len.append(len(df))
     return max(feed_len)
     
-def joint_plot_all_participants(title, folder, filename, image_type, sensitive_attrs, group_fair, group_fair_codes, indiv_fair, fs, df_group, df_indiv, df_acc, colors, show_timeseries, show_cma):
+def joint_plot_all_participants(title, folder, filename, image_type, 
+                                sensitive_attrs, group_fair, group_fair_codes, 
+                                indiv_fair, fs, df_group, df_indiv, 
+                                df_acc, colors, show_timeseries, show_cma):
     matplotlib.rcParams.update({'font.size': 26})
     xlim = get_x_axis_lim(df_group, group_fair, sensitive_attrs, fs)
     ## 

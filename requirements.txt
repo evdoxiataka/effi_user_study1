@@ -1,0 +1,9 @@
+python
+jupyterlab
+scipy
+scikit-learn
+matplotlib
+seaborn
+xgboost
+fairlearn
+aif360

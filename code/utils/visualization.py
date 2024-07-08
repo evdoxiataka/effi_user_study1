@@ -10,10 +10,9 @@ def get_x_axis_lim(df_group, group_fair, sensitive_attrs, fs):
         df_p = df_group[df_group['participant_id']==p_id]
         for i,sens_attr in enumerate(sensitive_attrs):    
             for j,gf in enumerate(group_fair):
-                for k,fs_i in enumerate(fs):
-                    df = df_p[df_p['Feature']==sens_attr]
-                    df = df[df['fs']==fs_i]
-                    feed_len.append(len(df))
+                df = df_p[df_p['Feature']==sens_attr]
+                df = df[df['fs']==fs]
+                feed_len.append(len(df))
     return max(feed_len)
     
 def joint_plot_all_participants(title, folder, filename, image_type, 
@@ -32,106 +31,97 @@ def joint_plot_all_participants(title, folder, filename, image_type,
         ## GROUP FAIRNESS
         for i,sens_attr in enumerate(sensitive_attrs):    
             for j,gf in enumerate(group_fair):
-                for k,fs_i in enumerate(fs):
-                    df = df_group[df_group['Feature']==sens_attr]
-                    df = df[df['fs']==fs_i]
-                    ## draw one curve per participant
-                    for p,p_id in enumerate(df['participant_id'].unique()):
-                        df_p = df[df['participant_id']==p_id]
-                        ## draw time series
-                        if isinstance(p_id, str):## not None                    
-                            line, = axes[i,j].plot(df_p['iteration'], df_p[gf], c = colors[2])  
-                            if flag:
-                                line.set_label('Feedback Integration')
-                                flag = False
-        ## INDIVIDUAL FAIRNESS
-        for i,idf in enumerate(indiv_fair):
-            for k,fs_i in enumerate(fs):
-                df = df_indiv[df_indiv['fs']==fs_i]
+                df = df_group[df_group['Feature']==sens_attr]
+                df = df[df['fs']==fs]
                 ## draw one curve per participant
                 for p,p_id in enumerate(df['participant_id'].unique()):
                     df_p = df[df['participant_id']==p_id]
                     ## draw time series
-                    if isinstance(p_id, str):## not None
-                        axes[len(sensitive_attrs),i].plot(df_p['iteration'], df_p[idf], c = colors[2])
-        ## ACCURACY
-        for k,fs_i in enumerate(fs):
-            df = df_acc[df_acc['fs']==fs_i]
+                    if isinstance(p_id, str):## not None                    
+                        line, = axes[i,j].plot(df_p['iteration'], df_p[gf], c = colors[2])  
+                        if flag:
+                            line.set_label('Feedback Integration')
+                            flag = False
+        ## INDIVIDUAL FAIRNESS
+        for i,idf in enumerate(indiv_fair):
+            df = df_indiv[df_indiv['fs']==fs]
             ## draw one curve per participant
             for p,p_id in enumerate(df['participant_id'].unique()):
                 df_p = df[df['participant_id']==p_id]
                 ## draw time series
-                if isinstance(p_id, str):## not None 
-                    axes[len(sensitive_attrs),len(indiv_fair)].plot(df_p['iteration'], df_p['accuracy'], c = colors[2])
+                if isinstance(p_id, str):## not None
+                    axes[len(sensitive_attrs),i].plot(df_p['iteration'], df_p[idf], c = colors[2])
+        ## ACCURACY
+        df = df_acc[df_acc['fs']==fs]
+        ## draw one curve per participant
+        for p,p_id in enumerate(df['participant_id'].unique()):
+            df_p = df[df['participant_id']==p_id]
+            ## draw time series
+            if isinstance(p_id, str):## not None 
+                axes[len(sensitive_attrs),len(indiv_fair)].plot(df_p['iteration'], df_p['accuracy'], c = colors[2])
     ## CUMULATIVE MOVING AVERAGE LINES
     if show_cma:  
         flag = True
         ## GROUP FAIRNESS
         for i,sens_attr in enumerate(sensitive_attrs):    
             for j,gf in enumerate(group_fair):
-                for k,fs_i in enumerate(fs):
-                    df = df_group[df_group['Feature']==sens_attr]
-                    df = df[df['fs']==fs_i]
-                    ## draw one curve per participant
-                    for p,p_id in enumerate(df['participant_id'].unique()):
-                        df_p = df[df['participant_id']==p_id]
-                        ## draw cma line
-                        if isinstance(p_id, str):## not None
-                            line, = axes[i,j].plot(df_p['iteration'], df_p['CMA_'+gf], c = colors[0], linewidth=1)
-                            if flag:
-                                line.set_label('CMA of Feedback Integration')
-                                flag = False
-        ## INDIVIDUAL FAIRNESS
-        for i,idf in enumerate(indiv_fair):
-            for k,fs_i in enumerate(fs):
-                df = df_indiv[df_indiv['fs']==fs_i]
+                df = df_group[df_group['Feature']==sens_attr]
+                df = df[df['fs']==fs]
                 ## draw one curve per participant
                 for p,p_id in enumerate(df['participant_id'].unique()):
                     df_p = df[df['participant_id']==p_id]
                     ## draw cma line
-                    if isinstance(p_id, str):## not None                        
-                        axes[len(sensitive_attrs),i].plot(df_p['iteration'], df_p['CMA_'+idf], c = colors[0], linewidth=1)
-        ## ACCURACY
-        for k,fs_i in enumerate(fs):
-            df = df_acc[df_acc['fs']==fs_i]
+                    if isinstance(p_id, str):## not None
+                        line, = axes[i,j].plot(df_p['iteration'], df_p['CMA_'+gf], c = colors[0], linewidth=1)
+                        if flag:
+                            line.set_label('CMA of Feedback Integration')
+                            flag = False
+        ## INDIVIDUAL FAIRNESS
+        for i,idf in enumerate(indiv_fair):
+            df = df_indiv[df_indiv['fs']==fs]
             ## draw one curve per participant
             for p,p_id in enumerate(df['participant_id'].unique()):
                 df_p = df[df['participant_id']==p_id]
-                ## ddraw cma line
-                if isinstance(p_id, str):## not None 
-                    axes[len(sensitive_attrs),len(indiv_fair)].plot(df_p['iteration'], df_p['CMA_accuracy'], c = colors[0], linewidth=1)
+                ## draw cma line
+                if isinstance(p_id, str):## not None                        
+                    axes[len(sensitive_attrs),i].plot(df_p['iteration'], df_p['CMA_'+idf], c = colors[0], linewidth=1)
+        ## ACCURACY
+        df = df_acc[df_acc['fs']==fs]
+        ## draw one curve per participant
+        for p,p_id in enumerate(df['participant_id'].unique()):
+            df_p = df[df['participant_id']==p_id]
+            ## ddraw cma line
+            if isinstance(p_id, str):## not None 
+                axes[len(sensitive_attrs),len(indiv_fair)].plot(df_p['iteration'], df_p['CMA_accuracy'], c = colors[0], linewidth=1)
     ## BASELINE LINES
     flag = True
     ## GROUP FAIRNESS
     for i,sens_attr in enumerate(sensitive_attrs):    
         for j,gf in enumerate(group_fair):
-            for k,fs_i in enumerate(fs):
-                df = df_group[df_group['Feature']==sens_attr]
-                df = df[df['fs']==fs_i]
-                ## draw baseline
-                df_p = df[df['participant_id'].isnull()]                
-                line, = axes[i,j].plot([l for l in range(xlim)], [df_p[gf].tolist()[0]]*xlim, c='black')
-                if flag:
-                    line.set_label('Baseline - No Feedback')
-                    flag = False
+            df = df_group[df_group['Feature']==sens_attr]
+            df = df[df['fs']==fs]
+            ## draw baseline
+            df_p = df[df['participant_id'].isnull()]                
+            line, = axes[i,j].plot([l for l in range(xlim)], [df_p[gf].tolist()[0]]*xlim, c='black')
+            if flag:
+                line.set_label('Baseline - No Feedback')
+                flag = False
             axes[i,j].set_xlabel("Iteration")
             axes[i,j].set_ylabel(group_fair_codes[j])
             axes[i,j].set_title(sens_attr)      
     ## INDIVIDUAL FAIRNESS
     for i,idf in enumerate(indiv_fair):
-        for k,fs_i in enumerate(fs):
-            df = df_indiv[df_indiv['fs']==fs_i]            
-            ## draw baseline
-            df_p = df[df['participant_id'].isnull()]                
-            axes[len(sensitive_attrs),i].plot([l for l in range(xlim)], [df_p[idf].tolist()[0]]*xlim, c='black') 
+        df = df_indiv[df_indiv['fs']==fs]            
+        ## draw baseline
+        df_p = df[df['participant_id'].isnull()]                
+        axes[len(sensitive_attrs),i].plot([l for l in range(xlim)], [df_p[idf].tolist()[0]]*xlim, c='black') 
         axes[len(sensitive_attrs),i].set_xlabel("Iteration")
         axes[len(sensitive_attrs),i].set_ylabel(idf)
     ## ACCURACY
-    for k,fs_i in enumerate(fs):
-        df = df_acc[df_acc['fs']==fs_i]        
-        ## draw baseline
-        df_p = df[df['participant_id'].isnull()]                
-        axes[len(sensitive_attrs),len(indiv_fair)].plot([l for l in range(xlim)], [df_p['accuracy'].tolist()[0]]*xlim, c = 'black')   
+    df = df_acc[df_acc['fs']==fs]        
+    ## draw baseline
+    df_p = df[df['participant_id'].isnull()]                
+    axes[len(sensitive_attrs),len(indiv_fair)].plot([l for l in range(xlim)], [df_p['accuracy'].tolist()[0]]*xlim, c = 'black')   
     
     axes[0,0].legend(bbox_to_anchor=(0.0,2.0),loc='upper left') 
     axes[len(sensitive_attrs),len(indiv_fair)].set_xlabel("Iteration")
@@ -153,29 +143,28 @@ def line_graphs_of_participant(title, folder, image_type, sensitive_attrs, group
     for p,p_id in enumerate(df_group['participant_id'].unique()):
         if isinstance(p_id, str) and p_id == participant_id:        
             ##
-            fig, axes = plt.subplots(len(sensitive_attrs), len(group_fair), figsize=(25, 25), layout="constrained")
+            fig, axes = plt.subplots(len(group_fair), len(sensitive_attrs),  figsize=(25, 16), layout="constrained")
             fig.suptitle(title.format(p_id))
             ## GROUP FAIRNESS
             df_p = df_group[df_group['participant_id']==p_id]
-            for i,sens_attr in enumerate(sensitive_attrs):    
-                for j,gf in enumerate(group_fair):
-                    for k,fs_i in enumerate(fs):
-                        ## draw time series
-                        df = df_p[df_p['Feature']==sens_attr]
-                        df = df[df['fs']==fs_i]                   
-                        axes[i,j].plot(df['iteration'], df[gf], c = colors[2], linewidth=2, label = 'Feedback Integration') #colors[j]    
-                        ## draw cma line
-                        if show_cma:
-                            axes[i,j].plot(df['iteration'], df['CMA_'+gf], c = colors[0], linewidth=2, label = 'CMA of Feedback Integration')
-                        ## draw baseline
-                        df_p_null = df_group[df_group['participant_id'].isnull()]  
-                        df = df_p_null[df_p_null['Feature']==sens_attr]
-                        df = df[df['fs']==fs_i] 
-                        axes[i,j].plot([l for l in range(xlim)], [df[gf].tolist()[0]]*xlim,c='black', label = 'Baseline - No Feedback')             
+            for i,gf  in enumerate(group_fair):    
+                for j,sens_attr in enumerate(sensitive_attrs):
+                    ## draw time series
+                    df = df_p[df_p['Feature']==sens_attr]
+                    df = df[df['fs']==fs]                   
+                    axes[i,j].plot(df['iteration'], df[gf], c = colors[2], linewidth=2, label = 'Feedback Integration') #colors[j]    
+                    ## draw cma line
+                    if show_cma:
+                        axes[i,j].plot(df['iteration'], df['CMA_'+gf], c = colors[0], linewidth=2, label = 'CMA of Feedback Integration')
+                    ## draw baseline
+                    df_p_null = df_group[df_group['participant_id'].isnull()]  
+                    df = df_p_null[df_p_null['Feature']==sens_attr]
+                    df = df[df['fs']==fs] 
+                    axes[i,j].plot([l for l in range(xlim)], [df[gf].tolist()[0]]*xlim,c='black', label = 'Baseline - No Feedback')             
                     axes[i,j].set_xlabel("Iteration")
-                    axes[i,j].set_ylabel(group_fair_codes[j])
+                    axes[i,j].set_ylabel(group_fair_codes[i])
                     axes[i,j].set_title(title_code[sens_attr])   
-            axes[0,0].legend(bbox_to_anchor=(0.3,1.0),loc='upper left')             
+            axes[0,0].legend(bbox_to_anchor=(0.0,1.0),loc='upper left')             
             fig.savefig(folder+'{}'.format(p_id)+image_type, dpi=300)
             plt.show()
             
@@ -194,19 +183,18 @@ def plots_per_participant(title, folder, image_type, sensitive_attrs, group_fair
             df_p = df_group[df_group['participant_id']==p_id]
             for i,sens_attr in enumerate(sensitive_attrs):    
                 for j,gf in enumerate(group_fair):
-                    for k,fs_i in enumerate(fs):
-                        ## draw time series
-                        df = df_p[df_p['Feature']==sens_attr]
-                        df = df[df['fs']==fs_i]                   
-                        axes[i,j].plot(df['iteration'], df[gf], c = colors[2], linewidth=2, label = 'Feedback Integration') #colors[j]    
-                        ## draw cma line
-                        if show_cma:
-                            axes[i,j].plot(df['iteration'], df['CMA_'+gf], c = colors[0], linewidth=2, label = 'CMA of Feedback Integration')
-                        ## draw baseline
-                        df_p_null = df_group[df_group['participant_id'].isnull()]  
-                        df = df_p_null[df_p_null['Feature']==sens_attr]
-                        df = df[df['fs']==fs_i] 
-                        axes[i,j].plot([l for l in range(xlim)], [df[gf].tolist()[0]]*xlim,c='black', label = 'Baseline - No Feedback')             
+                    ## draw time series
+                    df = df_p[df_p['Feature']==sens_attr]
+                    df = df[df['fs']==fs]                   
+                    axes[i,j].plot(df['iteration'], df[gf], c = colors[2], linewidth=2, label = 'Feedback Integration') #colors[j]    
+                    ## draw cma line
+                    if show_cma:
+                        axes[i,j].plot(df['iteration'], df['CMA_'+gf], c = colors[0], linewidth=2, label = 'CMA of Feedback Integration')
+                    ## draw baseline
+                    df_p_null = df_group[df_group['participant_id'].isnull()]  
+                    df = df_p_null[df_p_null['Feature']==sens_attr]
+                    df = df[df['fs']==fs] 
+                    axes[i,j].plot([l for l in range(xlim)], [df[gf].tolist()[0]]*xlim,c='black', label = 'Baseline - No Feedback')             
                     axes[i,j].set_xlabel("Iteration")
                     axes[i,j].set_ylabel(group_fair_codes[j])
                     axes[i,j].set_title(sens_attr)        
@@ -217,17 +205,16 @@ def plots_per_participant(title, folder, image_type, sensitive_attrs, group_fair
             ## INDIVIDUAL FAIRNESS
             df_p = df_indiv[df_indiv['participant_id']==p_id]
             for i,idf in enumerate(indiv_fair):
-                for k,fs_i in enumerate(fs):
-                    ## draw time series
-                    df = df_p[df_p['fs']==fs_i]
-                    axes[len(sensitive_attrs),i].plot(df['iteration'], df[idf], c = colors[2], linewidth=2)#colors[len(group_fair)+i]
-                    ## draw cma line
-                    if show_cma:
-                        axes[len(sensitive_attrs),i].plot(df['iteration'], df['CMA_'+idf], c = colors[0], linewidth=2)
-                    ## draw baseline
-                    df_p_null = df_indiv[df_indiv['participant_id'].isnull()]
-                    df = df_p_null[df_p_null['fs']==fs_i]
-                    axes[len(sensitive_attrs),i].plot([l for l in range(xlim)], [df[idf].tolist()[0]]*xlim, c='black') 
+                ## draw time series
+                df = df_p[df_p['fs']==fs]
+                axes[len(sensitive_attrs),i].plot(df['iteration'], df[idf], c = colors[2], linewidth=2)#colors[len(group_fair)+i]
+                ## draw cma line
+                if show_cma:
+                    axes[len(sensitive_attrs),i].plot(df['iteration'], df['CMA_'+idf], c = colors[0], linewidth=2)
+                ## draw baseline
+                df_p_null = df_indiv[df_indiv['participant_id'].isnull()]
+                df = df_p_null[df_p_null['fs']==fs]
+                axes[len(sensitive_attrs),i].plot([l for l in range(xlim)], [df[idf].tolist()[0]]*xlim, c='black') 
     #             axes[len(sensitive_attrs),i].grid(axis = 'x',which='major')
     #             axes[len(sensitive_attrs),i].xaxis.set_major_locator(FixedLocator([it for it in range(xlim)]))
                 axes[len(sensitive_attrs),i].set_xlabel("Iteration")
@@ -236,17 +223,16 @@ def plots_per_participant(title, folder, image_type, sensitive_attrs, group_fair
     #             axes[len(sensitive_attrs),i].xaxis.set_ticklabels([])
             ## ACCURACY
             df_p = df_acc[df_acc['participant_id']==p_id]
-            for k,fs_i in enumerate(fs):
-                ## draw time series
-                df = df_p[df_p['fs']==fs_i]
-                axes[len(sensitive_attrs),len(indiv_fair)].plot(df['iteration'], df['accuracy'], c = colors[2], linewidth=2)#colors[len(group_fair)+len(indiv_fair)]
-                ## draw cma line
-                if show_cma:
-                    axes[len(sensitive_attrs),len(indiv_fair)].plot(df['iteration'], df['CMA_accuracy'], c = colors[0], linewidth=2)
-                ## draw baseline
-                df = df_acc[df_acc['participant_id'].isnull()]
-                df = df[df['fs']==fs_i]
-                axes[len(sensitive_attrs),len(indiv_fair)].plot([l for l in range(xlim)], [df['accuracy'].tolist()[0]]*xlim, c = 'black')             
+            ## draw time series
+            df = df_p[df_p['fs']==fs]
+            axes[len(sensitive_attrs),len(indiv_fair)].plot(df['iteration'], df['accuracy'], c = colors[2], linewidth=2)#colors[len(group_fair)+len(indiv_fair)]
+            ## draw cma line
+            if show_cma:
+                axes[len(sensitive_attrs),len(indiv_fair)].plot(df['iteration'], df['CMA_accuracy'], c = colors[0], linewidth=2)
+            ## draw baseline
+            df = df_acc[df_acc['participant_id'].isnull()]
+            df = df[df['fs']==fs]
+            axes[len(sensitive_attrs),len(indiv_fair)].plot([l for l in range(xlim)], [df['accuracy'].tolist()[0]]*xlim, c = 'black')             
     #         axes[len(sensitive_attrs),len(indiv_fair)].grid(axis = 'x',which='major')
     #         axes[len(sensitive_attrs),len(indiv_fair)].xaxis.set_major_locator(FixedLocator([it for it in range(xlim)]))
             axes[0,0].legend(bbox_to_anchor=(0.0,2.0),loc='upper left') 
@@ -346,18 +332,18 @@ def perc_change_plots(perc_ch_df, title, file_name, folder, attrs, attrs_codes, 
             if fm == 'indiv.':
                 if attr == 'CODE_GENDER':
                     fm = 'consistency_10'
-                    code = ' (+)'
+                    code = ' (↑)'
                 elif attr =='NAME_FAMILY_STATUS':
                     fm = 'theil_index'
-                    code = ' (-)'
+                    code = ' (↓)'
                 else:
                     fig.delaxes(axes[len(group_fair)-1,len(attrs)-1])
                     continue
                 df = perc_ch_df[['participant_id',fm]].sort_values(by=[fm], ascending=False)                
                 axes[j,i].bar(df['participant_id'], df[fm])
                 axes[j,i].set_xlabel("Participants\n in desc. order of perc. ch.")
-                axes[j,i].set_ylabel(fm+code+'\n Perc. Ch. %')
-                # axes[j,i].set_title(attrs_codes[i]) 
+                axes[j,i].set_ylabel('Perc. Ch. %')
+                axes[j,i].set_title(fm+code) 
                 axes[j,i].xaxis.set_ticklabels([])
             else:
                 df = perc_ch_df[['participant_id',attr+'_'+fm]].sort_values(by=[attr+'_'+fm], ascending=False)
@@ -366,8 +352,8 @@ def perc_change_plots(perc_ch_df, title, file_name, folder, attrs, attrs_codes, 
                 # labels = ['cluster '+str(cluster_df[cluster_df['participant_id']==part]['cluster_id'].tolist()[0]) for part in df['participant_id']]
                 axes[j,i].bar(df['participant_id'], df[attr+'_'+fm])#,color=cls,label = labels
                 axes[j,i].set_xlabel("Participants\n in desc. order of perc. ch.")
-                axes[j,i].set_ylabel(group_fair_codes[group_fair.index(fm)]+'\n Perc. Ch. %')
-                axes[j,i].set_title(attrs_codes[i]) 
+                axes[j,i].set_ylabel('Perc. Ch. %')
+                axes[j,i].set_title(group_fair_codes[group_fair.index(fm)]+' on '+attrs_codes[i]) 
                 axes[j,i].xaxis.set_ticklabels([])
                 # if i ==0 and j==0:
                 #     handl, lab = axes[j,i].get_legend_handles_labels()

@@ -142,6 +142,8 @@ def oneoff_training_evaluation(X_train_original, y_train_original,
                     pred_label = 0
                 elif pred_label == 0:
                     pred_label = 1
+            elif feed_label == None:
+                continue
             elif onlyUnfair and (feed_label == 'fair'):
                 continue                
             if useFeatureWeights:
@@ -252,6 +254,8 @@ def iml_training_evaluation(X_train_original, y_train_original,
                     pred_label = 0
                 elif pred_label == 0:
                     pred_label = 1
+            elif feed_label == None:
+                continue
             elif onlyUnfair and (feed_label == 'fair'):
                 continue
             feature_weights = []

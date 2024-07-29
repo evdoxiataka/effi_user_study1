@@ -156,14 +156,23 @@ def line_graphs_of_participant(title, folder, image_type, sensitive_attrs, group
                     ## draw cma line
                     if show_cma:
                         axes[i,j].plot(df['iteration'], df['CMA_'+gf], c = colors[0], linewidth=2, label = 'CMA of Feedback Integration')
+                        axes[i,j].plot(df['iteration'].tolist()[-1], df['CMA_'+gf].tolist()[-1], marker='s', color='orange', markersize=12)
+                        y1 = df['CMA_'+gf].tolist()[-1]
+                        x = df['iteration'].tolist()[-1]
                     ## draw baseline
                     df_p_null = df_group[df_group['participant_id'].isnull()]  
                     df = df_p_null[df_p_null['Feature']==sens_attr]
                     df = df[df['fs']==fs] 
                     axes[i,j].plot([l for l in range(xlim)], [df[gf].tolist()[0]]*xlim,c='black', label = 'Baseline - No Feedback')             
-                    axes[i,j].set_xlabel("Iteration")
+                    axes[i,j].set_xlabel("Integration Step")
                     axes[i,j].set_ylabel(group_fair_codes[i])
                     axes[i,j].set_title(title_code[sens_attr])   
+                    if show_cma:  
+                        y2 = df[gf].tolist()[0]
+                        if y1>=y2:
+                            axes[i,j].vlines(x=x, ymin = y2, ymax=y1, linewidth = 6, colors = 'orange')
+                        else:
+                            axes[i,j].vlines(x=x, ymin = y1, ymax=y2, linewidth = 6, colors = 'orange')
             axes[0,0].legend(bbox_to_anchor=(0.0,1.0),loc='upper left')             
             fig.savefig(folder+'{}'.format(p_id)+image_type, dpi=300)
             plt.show()
@@ -340,17 +349,17 @@ def perc_change_plots(perc_ch_df, title, file_name, folder, attrs, attrs_codes, 
                     fig.delaxes(axes[len(group_fair)-1,len(attrs)-1])
                     continue
                 df = perc_ch_df[['participant_id',fm]].sort_values(by=[fm], ascending=False)                
-                axes[j,i].bar(df['participant_id'], df[fm])
+                axes[j,i].bar(df['participant_id'], df[fm], color = 'orange')
                 axes[j,i].set_xlabel("Participants\n in desc. order of perc. ch.")
                 axes[j,i].set_ylabel('Perc. Ch. %')
                 axes[j,i].set_title(fm+code) 
                 axes[j,i].xaxis.set_ticklabels([])
             else:
-                df = perc_ch_df[['participant_id',attr+'_'+fm]].sort_values(by=[attr+'_'+fm], ascending=False)
+                df = perc_ch_df[['participant_id','color',attr+'_'+fm]].sort_values(by=[attr+'_'+fm], ascending=False)
                 # cls = [participant_color_map[part] for part in df['participant_id']]
                 # cls = [participant_color_map[cluster_df[cluster_df['participant_id']==part]['cluster_id'].tolist()[0]] for part in df['participant_id']]
                 # labels = ['cluster '+str(cluster_df[cluster_df['participant_id']==part]['cluster_id'].tolist()[0]) for part in df['participant_id']]
-                axes[j,i].bar(df['participant_id'], df[attr+'_'+fm])#,color=cls,label = labels
+                axes[j,i].bar(df['participant_id'], df[attr+'_'+fm], color = df['color'])#,color=cls,label = labels
                 axes[j,i].set_xlabel("Participants\n in desc. order of perc. ch.")
                 axes[j,i].set_ylabel('Perc. Ch. %')
                 axes[j,i].set_title(group_fair_codes[group_fair.index(fm)]+' on '+attrs_codes[i]) 

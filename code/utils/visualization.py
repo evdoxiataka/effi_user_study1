@@ -156,7 +156,7 @@ def line_graphs_of_participant(title, folder, image_type, sensitive_attrs, group
                     ## draw cma line
                     if show_cma:
                         axes[i,j].plot(df['iteration'], df['CMA_'+gf], c = colors[0], linewidth=2, label = 'CMA of Feedback Integration')
-                        axes[i,j].plot(df['iteration'].tolist()[-1], df['CMA_'+gf].tolist()[-1], marker='s', color='orange', markersize=12)
+                        axes[i,j].plot(df['iteration'].tolist()[-1], df['CMA_'+gf].tolist()[-1], marker='s', color='green', markersize=14)
                         y1 = df['CMA_'+gf].tolist()[-1]
                         x = df['iteration'].tolist()[-1]
                     ## draw baseline
@@ -167,13 +167,14 @@ def line_graphs_of_participant(title, folder, image_type, sensitive_attrs, group
                     axes[i,j].set_xlabel("Integration Step")
                     axes[i,j].set_ylabel(group_fair_codes[i])
                     axes[i,j].set_title(title_code[sens_attr])   
-                    if show_cma:  
-                        y2 = df[gf].tolist()[0]
-                        if y1>=y2:
-                            axes[i,j].vlines(x=x, ymin = y2, ymax=y1, linewidth = 6, colors = 'orange')
-                        else:
-                            axes[i,j].vlines(x=x, ymin = y1, ymax=y2, linewidth = 6, colors = 'orange')
-            axes[0,0].legend(bbox_to_anchor=(0.0,1.0),loc='upper left')             
+                    # if show_cma:  
+                    #     y2 = df[gf].tolist()[0]
+                    #     if y1>=y2:
+                    #         axes[i,j].vlines(x=x, ymin = y2, ymax=y1, linewidth = 6, colors = 'orange')
+                    #     else:
+                    #         axes[i,j].vlines(x=x, ymin = y1, ymax=y2, linewidth = 6, colors = 'orange')
+            # axes[0,0].legend(bbox_to_anchor=(0.0,1.0),loc='upper left')
+            axes[0,0].legend().set_visible(False)
             fig.savefig(folder+'{}'.format(p_id)+image_type, dpi=300)
             plt.show()
             

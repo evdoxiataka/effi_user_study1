@@ -1,5 +1,5 @@
-# Using Lay User Feedback for Improving Fairness in AI Decision-Making
-This repository constitutes a supplementary material for the paper "Using Lay User Feedback for Improving Fairness in AI Decision-Making" submitted to FAccT-24.
+# Human-in-the-loop Fairness: Integrating Stakeholder Feedback to Incorporate Fairness Perspectives in Responsible AI - USER STUDY 1
+This repository constitutes a supplementary material for the paper "Human-in-the-loop Fairness: Integrating Stakeholder Feedback to Incorporate Fairness Perspectives in Responsible AI" submitted to ACM TIST.
 
 It contains the:
 

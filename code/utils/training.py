@@ -7,7 +7,7 @@ import numpy as np
 from xgboost import XGBClassifier
 
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score,f1_score
 from sklearn.utils import class_weight
 
 group_fair = ['DemographicParityRatio','ConditionalDemographicDisparity','EqualOpportunityDifference','AverageOddsDifference','PredictiveParity']
@@ -60,12 +60,16 @@ def train_and_evaluate_model(X_train_original, y_train_original,
     else:
         model = XGBClassifier(random_state = 15, eta = 0.3, colsample_bynode = 0.7)
         model.fit(X_train_original, y_train_original, sample_weight=classes_weights, feature_weights = feature_weights)
+    
     ## accuracy
     # X_test = X_test_original.loc[:, X_test_original.columns != 'SK_ID_CURR']
     y_pred = model.predict(X_test_original)
     predictions = [round(value) for value in y_pred]
     acc = accuracy_score(y_test_original, predictions)* 100.0
-    i_dict_acc = {'participant_id':[p_id],'iteration':[iteration],'fs':[fs], 'accuracy':[acc]}
+    f1_accepted = f1_score(y_test_original, predictions,pos_label=1)
+    f1_rejected = f1_score(y_test_original, predictions,pos_label=0)
+    f1 = (f1_accepted+f1_rejected)/2
+    i_dict_acc = {'participant_id':[p_id],'iteration':[iteration],'fs':[fs], 'accuracy':[acc],'F1_accepted':[f1_accepted],'F1_rejected':[f1_rejected],'F1_average':[f1]}
     
     ##add predictions to original test set 
     train_df_test_bin_ = train_df_test_bin.copy()   
